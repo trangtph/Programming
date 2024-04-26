@@ -1,0 +1,22 @@
+---
+title: "Data Exploration"
+format: html
+editor: visual
+---
+
+```{r include=FALSE, message = FALSE}
+if (!require("pacman", quietly = TRUE)) {
+  install.packages("pacman")
+}
+library(pacman)
+pacman::p_load(tidyverse,
+               ggplot2,
+               rio, #import, export
+               here
+)
+```
+
+```{r}
+curstomers <- import(here("Data","data", "customers.csv"))
+```
+

@@ -1,0 +1,73 @@
+---
+title: "SR_Compare_Screening"
+author: "Trang Tu"
+date: "2024-01-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r include=FALSE, message = FALSE}
+if (!require("pacman", quietly = TRUE)) {
+  install.packages("pacman")
+}
+library(pacman)
+pacman::p_load(tidyverse,
+               ggplot2,
+               rio, #import, export
+               here
+)
+```
+
+Merge 2 files from Trang and Sophie
+```{r warning=FALSE}
+record_SB <- import(here("Raw_Data", "asreview_dataset_SB_2024_01_05.xlsx"))
+record_TT <- import(here("Raw_Data", "asreview_dataset_TT_2024_01_05.xlsx"))
+```
+
+```{r}
+record_TT <- record_TT %>% select(record_id, title, included, exported_notes_1, asreview_ranking)
+
+record_compare <- merge(record_SB, record_TT, by="record_id")
+
+```
+
+Compare results
+```{r}
+record_compare <- record_compare %>% 
+  mutate(consensus = if_else(included.x - included.y == 0, 1, 0)) %>%
+  relocate(c(record_id, title.x, included.x, included.y, consensus, exported_notes_1, title.y)) %>%
+  arrange(desc(included.x), desc(included.y)) 
+list("Degree_of_consensus" = summary(as.factor(record_compare$consensus)))
+```
+
+Summary of results
+
+```{r}
+consensus <- record_compare %>% filter(consensus==1)
+
+list("Consesus record"= summary(as.factor(consensus$included.x)))
+
+non_consensus <- record_compare %>% filter(consensus==0)
+
+list("non_Consesus record_SB" =summary(as.factor(non_consensus$included.x)))
+list("non_Consesus record_TT" =summary(as.factor(non_consensus$included.y)))
+
+```
+
+```{r}
+
+export(consensus, here("Processed_data", "consensus_screening_2024_01_05.xlsx"))
+```
+
+Export subset of myocarditis studies
+
+```{r}
+include <- consensus %>% filter(included.x == 1)
+myocarditis_record <- include %>% filter(grepl('Myocarditis|myocarditis', abstract))
+
+export(myocarditis_record, here("Processed_data", "myocarditis_record_2024_01_05.xlsx"))
+```
+

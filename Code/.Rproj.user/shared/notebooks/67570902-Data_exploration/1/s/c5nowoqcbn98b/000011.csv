@@ -1,0 +1,3 @@
+"0","curstomers <- import(here(""Data"",""data"", ""customers.csv""))"
+"2","Error: No such file: /Users/tranghien/Library/CloudStorage/OneDrive-UniversiteitUtrecht/Epi/UHasselt/2 Visualization Data Science/Project/Code/Data/data/customers.csv
+"

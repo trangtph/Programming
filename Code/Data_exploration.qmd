@@ -1,0 +1,437 @@
+---
+title: "Data Exploration"
+format: docx
+editor: visual
+execute: 
+  include: false
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r include=FALSE, message = FALSE}
+
+# Prep
+## Packages
+
+if (!require("pacman", quietly = TRUE)) {
+  install.packages("pacman")
+}
+library(pacman)
+pacman::p_load(tidyverse,
+               ggplot2,
+               rio, #import, export
+               here,
+               treemap,
+               MetBrewer, #color palette
+               lubridate, #working with time
+               ggrepel
+)
+```
+
+```{r}
+## Data
+customers <- import(here("Data","data", "customers.csv"))
+orders <- import(here("Data","data", "orders.csv"))
+products <- import(here("Data","data", "products.csv"))
+regions <- import(here("Data","data", "regions.csv"))
+
+## Remove spaces in column name
+customers <- customers %>% rename_with(make.names)
+orders <- orders %>% rename_with(make.names)
+products <- products %>% rename_with(make.names)
+regions <- regions %>% rename_with(make.names)
+
+## Convert date variable to corret type
+date_column <- c("OrderDate", "DeliveryDate")
+orders <- orders %>% mutate(OrderDate = as.Date(OrderDate, format = "%d/%m/%Y"),
+                            DeliveryDate = as.Date(DeliveryDate, format = "%d/%m/%Y"))
+
+col_names <- names(regions)
+regions <- regions %>% mutate(across(all_of(col_names), as.factor))
+
+col_names <- names(customers)
+customers <- customers %>% mutate(across(all_of(col_names), as.factor))
+
+col_names <- names(products)
+products <- products %>% mutate(across(all_of(col_names), as.factor))
+
+```
+
+```{r}
+## Merge customers and regions:
+custom_region <- merge(customers, regions, by = "Territory", all.x = TRUE)
+
+## Get list of nations
+nation <- regions %>% distinct(Region, Nation) %>% arrange(Nation)
+
+export(nation, here("Processed_data", "nation_region.csv"))
+
+## Merge orders, customers, regions:
+
+order_custom_region <- merge(orders, custom_region, by.x = "CustomerID", by.y = "Account.Code", all.x = TRUE)
+
+```
+
+# 1. Customers distribution
+
+```{r}
+##Customers dataset
+ ### - Number of customer and territory distribution of them
+
+custom_distribution <- custom_region %>% count(Territory, Nation, Region, Area) %>% arrange(desc(n)) 
+custom_distribution
+
+custom_distribution2 <- custom_region %>% count(Nation, Region, Area) %>% arrange(desc(n))
+custom_distribution2
+
+custom_distribution3 <- custom_region %>% count(Region, Area) %>% arrange(desc(n))
+custom_distribution3
+
+custom_distribution4 <- custom_region %>% count(Region) %>% arrange(desc(n))
+custom_distribution4
+```
+
+```{r include=TRUE }
+## Treemap
+Renoir = c("#2f357c","#b0799a","#e69b00","#355828","#6c5d9e","#bf3729","#e48171","#f5bb50","#9d9cd5","#17154f","#f6b3b0","#ada43b")
+
+#mycolor = met.brewer("Renoir",n = nrow(custom_distribution2))[1:nrow(custom_distribution2)]
+
+treemap(custom_distribution2, index=c("Region", "Nation"),
+        vSize = "n", 
+        type = "index",
+        title = "Customer distribution", 
+        palette = Renoir)
+```
+
+-   Number of key account and territory distribution of them
+
+```{r}
+key_distribution <- custom_region %>% group_by(Key.Account) %>% summarise(count = n(), percentage = round(count / nrow(custom_region) *100, 1))  %>% arrange(desc(count)) 
+key_distribution
+```
+
+```{r include=TRUE}
+# Bar plot
+colors = met.brewer("Renoir", n = nrow(key_distribution), type = "continuous")
+ggplot(data = key_distribution, aes(x = reorder(Key.Account, -count), y = count, fill = Key.Account)) +
+  geom_bar(stat = "identity") + labs(x = "Key Account", y = "Number of account") + 
+  scale_fill_manual(values = colors) + theme_bw() + 
+  scale_y_continuous(limits = c(0, 1600)) + 
+  geom_text(aes(label=paste(percentage,"%")), vjust=-0.3, size=3.5) + 
+  theme(legend.position = "none", 
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
+
+```
+
+## Customers that made orders
+
+```{r}
+customer_made_order <- order_custom_region %>% count(CustomerID)
+summary(customer_made_order$n)
+```
+All customers made orders
+
+
+# 2. Product distribution
+
+Product dataset - Number of products per type, contributions of each type in the whole product range
+
+```{r}
+type_count <- products %>% count(Type) %>% arrange(desc(n))
+type_count
+
+subtype_count <- products %>% count(Type, Subtype) %>% arrange(desc(n))
+subtype_count
+
+```
+
+```{r include=TRUE}
+## Tree map
+treemap(subtype_count, index=c("Type", "Subtype"),
+        vSize = "n", 
+        type = "index",
+        title = "Product distribution", 
+        palette = Renoir)
+```
+
+# 3. Order distribution
+
+-   Time-serie: Number of order per month and year
+-   Time-serie: cart price per month and year
+
+```{r}
+## Extract year from order date
+
+order_custom_region <- order_custom_region %>% mutate(year_order = as.numeric(format(order_custom_region$OrderDate, "%Y")), 
+                                                      month_order = floor_date(OrderDate, "month")) %>%
+  relocate(c(year_order, month_order), .after = OrderID)
+```
+
+## 3.1. Number of orders per month
+
+```{r}
+number_order_year <- order_custom_region %>% group_by(year_order) %>% summarise(number_order= n())
+number_order_year
+
+number_order_month <- order_custom_region %>% group_by(month_order) %>% summarise(number_order= n())
+number_order_month
+
+number_order_month_region <- order_custom_region %>% group_by(month_order, Region) %>% summarise(number_order= n())
+number_order_month_region
+
+```
+
+```{r include=TRUE}
+# Number of order per month
+ggplot(data = number_order_month, aes(x = month_order, y = number_order)) + 
+  geom_point() + geom_line() + 
+  labs(x = "Time point", y = "Number of orders placed") +
+  scale_x_date(date_breaks = "4 months",
+               limits = as.Date(c("2019-01-01", "2023-12-01")), 
+               date_labels = "%Y-%m") + 
+  theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
+```
+
+### 3.1.1 Number of orders per month by regions
+
+```{r}
+Amnian  <- number_order_month_region %>% filter(Region =="Amnian Empire")
+Bloodlands   <- number_order_month_region %>% filter(Region =="Bloodlands Empire")
+Calim   <- number_order_month_region %>% filter(Region =="Calim Empire")
+Dwarven <- number_order_month_region %>% filter(Region =="Dwarven Empire")
+Eastern <- number_order_month_region %>% filter(Region =="Eastern Empire")
+Halruaan <- number_order_month_region %>% filter(Region =="Halruaan Empire")
+Neverwinter <- number_order_month_region %>% filter(Region =="New Neverwinter Empire")
+None <- number_order_month_region %>% filter(Region =="None Empire")
+Old <- number_order_month_region %>% filter(Region =="Old  Empire")
+Purple <- number_order_month_region %>% filter(Region =="Purple Dragon Empire")
+Southern  <- number_order_month_region %>% filter(Region =="Southern Empire")
+
+ggplot(data = Amnian, aes(x = month_order, y = number_order)) + 
+  geom_point() + geom_line() + 
+  labs(x = "Time point", y = "Number of orders placed") +
+  scale_x_date(date_breaks = "4 months",
+               limits = as.Date(c("2019-01-01", "2023-12-01")), 
+               date_labels = "%Y-%m") + 
+  theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 )) +
+  geom_line(data = Bloodlands, colour = "lightgreen") +
+  geom_line(data = Calim, colour = "lightpink") + 
+  geom_line(data = Dwarven, colour = "lightgoldenrod") + 
+  geom_line(data = Eastern, colour = "lightblue") + 
+  geom_line(data = Halruaan, colour = "indianred1") + 
+  geom_line(data = Neverwinter, colour = "peru") + 
+  geom_line(data = None, colour = "plum") + 
+  geom_line(data = Old, colour = "slateblue") + 
+  geom_line(data = Purple, colour = "tan1") + 
+  geom_line(data = Southern, colour = "turquoise")
+```
+
+
+
+```{r}
+# Total values of product sold per month
+amount_order_month <- order_custom_region %>% group_by(month_order) %>% summarise(sales = round(sum(CartPriceInCP)/ 1000000, 2))
+amount_order_month
+```
+
+```{r include=TRUE}
+# Total sales per month
+ggplot(data = amount_order_month, aes(x = month_order, y = sales)) + 
+  geom_point() + geom_line() + 
+  labs(x = "Time point", y = "Total sales (in million CP)") +
+  scale_x_date(date_breaks = "4 months",
+               limits = as.Date(c("2019-01-01", "2023-12-01")), 
+               date_labels = "%Y-%m") + 
+  theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
+```
+
+```{r}
+# Average time to delivery, by year
+order_custom_region <- order_custom_region %>% mutate(delivery_time = as.numeric(difftime(DeliveryDate, OrderDate, units = "days")))
+
+colors = met.brewer("Renoir", n = 5, type = "discrete")
+
+ggplot(order_custom_region, aes(x = as.factor(year_order), y = delivery_time, fill = as.factor(year_order))) + 
+  geom_boxplot() + 
+  scale_fill_manual(values = colors) +
+  theme_bw() + theme(legend.position="none") + 
+  labs(x = "Year", y = "Delivery Time") +
+  scale_y_continuous(n.breaks = 10)
+
+```
+
+```{r include=TRUE}
+#median delivery time
+
+med_delivery_time <- order_custom_region %>% group_by(month_order) %>% summarise(median_delivery_time = median(delivery_time), 
+                                                                                 low_quartile = quantile(delivery_time, probs = .25),
+                                                                                 up_quartile = quantile(delivery_time, probs = .75))
+
+delivery_time <- ggplot(data = med_delivery_time, aes(x = month_order, y = median_delivery_time)) + 
+  geom_ribbon(aes(ymin = low_quartile, ymax = up_quartile), fill = "#6c5d9e", alpha = 0.7) + 
+  geom_line(aes(y = median_delivery_time)) + 
+  theme_bw() +
+  scale_x_date(date_breaks = "4 months",
+               limits = as.Date(c("2019-01-01", "2023-12-01")), 
+               date_labels = "%Y-%m") + 
+  scale_y_continuous(n.breaks = 10) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 )) + 
+  labs(x = "Time point", y = "Median delivery time (in days)")
+delivery_time
+
+ggsave("delivery_time.png", 
+       delivery_time, 
+       device = ragg::agg_png, res = 400, path = here("Output"))
+  
+```
+
+-   Customer that ordered the most (in terms of cart price)
+
+```{r}
+order_customer <- order_custom_region %>% mutate(CustomerID = as.factor(CustomerID)) %>% group_by(CustomerID) %>% summarise(cart_price = round(sum(CartPriceInCP)/1000000, 2)) %>% arrange(desc(cart_price)) %>% slice_head(n = 10)
+order_customer
+
+```
+
+```{r include=TRUE}
+colors = met.brewer("Renoir", n = nrow(order_customer), type = "discrete")
+ggplot(data = order_customer, aes(x = reorder(CustomerID, -cart_price), y = cart_price, fill = CustomerID)) +
+  geom_bar(stat = "identity") + labs(x = "Customer ID", y = "Total of order values (in million CP)") + 
+  theme_bw() + scale_fill_manual(values = colors) + 
+  geom_text(aes(label= cart_price), vjust=-0.3, size=3.5) +  
+  theme(legend.position = "none", 
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
+
+```
+
+-   Territory that ordered the most (in terms of cart price)
+
+```{r}
+order_territory <- order_custom_region %>% group_by(Territory.x, Nation, Region) %>% 
+  summarise(cart_price = round(sum(CartPriceInCP)/1000000, 2)) %>% ungroup %>% 
+  arrange(desc(cart_price)) %>% slice_head(n = 10) %>% 
+  mutate(terr_nation_region = str_wrap(paste(Territory.x,"(",Nation,"-", Region,")"), width = 20))
+order_territory
+```
+
+```{r include=TRUE}
+colors = met.brewer("Renoir", n = nrow(order_territory), type = "discrete")
+order_terr <- ggplot(data = order_territory, aes(x = reorder(terr_nation_region, -cart_price), y = cart_price, fill = terr_nation_region)) +
+  geom_bar(stat = "identity") + labs(x = "Territory (Nation - Region)", y = "Total of order values (in million CP)") + 
+  theme_bw() + scale_fill_manual(values = colors) + 
+  geom_text(aes(label= cart_price), vjust=-0.3, size=3.5) +  
+  theme(legend.position = "none", 
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
+
+order_terr
+
+ggsave("order_terr.png", 
+       order_terr, 
+       device = ragg::agg_png, res = 400, units = "in", h = 6, w = 8, path = here("Output"))
+```
+
+
+
+-   Products that were sold the most
+
+```{r}
+# long data format
+order_custom_region_long <- order_custom_region %>% 
+  mutate(Products = gsub(", b", "- b",
+                    gsub(", c", "- c",
+                    gsub(", f", "- f",
+                    gsub(", h", "- h",
+                    gsub(", i", "- i",
+                    gsub(", l", "- l",
+                    gsub(", m", "- m",
+                    gsub(", p", "- p",
+                    gsub(", s", "- s",
+                    gsub(", t", " - t",
+                    gsub("Poison, Basic (4L)", "Poison- Basic (4L)", #this one I have to edit in Excel, does not work here 
+                    gsub("Clothes, Common", "Clothes- Common",
+                    gsub("1,000", "1000", order_custom_region$Products)))))))))))))) %>%
+  separate_rows(Products, Quantities, ProductPricesInCP, sep = ", ")
+```
+
+```{r}
+numeric_column <- c("Quantities", "ProductPricesInCP")
+order_custom_region_long <- order_custom_region_long %>% mutate(across(all_of(numeric_column), as.numeric))
+```
+
+```{r}
+product_sale <- order_custom_region_long %>% group_by(Products) %>% 
+  summarise(n_order = sum(Quantities)) %>% ungroup  %>% 
+  arrange(desc(n_order)) %>% slice(c(1:5, 931:935)) %>% mutate(y = rep(c(1,10), each = 5)) %>%
+  mutate(Products = as.factor(Products))
+product_sale 
+```
+
+```{r include=TRUE}
+#Bubble plot
+colors = met.brewer("Renoir", n = nrow(product_sale), type = "discrete")
+ggplot(data = product_sale, aes(x = reorder(Products, n_order), y = 5)) +
+  geom_point(aes(color = Products, size = n_order), shape = 19) + 
+  scale_size(range = c(.1, 24)) + 
+  scale_y_continuous(breaks = NULL) + theme_bw() + 
+  scale_color_manual(values = colors) +
+    theme(legend.position = "none", 
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 )) + 
+  labs(x = "Product", y = "") +
+    geom_text(aes(label= n_order), vjust=-0.3, size=3.5)
+
+```
+
+-   Products that were sold the most, per month and year
+
+```{r}
+product_sale_year <- order_custom_region_long %>% group_by(year_order, Products ) %>% 
+  summarise(n_order = sum(Quantities))  %>% ungroup %>%
+  arrange(desc(n_order)) %>% 
+  group_by(year_order) %>% slice(1:3)
+product_sale_year 
+```
+
+```{r include=TRUE}
+#Bubble plot
+colors = met.brewer("Renoir", n = n_distinct(product_sale_year$Products), type = "discrete")
+ggplot(data = product_sale_year, aes(x = as.factor(year_order), y = n_order)) +
+  geom_point(aes(color = Products, size = n_order), shape = 19, alpha = 0.5) + 
+  scale_size(range = c(.1, 24)) + 
+  scale_y_continuous(limits = c(3500, 8500), n.breaks = 10) + theme_bw() + 
+  scale_color_manual(values = colors) +
+    theme(legend.position = "none" ) + 
+  labs(x = "Year", y = "Number of product sold") +
+    geom_text_repel(aes(label= paste(Products, n_order, sep ="\n")), size = 3)
+
+```
+
+Products that brought the most revenue per year
+
+```{r}
+product_sale_year2 <- order_custom_region_long %>% group_by(year_order, Products ) %>% 
+  summarise(revenue = round(sum(ProductPricesInCP)/1000000, digits =2))  %>% ungroup %>%
+  arrange(desc(revenue)) %>% 
+  group_by(year_order) %>% slice(1:3)
+product_sale_year2 
+```
+
+```{r include=TRUE}
+#Bubble plot
+colors = met.brewer("Renoir", n = n_distinct(product_sale_year2$Products), type = "discrete")
+ggplot(data = product_sale_year2, aes(x = as.factor(year_order), y = revenue)) +
+  geom_point(aes(color = Products, size = revenue), shape = 19, alpha = 0.5) + 
+  scale_size(range = c(.1, 24)) + 
+  scale_y_continuous(limits = c(1.7, 5.3), n.breaks = 10) + theme_bw() + 
+  scale_color_manual(values = colors) +
+    theme(legend.position = "none" ) + 
+  labs(x = "Year", y = "Revenue per product (in million CP)") +
+    geom_text_repel(aes(label= paste(Products, revenue, sep ="\n")), size = 3)
+
+```
+
+-   Products that were sold the most to key account customers, per year and month
