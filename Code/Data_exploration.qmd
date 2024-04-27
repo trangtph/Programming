@@ -29,12 +29,15 @@ pacman::p_load(tidyverse,
 )
 ```
 
+# Data prep
+
 ```{r}
 ## Data
-customers <- import(here("Data","data", "customers.csv"))
-orders <- import(here("Data","data", "orders.csv"))
-products <- import(here("Data","data", "products.csv"))
-regions <- import(here("Data","data", "regions.csv"))
+customers <- import(here("Data", "customers.csv"))
+orders <- import(here("Data","orders.csv"))
+products <- import(here("Data", "products.csv"))
+regions <- import(here("Data", "regions.csv"))
+coordinate <- import(here("Processed_data", "nation_region_coordinate.csv" ))
 
 ## Remove spaces in column name
 customers <- customers %>% rename_with(make.names)
@@ -59,19 +62,55 @@ products <- products %>% mutate(across(all_of(col_names), as.factor))
 ```
 
 ```{r}
-## Merge customers and regions:
-custom_region <- merge(customers, regions, by = "Territory", all.x = TRUE)
-
 ## Get list of nations
 nation <- regions %>% distinct(Region, Nation) %>% arrange(Nation)
 
 export(nation, here("Processed_data", "nation_region.csv"))
+
+# merge coordinate info with regions
+coordinate2 <- coordinate %>% select (-c("Region"))
+regions_coord <- merge(regions, coordinate2, by = "Nation", all.x=TRUE)
+
+
+## Merge customers and regions:
+custom_region <- merge(customers, regions_coord, by = "Territory", all.x = TRUE)
 
 ## Merge orders, customers, regions:
 
 order_custom_region <- merge(orders, custom_region, by.x = "CustomerID", by.y = "Account.Code", all.x = TRUE)
 
 ```
+
+```{r}
+# long data format of orders
+order_custom_region_long <- order_custom_region %>% 
+  #mutate(Products = gsub(", b", "- b")) %>%
+  separate_rows(productsIDs, Quantities, ProductPricesInCP, sep = ", ")
+
+```
+
+
+```{r}
+#merge orders with product
+order_custom_region_long$productsIDs <- as.factor(order_custom_region_long$productsIDs)
+order_custom_region_long$Quantities <- as.factor(order_custom_region_long$Quantities)
+order_custom_region_long$ProductPricesInCP <- as.factor(order_custom_region_long$ProductPricesInCP)
+order_custom_region_product <- merge(order_custom_region_long, products, by.x = "productsIDs", by.y = "product_code", all.x = TRUE)
+```
+
+Summary number of customers and revenue per nation 
+```{r}
+nation_customer <- custom_region %>% count(Nation) %>% arrange(desc(n)) %>% rename(n_customer = n)
+nation_revenue <- order_custom_region %>% group_by(Nation) %>% summarise(revenue = sum(CartPriceInCP))
+nation_customer_revenue <- merge(nation_customer, nation_revenue, by = "Nation")
+nation_customer_revenue2 <- merge(coordinate, nation_customer_revenue, by = "Nation", all.x = TRUE)
+
+export(nation_customer_revenue2, here("Processed_data", "nation_customer_revenue.csv"))
+summary(nation_customer_revenue2$n_customer)
+summary(nation_customer_revenue2$revenue)
+```
+
+
 
 # 1. Customers distribution
 
@@ -82,7 +121,7 @@ order_custom_region <- merge(orders, custom_region, by.x = "CustomerID", by.y = 
 custom_distribution <- custom_region %>% count(Territory, Nation, Region, Area) %>% arrange(desc(n)) 
 custom_distribution
 
-custom_distribution2 <- custom_region %>% count(Nation, Region, Area) %>% arrange(desc(n))
+custom_distribution2 <- custom_region %>% count(Nation) %>% arrange(desc(n)) %>% rename(n_customer = n)
 custom_distribution2
 
 custom_distribution3 <- custom_region %>% count(Region, Area) %>% arrange(desc(n))
@@ -131,8 +170,8 @@ ggplot(data = key_distribution, aes(x = reorder(Key.Account, -count), y = count,
 customer_made_order <- order_custom_region %>% count(CustomerID)
 summary(customer_made_order$n)
 ```
-All customers made orders
 
+All customers made orders
 
 # 2. Product distribution
 
@@ -230,8 +269,7 @@ ggplot(data = Amnian, aes(x = month_order, y = number_order)) +
   geom_line(data = Southern, colour = "turquoise")
 ```
 
-
-
+## 3.2. Sales per month
 ```{r}
 # Total values of product sold per month
 amount_order_month <- order_custom_region %>% group_by(month_order) %>% summarise(sales = round(sum(CartPriceInCP)/ 1000000, 2))
@@ -250,6 +288,133 @@ ggplot(data = amount_order_month, aes(x = month_order, y = sales)) +
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
 ```
 
+
+## 3.3 Customer that ordered the most (in terms of cart price)
+
+```{r}
+order_customer <- order_custom_region %>% mutate(CustomerID = as.factor(CustomerID)) %>% group_by(CustomerID) %>% summarise(cart_price = round(sum(CartPriceInCP)/1000000, 2)) %>% arrange(desc(cart_price)) %>% slice_head(n = 10)
+order_customer
+
+```
+
+```{r include=TRUE}
+colors = met.brewer("Renoir", n = nrow(order_customer), type = "discrete")
+ggplot(data = order_customer, aes(x = reorder(CustomerID, -cart_price), y = cart_price, fill = CustomerID)) +
+  geom_bar(stat = "identity") + labs(x = "Customer ID", y = "Total of order values (in million CP)") + 
+  theme_bw() + scale_fill_manual(values = colors) + 
+  geom_text(aes(label= cart_price), vjust=-0.3, size=3.5) +  
+  theme(legend.position = "none", 
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
+
+```
+
+## 3.4. Territory that ordered the most (in terms of cart price)
+
+```{r}
+order_territory <- order_custom_region %>% group_by(Territory.x, Nation, Region) %>% 
+  summarise(cart_price = round(sum(CartPriceInCP)/1000000, 2)) %>% ungroup %>% 
+  arrange(desc(cart_price)) %>% slice_head(n = 10) %>% 
+  mutate(terr_nation_region = str_wrap(paste(Territory.x,"(",Nation,"-", Region,")"), width = 20))
+order_territory
+```
+
+```{r include=TRUE}
+colors = met.brewer("Renoir", n = nrow(order_territory), type = "discrete")
+order_terr <- ggplot(data = order_territory, aes(x = reorder(terr_nation_region, -cart_price), y = cart_price, fill = terr_nation_region)) +
+  geom_bar(stat = "identity") + labs(x = "Territory (Nation - Region)", y = "Total of order values (in million CP)") + 
+  theme_bw() + scale_fill_manual(values = colors) + 
+  geom_text(aes(label= cart_price), vjust=-0.3, size=3.5) +  
+  theme(legend.position = "none", 
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
+
+order_terr
+
+ggsave("order_terr.png", 
+       order_terr, 
+       device = ragg::agg_png, res = 400, units = "in", h = 6, w = 8, path = here("Output"))
+```
+
+## 3.5 Most sold products
+
+```{r}
+numeric_column <- c("Quantities", "ProductPricesInCP")
+order_custom_region_long <- order_custom_region_long %>% mutate(across(all_of(numeric_column), as.numeric))
+```
+
+```{r}
+product_sale <- order_custom_region_long %>% group_by(Products) %>% 
+  summarise(n_order = sum(Quantities)) %>% ungroup  %>% 
+  arrange(desc(n_order)) %>% slice(c(1:5, 931:935)) %>% mutate(y = rep(c(1,10), each = 5)) %>%
+  mutate(Products = as.factor(Products))
+product_sale 
+```
+
+```{r include=TRUE}
+#Bubble plot
+colors = met.brewer("Renoir", n = nrow(product_sale), type = "discrete")
+ggplot(data = product_sale, aes(x = reorder(Products, n_order), y = 5)) +
+  geom_point(aes(color = Products, size = n_order), shape = 19) + 
+  scale_size(range = c(.1, 24)) + 
+  scale_y_continuous(breaks = NULL) + theme_bw() + 
+  scale_color_manual(values = colors) +
+    theme(legend.position = "none", 
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 )) + 
+  labs(x = "Product", y = "") +
+    geom_text(aes(label= n_order), vjust=-0.3, size=3.5)
+
+```
+
+###   Products that were sold the most, per month and year
+
+```{r}
+product_sale_year <- order_custom_region_long %>% group_by(year_order, Products ) %>% 
+  summarise(n_order = sum(Quantities))  %>% ungroup %>%
+  arrange(desc(n_order)) %>% 
+  group_by(year_order) %>% slice(1:3)
+product_sale_year 
+```
+
+```{r include=TRUE}
+#Bubble plot
+colors = met.brewer("Renoir", n = n_distinct(product_sale_year$Products), type = "discrete")
+ggplot(data = product_sale_year, aes(x = as.factor(year_order), y = n_order)) +
+  geom_point(aes(color = Products, size = n_order), shape = 19, alpha = 0.5) + 
+  scale_size(range = c(.1, 24)) + 
+  scale_y_continuous(limits = c(3500, 8500), n.breaks = 10) + theme_bw() + 
+  scale_color_manual(values = colors) +
+    theme(legend.position = "none" ) + 
+  labs(x = "Year", y = "Number of product sold") +
+    geom_text_repel(aes(label= paste(Products, n_order, sep ="\n")), size = 3)
+
+```
+
+### Products that brought the most revenue per year
+
+```{r}
+product_sale_year2 <- order_custom_region_long %>% group_by(year_order, Products ) %>% 
+  summarise(revenue = round(sum(ProductPricesInCP)/1000000, digits =2))  %>% ungroup %>%
+  arrange(desc(revenue)) %>% 
+  group_by(year_order) %>% slice(1:3)
+product_sale_year2 
+```
+
+```{r include=TRUE}
+#Bubble plot
+colors = met.brewer("Renoir", n = n_distinct(product_sale_year2$Products), type = "discrete")
+ggplot(data = product_sale_year2, aes(x = as.factor(year_order), y = revenue)) +
+  geom_point(aes(color = Products, size = revenue), shape = 19, alpha = 0.5) + 
+  scale_size(range = c(.1, 24)) + 
+  scale_y_continuous(limits = c(1.7, 5.3), n.breaks = 10) + theme_bw() + 
+  scale_color_manual(values = colors) +
+    theme(legend.position = "none" ) + 
+  labs(x = "Year", y = "Revenue per product (in million CP)") +
+    geom_text_repel(aes(label= paste(Products, revenue, sep ="\n")), size = 3)
+
+```
+
+-   Products that were sold the most to key account customers, per year and month
+
+# 4. Delivery time
 ```{r}
 # Average time to delivery, by year
 order_custom_region <- order_custom_region %>% mutate(delivery_time = as.numeric(difftime(DeliveryDate, OrderDate, units = "days")))
@@ -289,149 +454,3 @@ ggsave("delivery_time.png",
        device = ragg::agg_png, res = 400, path = here("Output"))
   
 ```
-
--   Customer that ordered the most (in terms of cart price)
-
-```{r}
-order_customer <- order_custom_region %>% mutate(CustomerID = as.factor(CustomerID)) %>% group_by(CustomerID) %>% summarise(cart_price = round(sum(CartPriceInCP)/1000000, 2)) %>% arrange(desc(cart_price)) %>% slice_head(n = 10)
-order_customer
-
-```
-
-```{r include=TRUE}
-colors = met.brewer("Renoir", n = nrow(order_customer), type = "discrete")
-ggplot(data = order_customer, aes(x = reorder(CustomerID, -cart_price), y = cart_price, fill = CustomerID)) +
-  geom_bar(stat = "identity") + labs(x = "Customer ID", y = "Total of order values (in million CP)") + 
-  theme_bw() + scale_fill_manual(values = colors) + 
-  geom_text(aes(label= cart_price), vjust=-0.3, size=3.5) +  
-  theme(legend.position = "none", 
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
-
-```
-
--   Territory that ordered the most (in terms of cart price)
-
-```{r}
-order_territory <- order_custom_region %>% group_by(Territory.x, Nation, Region) %>% 
-  summarise(cart_price = round(sum(CartPriceInCP)/1000000, 2)) %>% ungroup %>% 
-  arrange(desc(cart_price)) %>% slice_head(n = 10) %>% 
-  mutate(terr_nation_region = str_wrap(paste(Territory.x,"(",Nation,"-", Region,")"), width = 20))
-order_territory
-```
-
-```{r include=TRUE}
-colors = met.brewer("Renoir", n = nrow(order_territory), type = "discrete")
-order_terr <- ggplot(data = order_territory, aes(x = reorder(terr_nation_region, -cart_price), y = cart_price, fill = terr_nation_region)) +
-  geom_bar(stat = "identity") + labs(x = "Territory (Nation - Region)", y = "Total of order values (in million CP)") + 
-  theme_bw() + scale_fill_manual(values = colors) + 
-  geom_text(aes(label= cart_price), vjust=-0.3, size=3.5) +  
-  theme(legend.position = "none", 
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
-
-order_terr
-
-ggsave("order_terr.png", 
-       order_terr, 
-       device = ragg::agg_png, res = 400, units = "in", h = 6, w = 8, path = here("Output"))
-```
-
-
-
--   Products that were sold the most
-
-```{r}
-# long data format
-order_custom_region_long <- order_custom_region %>% 
-  mutate(Products = gsub(", b", "- b",
-                    gsub(", c", "- c",
-                    gsub(", f", "- f",
-                    gsub(", h", "- h",
-                    gsub(", i", "- i",
-                    gsub(", l", "- l",
-                    gsub(", m", "- m",
-                    gsub(", p", "- p",
-                    gsub(", s", "- s",
-                    gsub(", t", " - t",
-                    gsub("Poison, Basic (4L)", "Poison- Basic (4L)", #this one I have to edit in Excel, does not work here 
-                    gsub("Clothes, Common", "Clothes- Common",
-                    gsub("1,000", "1000", order_custom_region$Products)))))))))))))) %>%
-  separate_rows(Products, Quantities, ProductPricesInCP, sep = ", ")
-```
-
-```{r}
-numeric_column <- c("Quantities", "ProductPricesInCP")
-order_custom_region_long <- order_custom_region_long %>% mutate(across(all_of(numeric_column), as.numeric))
-```
-
-```{r}
-product_sale <- order_custom_region_long %>% group_by(Products) %>% 
-  summarise(n_order = sum(Quantities)) %>% ungroup  %>% 
-  arrange(desc(n_order)) %>% slice(c(1:5, 931:935)) %>% mutate(y = rep(c(1,10), each = 5)) %>%
-  mutate(Products = as.factor(Products))
-product_sale 
-```
-
-```{r include=TRUE}
-#Bubble plot
-colors = met.brewer("Renoir", n = nrow(product_sale), type = "discrete")
-ggplot(data = product_sale, aes(x = reorder(Products, n_order), y = 5)) +
-  geom_point(aes(color = Products, size = n_order), shape = 19) + 
-  scale_size(range = c(.1, 24)) + 
-  scale_y_continuous(breaks = NULL) + theme_bw() + 
-  scale_color_manual(values = colors) +
-    theme(legend.position = "none", 
-        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 )) + 
-  labs(x = "Product", y = "") +
-    geom_text(aes(label= n_order), vjust=-0.3, size=3.5)
-
-```
-
--   Products that were sold the most, per month and year
-
-```{r}
-product_sale_year <- order_custom_region_long %>% group_by(year_order, Products ) %>% 
-  summarise(n_order = sum(Quantities))  %>% ungroup %>%
-  arrange(desc(n_order)) %>% 
-  group_by(year_order) %>% slice(1:3)
-product_sale_year 
-```
-
-```{r include=TRUE}
-#Bubble plot
-colors = met.brewer("Renoir", n = n_distinct(product_sale_year$Products), type = "discrete")
-ggplot(data = product_sale_year, aes(x = as.factor(year_order), y = n_order)) +
-  geom_point(aes(color = Products, size = n_order), shape = 19, alpha = 0.5) + 
-  scale_size(range = c(.1, 24)) + 
-  scale_y_continuous(limits = c(3500, 8500), n.breaks = 10) + theme_bw() + 
-  scale_color_manual(values = colors) +
-    theme(legend.position = "none" ) + 
-  labs(x = "Year", y = "Number of product sold") +
-    geom_text_repel(aes(label= paste(Products, n_order, sep ="\n")), size = 3)
-
-```
-
-Products that brought the most revenue per year
-
-```{r}
-product_sale_year2 <- order_custom_region_long %>% group_by(year_order, Products ) %>% 
-  summarise(revenue = round(sum(ProductPricesInCP)/1000000, digits =2))  %>% ungroup %>%
-  arrange(desc(revenue)) %>% 
-  group_by(year_order) %>% slice(1:3)
-product_sale_year2 
-```
-
-```{r include=TRUE}
-#Bubble plot
-colors = met.brewer("Renoir", n = n_distinct(product_sale_year2$Products), type = "discrete")
-ggplot(data = product_sale_year2, aes(x = as.factor(year_order), y = revenue)) +
-  geom_point(aes(color = Products, size = revenue), shape = 19, alpha = 0.5) + 
-  scale_size(range = c(.1, 24)) + 
-  scale_y_continuous(limits = c(1.7, 5.3), n.breaks = 10) + theme_bw() + 
-  scale_color_manual(values = colors) +
-    theme(legend.position = "none" ) + 
-  labs(x = "Year", y = "Revenue per product (in million CP)") +
-    geom_text_repel(aes(label= paste(Products, revenue, sep ="\n")), size = 3)
-
-```
-
--   Products that were sold the most to key account customers, per year and month

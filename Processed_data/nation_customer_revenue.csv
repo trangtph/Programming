@@ -1,0 +1,58 @@
+Nation,id,Region,y_coord,x_coord,n_customer,revenue
+Aglarond,1,Thayan Empire,400,750,60,55143654
+Alaron,2,United Moonshae Empire,360,220,68,67079758
+Amn,3,Amnian Empire,320,410,156,157115496
+Arn Rock,4,Calim Empire,600,-50,9,8467293
+Baldur's Gate,5,Amnian Empire,390,320,123,116834550
+Blingdenstone,6,None Empire,200,-50,6,6310125
+Calimshan,7,Calim Empire,200,420,103,96974699
+Chessentea,8,Halruaan Empire,300,740,87,88774308
+Chondath,9,Calim Empire,260,680,85,75742400
+Chult,10,Amnian Empire,100,260,25,22608444
+Cormanthar,11,Purple Dragon Empire,500,570,19,18474329
+Cormyr,12,Purple Dragon Empire,420,510,82,81039824
+Damara,13,Bloodlands Empire,560,670,45,41191090
+Dambrath,14,Thayan Empire,80,760,31,28734016
+Durpar,15,Thayan Empire,200,-100,40,46699151
+Dwarfholds,16,Dwarven Empire,500,-50,92,88404666
+Estagund,17,Thayan Empire,100,-100,15,17841118
+Gracklstugh,18,None Empire,100,-50,12,11206383
+Great Dale,19,Bloodlands Empire,520,740,22,16277374
+Gundarlund,20,United Moonshae Empire,510,170,10,8905909
+Halruaa,21,Halruaan Empire,60,600,83,76742918
+Icewind Dale,22,None Empire,560,200,21,18760041
+Impiltur,23,Bloodlands Empire,460,680,81,80286894
+Kara-Tur,24,Eastern Empire,400,-50,30,27320097
+Korinn Archipelego,25,United Moonshae Empire,420,230,55,50594131
+Lantan,26,Amnian Empire,200,210,23,20415126
+Lapaliiya & Thindol,27,Halruaan Empire,60,380,63,66050478
+Luiren,28,Halruaan Empire,120,860,48,45639382
+Luskan,29,New Neverwinter Empire,540,220,45,42156416
+Mantol Dereith,30,None Empire,600,-100,2,1919178
+Maztica,31,Western Empire,500,-150,32,29089975
+Menzoberranzan,32,None Empire,500,-100,10,9180342
+Mereu,33,Purple Dragon Empire,400,-100,12,11175375
+Mintarn,34,United Moonshae Empire,390,260,8,7228828
+Moray,35,United Moonshae Empire,340,140,27,21598206
+Mulhorand,36,Old Empire,300,860,6,5884963
+Murghom,37,Old Empire,460,910,23,20180946
+Narfell,38,Bloodlands Empire,580,770,12,11004428
+Neverwinter,39,New Neverwinter Empire,520,240,38,37878642
+Norland,40,United Moonshae Empire,400,140,35,35647879
+Purple Rock Isles,41,United Moonshae Empire,520,100,6,5821842
+Ruathym,42,United Moonshae Empire,460,140,8,7804537
+Sembia,43,Purple Dragon Empire,440,580,92,91725422
+Shar,44,Halruaan Empire,300,-50,9,8317624
+Silverymoon,45,Purple Dragon Empire,560,300,96,96209661
+Snowdown,46,Amnian Empire,310,220,26,23959887
+Tethyr,47,Calim Empire,260,420,99,91607230
+Tharsult,48,Calim Empire,140,480,9,8074600
+Thay,49,Thayan Empire,440,820,79,80772848
+Thesk,50,Thayan Empire,480,780,42,38630618
+Turmish,51,Amnian Empire,340,600,86,78264294
+Unther,52,Old Empire,310,790,23,21027987
+Vaasa,53,Bloodlands Empire,560,620,43,46261718
+Veldorn,54,Thayan Empire,600,-150,8,7612986
+Waterdeep,55,Waterdhavian Empire,480,280,102,94030987
+Whalebone Isles,56,United Moonshae Empire,460,200,8,7622789
+Zakhara,57,Southern Empire,300,-100,17,15185426
