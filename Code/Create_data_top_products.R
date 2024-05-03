@@ -88,6 +88,24 @@ hot_product_all_nest <- hot_product_all2 %>%
 hot_product_all_nest %>% listviewer::jsonedit()
 export(hot_product_all_nest, here("Processed_data", "hot_product_all_nest.json"))
 
+## Second way
+makeList<-function(x){
+  if(ncol(x)>2){
+    listSplit<-split(x[-1],x[1],drop=T)
+    lapply(names(listSplit),function(y){list(name=y,children=makeList(listSplit[[y]]))})
+  }else{
+    lapply(seq(nrow(x[1])),function(y){list(name=x[,1][y],revenue=x[,2][y])})
+  }
+}
+
+
+jsonOut<-toJSON(list(name="hot_product_all_nest",children=makeList(hot_product_all_nest[-1])))
+cat(jsonOut)
+
+jsonOut %>% listviewer::jsonedit()
+
+export(jsonOut, here("Processed_data", "hot_product_all_hiera.json"))
+
 # -------------- Best selling products per nation ---------------------
 hot_product <- order_custom_region_product %>% group_by(nation_id, Nation, productsIDs ) %>% 
   summarise(revenue_thousand_CP = round(sum(ProductPricesInCP)/1000, digits =2))  %>% ungroup %>%

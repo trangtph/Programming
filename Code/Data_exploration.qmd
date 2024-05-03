@@ -28,7 +28,8 @@ pacman::p_load(tidyverse,
                ggrepel,
                listviewer,
                Rtrack,
-               d3r
+               d3r,
+               RJSONIO
 )
 ```
 
@@ -452,10 +453,33 @@ export(hot_product_all_hierar2, here("Processed_data", "hot_product_all_hierar.c
 
 ```{r}
 hot_product_all_nest <- hot_product_all2 %>% 
-  select(Type, Subtype, product_brand,revenue_thousand_CP) %>%
+  select(Type, Subtype, product_brand,revenue_thousand_CP)
+
+hot_product_all_nest2<- hot_product_all_nest %>%
   d3_nest(value_cols = "revenue_thousand_CP", root = "Overall")
-hot_product_all_nest %>% listviewer::jsonedit()
-export(hot_product_all_nest, here("Processed_data", "hot_product_all_nest.json"))
+hot_product_all_nest2 %>% listviewer::jsonedit()
+export(hot_product_all_nest2, here("Processed_data", "hot_product_all_nest.json"))
+
+```
+
+```{r}
+
+makeList<-function(x){
+  if(ncol(x)>2){
+    listSplit<-split(x[-1],x[1],drop=T)
+    lapply(names(listSplit),function(y){list(name=y,children=makeList(listSplit[[y]]))})
+  }else{
+    lapply(seq(nrow(x[1])),function(y){list(name=x[,1][y],revenue=x[,2][y])})
+  }
+}
+
+
+jsonOut<-toJSON(list(name="hot_product_all_nest",children=makeList(hot_product_all_nest[-1])))
+cat(jsonOut)
+
+jsonOut %>% listviewer::jsonedit()
+
+export(jsonOut, here("Processed_data", "hot_product_all_hiera.json"))
 
 ```
 
@@ -472,6 +496,8 @@ hot_product_nation <- merge(hot_product, products, by.x = "productsIDs", by.y = 
 
 export(hot_product2, here("Processed_data", "hot_product.csv"))
 ```
+
+
 
 Try tree map for one nation
 
