@@ -25,7 +25,10 @@ pacman::p_load(tidyverse,
                treemap,
                MetBrewer, #color palette
                lubridate, #working with time
-               ggrepel
+               ggrepel,
+               listviewer,
+               Rtrack,
+               d3r
 )
 ```
 
@@ -428,7 +431,32 @@ hot_product_all2 <- hot_product_all2 %>% mutate(product_brand =
                                                 hierarchy = paste(Type,Subtype,product_brand, 
                                                                   sep="-"))
 hot_product_all3 <- hot_product_all2 %>% select(hierarchy,revenue_thousand_CP )
+hot_product_all3$hierarchy <-  gsub(" ", ".", hot_product_all3$hierarchy)
 export(hot_product_all3, here("Processed_data", "hot_product_all.csv"))
+```
+
+```{r}
+hot_product_all_hierar <- hot_product_all2 %>% 
+  select(product_brand, Subtype, revenue_thousand_CP) %>%
+  rename(id = product_brand, parentId = Subtype, revenue = revenue_thousand_CP)
+
+subtype <- hot_product_all2 %>% select(Subtype, Type) %>%
+  mutate(revenue = NA) %>%
+  rename(id = Subtype, parentId = Type)
+hot_product_all_hierar2 <- as.data.frame(rbind(hot_product_all_hierar, subtype ))
+hot_product_all_hierar2$id <-  gsub(" ", ".", hot_product_all_hierar2$id)
+hot_product_all_hierar2$parentId <-  gsub(" ", ".", hot_product_all_hierar2$parentId)
+
+export(hot_product_all_hierar2, here("Processed_data", "hot_product_all_hierar.csv"))
+```
+
+```{r}
+hot_product_all_nest <- hot_product_all2 %>% 
+  select(Type, Subtype, product_brand,revenue_thousand_CP) %>%
+  d3_nest(value_cols = "revenue_thousand_CP", root = "Overall")
+hot_product_all_nest %>% listviewer::jsonedit()
+export(hot_product_all_nest, here("Processed_data", "hot_product_all_nest.json"))
+
 ```
 
 
@@ -439,8 +467,8 @@ export(hot_product_all3, here("Processed_data", "hot_product_all.csv"))
 hot_product <- order_custom_region_product %>% group_by(nation_id, Nation, productsIDs ) %>% 
   summarise(revenue_thousand_CP = round(sum(ProductPricesInCP)/1000, digits =2))  %>% ungroup %>%
   arrange(desc(revenue_thousand_CP)) %>% 
-  group_by(Nation) %>% slice(1:20)
-hot_product2 <- merge(hot_product, products, by.x = "productsIDs", by.y = "product_code", all.x = TRUE)
+  group_by(Nation) %>% slice(1:10)
+hot_product_nation <- merge(hot_product, products, by.x = "productsIDs", by.y = "product_code", all.x = TRUE)
 
 export(hot_product2, here("Processed_data", "hot_product.csv"))
 ```
