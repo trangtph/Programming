@@ -94,16 +94,20 @@ order_custom_region_long <- order_custom_region %>%
 #merge orders with product
 order_custom_region_long$productsIDs <- as.factor(order_custom_region_long$productsIDs)
 order_custom_region_long$Quantities <- as.factor(order_custom_region_long$Quantities)
-order_custom_region_long$ProductPricesInCP <- as.factor(order_custom_region_long$ProductPricesInCP)
+order_custom_region_long$ProductPricesInCP <- as.numeric(order_custom_region_long$ProductPricesInCP)
 order_custom_region_product <- merge(order_custom_region_long, products, by.x = "productsIDs", by.y = "product_code", all.x = TRUE)
 ```
 
 Summary number of customers and revenue per nation 
 ```{r}
 nation_customer <- custom_region %>% count(Nation) %>% arrange(desc(n)) %>% rename(n_customer = n)
-nation_revenue <- order_custom_region %>% group_by(Nation) %>% summarise(revenue = sum(CartPriceInCP))
+nation_revenue <- order_custom_region %>% group_by(Nation) %>% 
+  summarise(revenue = sum(CartPriceInCP)) %>% 
+  mutate(revenue_round = round(revenue/1000000, digits = 1))
 nation_customer_revenue <- merge(nation_customer, nation_revenue, by = "Nation")
 nation_customer_revenue2 <- merge(coordinate, nation_customer_revenue, by = "Nation", all.x = TRUE)
+nation_customer_revenue2 <- nation_customer_revenue2 %>% mutate(rank_n_customer = min_rank(desc(n_customer)), 
+                                                                rank_revenue = min_rank(desc(revenue)))
 
 export(nation_customer_revenue2, here("Processed_data", "nation_customer_revenue.csv"))
 summary(nation_customer_revenue2$n_customer)
@@ -412,7 +416,50 @@ ggplot(data = product_sale_year2, aes(x = as.factor(year_order), y = revenue)) +
 
 ```
 
--   Products that were sold the most to key account customers, per year and month
+### Product with largest revenue overall
+```{r}
+hot_product_all <- order_custom_region_product %>% group_by(productsIDs) %>% 
+  summarise(revenue_thousand_CP = round(sum(ProductPricesInCP)/1000, digits =2))  %>% ungroup %>%
+  arrange(desc(revenue_thousand_CP)) %>% slice(1:10)
+hot_product_all2 <- merge(hot_product_all, products, by.x = "productsIDs", by.y = "product_code", all.x = TRUE)
+
+hot_product_all2 <- hot_product_all2 %>% mutate(product_brand = 
+                                                  paste0(Product.Name," (", Brand.Name, ")"),
+                                                hierarchy = paste(Type,Subtype,product_brand, 
+                                                                  sep="-"))
+hot_product_all3 <- hot_product_all2 %>% select(hierarchy,revenue_thousand_CP )
+export(hot_product_all3, here("Processed_data", "hot_product_all.csv"))
+```
+
+
+### Product sold the most per country
+
+
+```{r}
+hot_product <- order_custom_region_product %>% group_by(nation_id, Nation, productsIDs ) %>% 
+  summarise(revenue_thousand_CP = round(sum(ProductPricesInCP)/1000, digits =2))  %>% ungroup %>%
+  arrange(desc(revenue_thousand_CP)) %>% 
+  group_by(Nation) %>% slice(1:20)
+hot_product2 <- merge(hot_product, products, by.x = "productsIDs", by.y = "product_code", all.x = TRUE)
+
+export(hot_product2, here("Processed_data", "hot_product.csv"))
+```
+
+Try tree map for one nation
+
+```{r}
+hot_product_sembia <- hot_product2 %>% filter(Nation == "Sembia")
+
+Renoir = c("#2f357c","#b0799a","#e69b00","#355828","#6c5d9e","#bf3729",
+           "#e48171","#f5bb50","#9d9cd5","#17154f","#f6b3b0","#ada43b")
+
+treemap(hot_product_sembia, index=c("Subtype", "Product.Name"),
+        vSize = "revenue_thousand_CP", 
+        type = "index",
+        title = "Product distribution in Sembia", 
+        palette = Renoir)
+```
+
 
 # 4. Delivery time
 ```{r}
