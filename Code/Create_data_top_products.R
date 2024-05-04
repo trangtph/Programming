@@ -83,10 +83,12 @@ hot_product_all2 <- hot_product_all2 %>% mutate(product_brand =
 
 ## Write JSON file
 hot_product_all_nest <- hot_product_all2 %>% 
-  select(Type, Subtype, product_brand,revenue_thousand_CP) %>%
+  select(Type, Subtype, product_brand,revenue_thousand_CP)
+
+  hot_product_all_nest2<- hot_product_all_nest %>%
   d3_nest(value_cols = "revenue_thousand_CP", root = "Overall")
-hot_product_all_nest %>% listviewer::jsonedit()
-export(hot_product_all_nest, here("Processed_data", "hot_product_all_nest.json"))
+hot_product_all_nest2 %>% listviewer::jsonedit()
+export(hot_product_all_nest2, here("Processed_data", "hot_product_all_nest.json"))
 
 ## Second way
 makeList<-function(x){
@@ -104,7 +106,7 @@ cat(jsonOut)
 
 jsonOut %>% listviewer::jsonedit()
 
-export(jsonOut, here("Processed_data", "hot_product_all_hiera.json"))
+write(jsonOut, here("Processed_data", "hot_product_all_hiera.json"))
 
 # -------------- Best selling products per nation ---------------------
 hot_product <- order_custom_region_product %>% group_by(nation_id, Nation, productsIDs ) %>% 
@@ -121,8 +123,12 @@ hot_product_nation_nest <- hot_product_nation %>%
            paste0(Product.Name," (", Brand.Name, ")"),
          hierarchy = paste(Type,Subtype,product_brand, 
                            sep="-")) %>%
-  select(Nation, Type, Subtype, product_brand,revenue_thousand_CP) %>%
-  d3_nest(value_cols = "revenue_thousand_CP", root = "All Nations")
+  select(Nation, Type, Subtype, product_brand,revenue_thousand_CP)
 
-hot_product_nation_nest %>% listviewer::jsonedit()
-export(hot_product_nation_nest, here("Processed_data", "hot_product_nation_nest.json"))
+
+
+jsonOut2<-toJSON(list(name="hot_product_nation_nest",children=makeList(hot_product_nation_nest[-1])))
+cat(jsonOut2)
+
+
+write(jsonOut2, here("Processed_data", "hot_product_nation_hiera.json"))
