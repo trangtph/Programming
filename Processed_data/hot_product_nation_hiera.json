@@ -1,0 +1,2565 @@
+{
+ "name": "hot_product_nation_nest",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "BELT / GIRDLE",
+"children": [
+ {
+ "name": "Belt of Fire Giant Strength (U.N.N.)",
+"revenue":    122.3 
+},
+{
+ "name": "Belt of Fire Giant Strength (U.N.N.)",
+"revenue":    31.78 
+},
+{
+ "name": "Belt of Dwarvenkind (RED CURTAIN)",
+"revenue":   112.52 
+},
+{
+ "name": "Belt of Hill Giant Strength (BORDERLANDS)",
+"revenue":    34.47 
+} 
+] 
+},
+{
+ "name": "BOOTS",
+"children": [
+ {
+ "name": "Boots of Levitation (SABLE)",
+"revenue":    44.07 
+},
+{
+ "name": "Boots of Elvenkind (MYTHAL)",
+"revenue":    50.79 
+} 
+] 
+},
+{
+ "name": "CLOAK",
+"children": [
+ {
+ "name": "Cloak of Invisibility (MYTHAL)",
+"revenue":    27.13 
+},
+{
+ "name": "Robe of Stars (RED CURTAIN)",
+"revenue":     29.7 
+} 
+] 
+},
+{
+ "name": "CLOTHING",
+"children": [
+ {
+ "name": "Toque (RED CURTAIN)",
+"revenue":    88.61 
+},
+{
+ "name": "Clothes, traveler’s  (U.N.N.)",
+"revenue":     35.3 
+},
+{
+ "name": "Toque (U.N.N.)",
+"revenue":    42.96 
+},
+{
+ "name": "Robes (BORDERLANDS)",
+"revenue":    34.94 
+},
+{
+ "name": "Winter Jacket (U.N.N.)",
+"revenue":    70.55 
+},
+{
+ "name": "Cloak of Many Fashions (SABLE)",
+"revenue":    23.87 
+} 
+] 
+},
+{
+ "name": "CONTAINER",
+"children": [
+ {
+ "name": "Alchemy Jug (ARCANTIC)",
+"revenue":    31.65 
+},
+{
+ "name": "Alchemy Jug (ARCANTIC)",
+"revenue":    31.65 
+},
+{
+ "name": "Bag of Holding (RED CURTAIN)",
+"revenue":     20.9 
+},
+{
+ "name": "Bag of Holding (RED CURTAIN)",
+"revenue":    50.35 
+},
+{
+ "name": "Bag of Holding (BORDERLANDS)",
+"revenue":    94.76 
+},
+{
+ "name": "Hewards Handy Spice Pouch (BORDERLANDS)",
+"revenue":    24.85 
+} 
+] 
+},
+{
+ "name": "GAMING SET",
+"children": [
+ {
+ "name": "Charlatans Die (SABLE)",
+"revenue":    42.64 
+} 
+] 
+},
+{
+ "name": "GAUNTLETS / GLOVES",
+"children": [
+ {
+ "name": "Gloves of Missile Snaring (SABLE)",
+"revenue":    39.38 
+},
+{
+ "name": "Gloves of Missile Snaring (SABLE)",
+"revenue":   132.46 
+},
+{
+ "name": "Gloves of Missile Snaring (SABLE)",
+"revenue":    25.95 
+},
+{
+ "name": "Gloves of Soul Catching (RED CURTAIN)",
+"revenue":    23.61 
+},
+{
+ "name": "Gauntlets of Ogre Power (BORDERLANDS)",
+"revenue":    29.31 
+},
+{
+ "name": "Gloves of Thievery (MYTHAL)",
+"revenue":    43.99 
+} 
+] 
+},
+{
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Finders Goggles (SABLE)",
+"revenue":     39.2 
+} 
+] 
+},
+{
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Circlet of Human Perfection (SABLE)",
+"revenue":    29.49 
+},
+{
+ "name": "Circlet of Human Perfection (SABLE)",
+"revenue":    62.91 
+},
+{
+ "name": "Lost Crown of Besilmer (SABLE)",
+"revenue":     35.3 
+},
+{
+ "name": "Hat of Vermin (MYTHAL)",
+"revenue":    27.97 
+},
+{
+ "name": "Helm of Telepathy (BORDERLANDS)",
+"revenue":    50.95 
+} 
+] 
+},
+{
+ "name": "IOUN STONE",
+"children": [
+ {
+ "name": "Ioun Stone - Vitality (SABLE)",
+"revenue":    61.51 
+},
+{
+ "name": "Ioun Stone - Mastery (MYTHAL)",
+"revenue":    30.69 
+},
+{
+ "name": "Ioun Stone - Mastery (MYTHAL)",
+"revenue":    66.03 
+},
+{
+ "name": "Ioun Stone - Regeneration (SABLE)",
+"revenue":     14.8 
+},
+{
+ "name": "Ioun Stone - Gunner (ARCANTIC)",
+"revenue":    66.58 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Kyrzins Ooze (SABLE)",
+"revenue":    39.56 
+},
+{
+ "name": "Gavel of the Venn Rune (SABLE)",
+"revenue":    36.21 
+},
+{
+ "name": "Gavel of the Venn Rune (SABLE)",
+"revenue":    28.63 
+},
+{
+ "name": "Oil of Etherealness (RED CURTAIN)",
+"revenue":   137.48 
+},
+{
+ "name": "Oil of Etherealness (RED CURTAIN)",
+"revenue":     23.4 
+},
+{
+ "name": "Feather Token (Whip) (U.N.N.)",
+"revenue":   122.24 
+},
+{
+ "name": "Feather Token (Whip) (U.N.N.)",
+"revenue":    47.21 
+},
+{
+ "name": "Candle of the Deep (ARCANTIC)",
+"revenue":    23.66 
+},
+{
+ "name": "Nightfall Pearl (ARCANTIC)",
+"revenue":    40.59 
+},
+{
+ "name": "Candle of Invocation (SABLE)",
+"revenue":   101.69 
+},
+{
+ "name": "Charm of Plant Command (SABLE)",
+"revenue":    29.46 
+},
+{
+ "name": "Paper Bird (ARCANTIC)",
+"revenue":    22.72 
+},
+{
+ "name": "Feather Token (Feather Fall) (MYTHAL)",
+"revenue":    94.81 
+},
+{
+ "name": "Insignia of Claws (BORDERLANDS)",
+"revenue":    71.83 
+},
+{
+ "name": "Bag of Beans (BORDERLANDS)",
+"revenue":    28.93 
+},
+{
+ "name": "Candle of Invocation (SABLE)",
+"revenue":    26.45 
+},
+{
+ "name": "Balance of Harmony (RED CURTAIN)",
+"revenue":    30.67 
+},
+{
+ "name": "Thermal Cube (ARCANTIC)",
+"revenue":    25.58 
+},
+{
+ "name": "Thermal Cube (ARCANTIC)",
+"revenue":   183.61 
+},
+{
+ "name": "Thermal Cube (ARCANTIC)",
+"revenue":    147.4 
+},
+{
+ "name": "Charm of Plant Command (ARCANTIC)",
+"revenue":    38.01 
+},
+{
+ "name": "Charm of Plant Command (ARCANTIC)",
+"revenue":    29.66 
+},
+{
+ "name": "Charm of Plant Command (ARCANTIC)",
+"revenue":   136.27 
+},
+{
+ "name": "Charm of Plant Command (ARCANTIC)",
+"revenue":    12.98 
+},
+{
+ "name": "Loadstone (U.N.N.)",
+"revenue":    30.03 
+},
+{
+ "name": "Loadstone (U.N.N.)",
+"revenue":    26.39 
+},
+{
+ "name": "Loadstone (U.N.N.)",
+"revenue":    24.57 
+},
+{
+ "name": "Loadstone (U.N.N.)",
+"revenue":    47.32 
+},
+{
+ "name": "Vox Seeker (RED CURTAIN)",
+"revenue":    25.53 
+},
+{
+ "name": "Vox Seeker (RED CURTAIN)",
+"revenue":    51.06 
+},
+{
+ "name": "Hewards Handy Haversack (ARCANTIC)",
+"revenue":    75.82 
+},
+{
+ "name": "Eversmoking Bottle (MYTHAL)",
+"revenue":    24.05 
+} 
+] 
+},
+{
+ "name": "ROD",
+"children": [
+ {
+ "name": "Rod of Security (RED CURTAIN)",
+"revenue":    69.16 
+},
+{
+ "name": "Rod of the Pact Keeper +1 (BORDERLANDS)",
+"revenue":    84.58 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Staff (RED CURTAIN)",
+"revenue":   146.17 
+},
+{
+ "name": "Imbued Wood Focus (MYTHAL)",
+"revenue":    28.76 
+},
+{
+ "name": "Orb (BORDERLANDS)",
+"revenue":   116.68 
+},
+{
+ "name": "Orb (BORDERLANDS)",
+"revenue":    26.35 
+},
+{
+ "name": "Crystal (U.N.N.)",
+"revenue":    45.47 
+},
+{
+ "name": "Totem (Druidic focus) (U.N.N.)",
+"revenue":    40.59 
+},
+{
+ "name": "Fernian Ash Focus (BORDERLANDS)",
+"revenue":    68.47 
+},
+{
+ "name": "Fernian Ash Focus (BORDERLANDS)",
+"revenue":    40.33 
+},
+{
+ "name": "Air Elemental Essence Shard (MYTHAL)",
+"revenue":    35.69 
+},
+{
+ "name": "Libram of Souls & Flesh (U.N.N.)",
+"revenue":    39.12 
+},
+{
+ "name": "Grimorie Infinitus (U.N.N.)",
+"revenue":    20.74 
+},
+{
+ "name": "Spellbook (U.N.N.)",
+"revenue":    36.67 
+},
+{
+ "name": "Xorian Wenge Focus (RED CURTAIN)",
+"revenue":   118.94 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Barrel (RED CURTAIN)",
+"revenue":   137.82 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Clockwork Amulet (RED CURTAIN)",
+"revenue":    55.69 
+},
+{
+ "name": "Clockwork Amulet (RED CURTAIN)",
+"revenue":    64.53 
+} 
+] 
+},
+{
+ "name": "WAND",
+"children": [
+ {
+ "name": "Wand of Scowls (ARCANTIC)",
+"revenue":    49.24 
+},
+{
+ "name": "Wand of Scowls (ARCANTIC)",
+"revenue":    33.44 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "LIVESTOCK",
+"children": [
+ {
+ "name": "Pig (RED CURTAIN)",
+"revenue":   102.82 
+},
+{
+ "name": "Pig (RED CURTAIN)",
+"revenue":    25.22 
+},
+{
+ "name": "Ox (U.N.N.)",
+"revenue":    28.38 
+},
+{
+ "name": "Ox (BORDERLANDS)",
+"revenue":    13.52 
+} 
+] 
+},
+{
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Rowboat (U.N.N.)",
+"revenue":    57.01 
+},
+{
+ "name": "Giant Riding Lizard (U.N.N.)",
+"revenue":    41.57 
+},
+{
+ "name": "Drake (RED CURTAIN)",
+"revenue":     52.5 
+},
+{
+ "name": "Drake (RED CURTAIN)",
+"revenue":     24.5 
+},
+{
+ "name": "War Steeder (U.N.N.)",
+"revenue":    30.35 
+},
+{
+ "name": "Sled (BORDERLANDS)",
+"revenue":    26.64 
+},
+{
+ "name": "Sled (BORDERLANDS)",
+"revenue":   139.42 
+},
+{
+ "name": "Riding Horse (BORDERLANDS)",
+"revenue":    89.35 
+},
+{
+ "name": "Camel (U.N.N.)",
+"revenue":    29.79 
+},
+{
+ "name": "Exotic Saddle (U.N.N.)",
+"revenue":    36.21 
+},
+{
+ "name": "Riding Horse (U.N.N.)",
+"revenue":   143.04 
+},
+{
+ "name": "Saddlebags (RED CURTAIN)",
+"revenue":    33.95 
+} 
+] 
+},
+{
+ "name": "VEHICLE",
+"children": [
+ {
+ "name": "Broom of Flying (MYTHAL)",
+"revenue":    25.81 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "AMMUNITION",
+"children": [
+ {
+ "name": "Arrows +3 (SABLE)",
+"revenue":  1223.78 
+},
+{
+ "name": "Arrows +3 (SABLE)",
+"revenue":    33.31 
+},
+{
+ "name": "Arrows +3 (SABLE)",
+"revenue":   717.36 
+},
+{
+ "name": "Sling bullets (100) (U.N.N.)",
+"revenue":   690.55 
+},
+{
+ "name": "Sling bullets (100) (U.N.N.)",
+"revenue":   949.72 
+},
+{
+ "name": "Sling bullets (100) (U.N.N.)",
+"revenue":    45.54 
+},
+{
+ "name": "Crossbow bolts (100) (RED CURTAIN)",
+"revenue":    904.3 
+},
+{
+ "name": "Crossbow bolts (100) (RED CURTAIN)",
+"revenue":   883.16 
+},
+{
+ "name": "Unbreakable Arrow (SABLE)",
+"revenue":   585.37 
+},
+{
+ "name": "Unbreakable Arrow (SABLE)",
+"revenue":       75 
+},
+{
+ "name": "Unbreakable Arrow (SABLE)",
+"revenue":  1005.17 
+},
+{
+ "name": "Arrows +3 (BORDERLANDS)",
+"revenue":   838.01 
+},
+{
+ "name": "Arrows +3 (BORDERLANDS)",
+"revenue":   551.21 
+},
+{
+ "name": "Arrows +3 (BORDERLANDS)",
+"revenue":    53.56 
+},
+{
+ "name": "Crossbow Bolts +3 (U.N.N.)",
+"revenue":   445.97 
+},
+{
+ "name": "Arrows (100) (BORDERLANDS)",
+"revenue":   192.78 
+},
+{
+ "name": "Arrows (100) (BORDERLANDS)",
+"revenue":   129.44 
+},
+{
+ "name": "Arrows (100) (U.N.N.)",
+"revenue":   241.26 
+},
+{
+ "name": "Arrows (100) (U.N.N.)",
+"revenue":    496.6 
+},
+{
+ "name": "Arrows (100) (U.N.N.)",
+"revenue":   288.22 
+},
+{
+ "name": "Blowgun needles (50) (RED CURTAIN)",
+"revenue":   237.37 
+},
+{
+ "name": "Blowgun needles (50) (RED CURTAIN)",
+"revenue":      151 
+},
+{
+ "name": "Crossbow bolts (100) (BORDERLANDS)",
+"revenue":   734.89 
+} 
+] 
+},
+{
+ "name": "ARMOUR OTHER",
+"children": [
+ {
+ "name": "Medium Armour +2 (SABLE)",
+"revenue":    270.8 
+},
+{
+ "name": "Armour of Radiant vulnerability (BORDERLANDS)",
+"revenue":    59.83 
+},
+{
+ "name": "Armour of Necrotic Resistance (MYTHAL)",
+"revenue":    84.28 
+},
+{
+ "name": "Armour of Cold Resistance (BORDERLANDS)",
+"revenue":    62.02 
+},
+{
+ "name": "Armour of Thunder Resistance (MYTHAL)",
+"revenue":   482.08 
+},
+{
+ "name": "Armour of Vulnerability (MYTHAL)",
+"revenue":   326.81 
+},
+{
+ "name": "Armour of Vulnerability (MYTHAL)",
+"revenue":   819.51 
+},
+{
+ "name": "Armour of Vulnerability (MYTHAL)",
+"revenue":   506.23 
+},
+{
+ "name": "Armour of Thunder vulnerability (ARCANTIC)",
+"revenue":    30.97 
+},
+{
+ "name": "Armour of Cold vulnerability (ARCANTIC)",
+"revenue":    52.97 
+},
+{
+ "name": "Armour of Cold Resistance (SABLE)",
+"revenue":    45.73 
+},
+{
+ "name": "Armour of Lightning vulnerability (SABLE)",
+"revenue":    24.52 
+},
+{
+ "name": "Armour of Lightning vulnerability (SABLE)",
+"revenue":    35.32 
+},
+{
+ "name": "Armour of Lightning vulnerability (SABLE)",
+"revenue":     56.9 
+},
+{
+ "name": "Armour of Lightning vulnerability (SABLE)",
+"revenue":    24.52 
+},
+{
+ "name": "Armour of Thunder Resistance (BORDERLANDS)",
+"revenue":   929.44 
+},
+{
+ "name": "Armour of Thunder Resistance (BORDERLANDS)",
+"revenue":   579.92 
+},
+{
+ "name": "Armour of Necrotic vulnerability (U.N.N.)",
+"revenue":       39 
+},
+{
+ "name": "Armour of Necrotic vulnerability (U.N.N.)",
+"revenue":       30 
+} 
+] 
+},
+{
+ "name": "BRACERS",
+"children": [
+ {
+ "name": "Braclet of Rock Magic (SABLE)",
+"revenue":    27.68 
+} 
+] 
+},
+{
+ "name": "GAUNTLETS / GLOVES",
+"children": [
+ {
+ "name": "Living Gloves (SABLE)",
+"revenue":   475.83 
+},
+{
+ "name": "Living Gloves (SABLE)",
+"revenue":   446.91 
+},
+{
+ "name": "Living Gloves (SABLE)",
+"revenue":    25.19 
+},
+{
+ "name": "Living Gloves (SABLE)",
+"revenue":    56.91 
+},
+{
+ "name": "Living Gloves (SABLE)",
+"revenue":    24.26 
+},
+{
+ "name": "Living Gloves (SABLE)",
+"revenue":   750.13 
+} 
+] 
+},
+{
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Knaves Eyepatch (MYTHAL)",
+"revenue":    28.56 
+},
+{
+ "name": "Knaves Eyepatch (MYTHAL)",
+"revenue":    22.68 
+} 
+] 
+},
+{
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Splint mail (RED CURTAIN)",
+"revenue":   705.93 
+},
+{
+ "name": "Splint mail (RED CURTAIN)",
+"revenue":   444.99 
+},
+{
+ "name": "Splint mail (RED CURTAIN)",
+"revenue":    29.45 
+},
+{
+ "name": "Splint mail (RED CURTAIN)",
+"revenue":  1159.92 
+},
+{
+ "name": "Splint mail (RED CURTAIN)",
+"revenue":   159.51 
+},
+{
+ "name": "Splint mail (RED CURTAIN)",
+"revenue":   552.97 
+},
+{
+ "name": "Last Stand Armour (ARCANTIC)",
+"revenue":    35.26 
+},
+{
+ "name": "Obsidian Flint Dragon Plate (MYTHAL)",
+"revenue":   104.17 
+},
+{
+ "name": "Obsidian Flint Dragon Plate (MYTHAL)",
+"revenue":    79.55 
+},
+{
+ "name": "Adamantine Armour (RED CURTAIN)",
+"revenue":  2344.49 
+},
+{
+ "name": "Adamantine Armour (RED CURTAIN)",
+"revenue":   535.91 
+},
+{
+ "name": "Adamantine Armour (RED CURTAIN)",
+"revenue":   722.37 
+},
+{
+ "name": "Demon Armour (SABLE)",
+"revenue":   698.75 
+},
+{
+ "name": "Demon Armour (SABLE)",
+"revenue":   290.86 
+},
+{
+ "name": "Splint mail (BORDERLANDS)",
+"revenue":   121.86 
+},
+{
+ "name": "Plate Armour of Etherealness (RED CURTAIN)",
+"revenue":   432.91 
+},
+{
+ "name": "Living Heavy Armour (MYTHAL)",
+"revenue":  2752.52 
+},
+{
+ "name": "Living Heavy Armour (MYTHAL)",
+"revenue":   298.61 
+},
+{
+ "name": "Adamantine Armour (MYTHAL)",
+"revenue":  1224.95 
+},
+{
+ "name": "Ring mail (BORDERLANDS)",
+"revenue":   238.39 
+},
+{
+ "name": "Ring mail (BORDERLANDS)",
+"revenue":    48.25 
+},
+{
+ "name": "Ring mail (BORDERLANDS)",
+"revenue":    26.49 
+},
+{
+ "name": "Heavy Armour +2 (MYTHAL)",
+"revenue":   230.88 
+},
+{
+ "name": "Efreeti Chain (MYTHAL)",
+"revenue":    718.2 
+},
+{
+ "name": "Efreeti Chain (MYTHAL)",
+"revenue":   551.38 
+},
+{
+ "name": "Efreeti Chain (MYTHAL)",
+"revenue":   194.04 
+},
+{
+ "name": "Dwarven Plate (SABLE)",
+"revenue":    474.1 
+},
+{
+ "name": "Dwarven Plate (SABLE)",
+"revenue":    882.1 
+} 
+] 
+},
+{
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Black Dragon Mask (SABLE)",
+"revenue":   814.92 
+},
+{
+ "name": "Black Dragon Mask (SABLE)",
+"revenue":   155.06 
+},
+{
+ "name": "Black Dragon Mask (SABLE)",
+"revenue":  1258.95 
+},
+{
+ "name": "Black Dragon Mask (SABLE)",
+"revenue":    477.5 
+},
+{
+ "name": "Black Dragon Mask (MYTHAL)",
+"revenue":   114.59 
+},
+{
+ "name": "Black Dragon Mask (MYTHAL)",
+"revenue":   407.74 
+},
+{
+ "name": "Propellor Helm (SABLE)",
+"revenue":    70.76 
+},
+{
+ "name": "Green Dragon Mask (U.N.N.)",
+"revenue":    678.8 
+},
+{
+ "name": "Green Dragon Mask (U.N.N.)",
+"revenue":  1119.93 
+},
+{
+ "name": "Red Dragon Mask (MYTHAL)",
+"revenue":   289.22 
+},
+{
+ "name": "Green Dragon Mask (SABLE)",
+"revenue":   485.21 
+},
+{
+ "name": "Green Dragon Mask (SABLE)",
+"revenue":   720.43 
+} 
+] 
+},
+{
+ "name": "LIGHT ARMOUR",
+"children": [
+ {
+ "name": "Hide of the Feral Guardian (RED CURTAIN)",
+"revenue":   507.98 
+},
+{
+ "name": "Hide of the Feral Guardian (RED CURTAIN)",
+"revenue":    33.54 
+},
+{
+ "name": "Hide of the Feral Guardian (RED CURTAIN)",
+"revenue":      827 
+},
+{
+ "name": "Studded leather armour (RED CURTAIN)",
+"revenue":   747.88 
+},
+{
+ "name": "Studded leather armour (RED CURTAIN)",
+"revenue":   274.35 
+},
+{
+ "name": "Studded leather armour (RED CURTAIN)",
+"revenue":   1091.2 
+},
+{
+ "name": "Hunters Coat (RED CURTAIN)",
+"revenue":   246.88 
+},
+{
+ "name": "Hewards Hireling Armour (SABLE)",
+"revenue":   365.77 
+},
+{
+ "name": "Light Armour +3 (SABLE)",
+"revenue":   174.81 
+},
+{
+ "name": "Padded armour (RED CURTAIN)",
+"revenue":   544.33 
+},
+{
+ "name": "Padded armour (RED CURTAIN)",
+"revenue":   391.52 
+},
+{
+ "name": "Studded leather armour (U.N.N.)",
+"revenue":   617.92 
+},
+{
+ "name": "Studded leather armour (U.N.N.)",
+"revenue":  1317.79 
+},
+{
+ "name": "Studded leather armour (U.N.N.)",
+"revenue":   876.28 
+},
+{
+ "name": "Studded leather armour (U.N.N.)",
+"revenue":   316.19 
+},
+{
+ "name": "Light Armour +3 (RED CURTAIN)",
+"revenue":   329.18 
+},
+{
+ "name": "Light Armour +3 (RED CURTAIN)",
+"revenue":   223.45 
+},
+{
+ "name": "Leather Armour (U.N.N.)",
+"revenue":    24.57 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Tentacle Rod (MYTHAL)",
+"revenue":  1037.82 
+},
+{
+ "name": "Tentacle Rod (MYTHAL)",
+"revenue":    67.66 
+},
+{
+ "name": "Tentacle Rod (MYTHAL)",
+"revenue":   403.12 
+},
+{
+ "name": "Tentacle Rod (MYTHAL)",
+"revenue":   703.31 
+},
+{
+ "name": "Maul (RED CURTAIN)",
+"revenue":   540.28 
+},
+{
+ "name": "Maul (RED CURTAIN)",
+"revenue":   170.14 
+},
+{
+ "name": "Maul (RED CURTAIN)",
+"revenue":   367.43 
+},
+{
+ "name": "Maul (RED CURTAIN)",
+"revenue":   424.44 
+},
+{
+ "name": "Whelm (SABLE)",
+"revenue":   600.56 
+},
+{
+ "name": "Ironfang (SABLE)",
+"revenue":    71.04 
+},
+{
+ "name": "Ironfang (SABLE)",
+"revenue":  2532.78 
+},
+{
+ "name": "Ironfang (SABLE)",
+"revenue":  1628.59 
+},
+{
+ "name": "Hellsteel Martial Melee Weapon (U.N.N.)",
+"revenue":   801.59 
+},
+{
+ "name": "Hellsteel Martial Melee Weapon (U.N.N.)",
+"revenue":      423 
+},
+{
+ "name": "Battleaxe (BORDERLANDS)",
+"revenue":   543.24 
+},
+{
+ "name": "Battleaxe (BORDERLANDS)",
+"revenue":   953.17 
+},
+{
+ "name": "Battleaxe (BORDERLANDS)",
+"revenue":   1299.2 
+},
+{
+ "name": "Pike (RED CURTAIN)",
+"revenue":  1091.58 
+},
+{
+ "name": "Pike (RED CURTAIN)",
+"revenue":   701.62 
+},
+{
+ "name": "Pike (RED CURTAIN)",
+"revenue":    36.39 
+},
+{
+ "name": "Pike (RED CURTAIN)",
+"revenue":   374.93 
+},
+{
+ "name": "Pike (RED CURTAIN)",
+"revenue":   490.42 
+},
+{
+ "name": "Scimitar of Speed (SABLE)",
+"revenue":    23.14 
+},
+{
+ "name": "Halberd (U.N.N.)",
+"revenue":   255.06 
+},
+{
+ "name": "Shortsword (RED CURTAIN)",
+"revenue":   699.84 
+},
+{
+ "name": "Shortsword (RED CURTAIN)",
+"revenue":    24.84 
+},
+{
+ "name": "Shortsword (RED CURTAIN)",
+"revenue":    62.98 
+},
+{
+ "name": "Shortsword (RED CURTAIN)",
+"revenue":  1122.94 
+},
+{
+ "name": "Scimitar (BORDERLANDS)",
+"revenue":   451.66 
+},
+{
+ "name": "Scimitar (BORDERLANDS)",
+"revenue":   302.94 
+},
+{
+ "name": "Scimitar (BORDERLANDS)",
+"revenue":   678.71 
+},
+{
+ "name": "Ironfang (RED CURTAIN)",
+"revenue":   250.71 
+},
+{
+ "name": "Morningstar (RED CURTAIN)",
+"revenue":    719.9 
+},
+{
+ "name": "Morningstar (RED CURTAIN)",
+"revenue":    900.1 
+},
+{
+ "name": "Morningstar (RED CURTAIN)",
+"revenue":   266.34 
+},
+{
+ "name": "Morningstar (RED CURTAIN)",
+"revenue":  1062.71 
+},
+{
+ "name": "Morningstar (RED CURTAIN)",
+"revenue":   326.11 
+},
+{
+ "name": "Sword of Answering (BORDERLANDS)",
+"revenue":   398.22 
+},
+{
+ "name": "Greatsword (U.N.N.)",
+"revenue":   679.56 
+},
+{
+ "name": "Greatsword (U.N.N.)",
+"revenue":  1102.18 
+},
+{
+ "name": "Greatsword (U.N.N.)",
+"revenue":   472.24 
+},
+{
+ "name": "Greatsword (U.N.N.)",
+"revenue":  1321.91 
+},
+{
+ "name": "Greatsword (U.N.N.)",
+"revenue":   878.03 
+},
+{
+ "name": "Giant Slayer (BORDERLANDS)",
+"revenue":   695.18 
+},
+{
+ "name": "Whelm (SABLE)",
+"revenue":   561.82 
+},
+{
+ "name": "Pike (U.N.N.)",
+"revenue":   753.19 
+},
+{
+ "name": "Maul (U.N.N.)",
+"revenue":    89.24 
+},
+{
+ "name": "Maul (U.N.N.)",
+"revenue":   224.56 
+},
+{
+ "name": "Scimitar (RED CURTAIN)",
+"revenue":   225.85 
+},
+{
+ "name": "Morningstar (BORDERLANDS)",
+"revenue":   168.34 
+},
+{
+ "name": "Wave (U.N.N.)",
+"revenue":   165.76 
+},
+{
+ "name": "Nine Lives Stealer (SABLE)",
+"revenue":     79.6 
+},
+{
+ "name": "Whip (U.N.N.)",
+"revenue":    45.21 
+},
+{
+ "name": "Wave (U.N.N.)",
+"revenue":   353.43 
+},
+{
+ "name": "Wave (U.N.N.)",
+"revenue":   319.46 
+},
+{
+ "name": "Wave (U.N.N.)",
+"revenue":   143.21 
+},
+{
+ "name": "Wave (U.N.N.)",
+"revenue":    27.54 
+},
+{
+ "name": "Trident of Fish Command (ARCANTIC)",
+"revenue":    59.25 
+},
+{
+ "name": "Blood Spear (SABLE)",
+"revenue":    60.46 
+},
+{
+ "name": "Lance (RED CURTAIN)",
+"revenue":   401.17 
+},
+{
+ "name": "Lance (RED CURTAIN)",
+"revenue":   622.47 
+},
+{
+ "name": "Lance (RED CURTAIN)",
+"revenue":   905.56 
+},
+{
+ "name": "Lance (U.N.N.)",
+"revenue":   459.91 
+},
+{
+ "name": "Lance (U.N.N.)",
+"revenue":   739.93 
+},
+{
+ "name": "Lance (U.N.N.)",
+"revenue":   1087.5 
+},
+{
+ "name": "Trident (RED CURTAIN)",
+"revenue":   558.45 
+},
+{
+ "name": "Trident (RED CURTAIN)",
+"revenue":   788.78 
+},
+{
+ "name": "Trident (RED CURTAIN)",
+"revenue":   931.37 
+},
+{
+ "name": "Warhammer (BORDERLANDS)",
+"revenue":    59.01 
+},
+{
+ "name": "Warhammer (BORDERLANDS)",
+"revenue":   627.88 
+},
+{
+ "name": "Warhammer (BORDERLANDS)",
+"revenue":    81.14 
+},
+{
+ "name": "Scimitar (U.N.N.)",
+"revenue":   330.15 
+},
+{
+ "name": "Scimitar (U.N.N.)",
+"revenue":   192.98 
+},
+{
+ "name": "Revenant Double-Bladed Scimitar (SABLE)",
+"revenue":    99.22 
+},
+{
+ "name": "Hammer of Thunderbolts (U.N.N.)",
+"revenue":    55.59 
+},
+{
+ "name": "Battleaxe (U.N.N.)",
+"revenue":  1124.29 
+},
+{
+ "name": "Battleaxe (U.N.N.)",
+"revenue":   984.98 
+},
+{
+ "name": "Battleaxe (U.N.N.)",
+"revenue":   504.54 
+},
+{
+ "name": "Battleaxe (U.N.N.)",
+"revenue":       25 
+},
+{
+ "name": "Morningstar (U.N.N.)",
+"revenue":   309.49 
+},
+{
+ "name": "Morningstar (U.N.N.)",
+"revenue":   580.96 
+},
+{
+ "name": "Morningstar (U.N.N.)",
+"revenue":    202.1 
+},
+{
+ "name": "Flail (RED CURTAIN)",
+"revenue":    654.8 
+},
+{
+ "name": "Flail (RED CURTAIN)",
+"revenue":   368.01 
+},
+{
+ "name": "Hellsteel Martial Melee Weapon (RED CURTAIN)",
+"revenue":   442.33 
+},
+{
+ "name": "Hellsteel Martial Melee Weapon (RED CURTAIN)",
+"revenue":   526.88 
+},
+{
+ "name": "Hellsteel Martial Melee Weapon (RED CURTAIN)",
+"revenue":   741.37 
+},
+{
+ "name": "Blackrazor (SABLE)",
+"revenue":   694.36 
+},
+{
+ "name": "Blood Spear (ARCANTIC)",
+"revenue":    24.49 
+},
+{
+ "name": "Hammer of Thunderbolts (MYTHAL)",
+"revenue":   762.96 
+},
+{
+ "name": "Hammer of Thunderbolts (MYTHAL)",
+"revenue":   790.24 
+},
+{
+ "name": "Hammer of Thunderbolts (MYTHAL)",
+"revenue":   533.28 
+},
+{
+ "name": "Hammer of Thunderbolts (MYTHAL)",
+"revenue":    73.92 
+},
+{
+ "name": "Greatsword (BORDERLANDS)",
+"revenue":   745.12 
+},
+{
+ "name": "Greatsword (BORDERLANDS)",
+"revenue":   948.41 
+},
+{
+ "name": "Greatsword (BORDERLANDS)",
+"revenue":    711.9 
+},
+{
+ "name": "Greatsword (BORDERLANDS)",
+"revenue":  1158.82 
+},
+{
+ "name": "Greatsword (BORDERLANDS)",
+"revenue":   486.46 
+},
+{
+ "name": "Tentacle Rod (RED CURTAIN)",
+"revenue":   435.61 
+},
+{
+ "name": "Tentacle Rod (RED CURTAIN)",
+"revenue":   303.53 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Longbow (U.N.N.)",
+"revenue":   833.28 
+},
+{
+ "name": "Longbow (U.N.N.)",
+"revenue":   1180.2 
+},
+{
+ "name": "Longbow (U.N.N.)",
+"revenue":   439.32 
+},
+{
+ "name": "Arcane Firearm (SABLE)",
+"revenue":    557.5 
+},
+{
+ "name": "Hellsteel Martial Ranged Weapon (RED CURTAIN)",
+"revenue":      125 
+},
+{
+ "name": "Hellsteel Martial Ranged Weapon (RED CURTAIN)",
+"revenue":   172.35 
+},
+{
+ "name": "Net (BORDERLANDS)",
+"revenue":      477 
+},
+{
+ "name": "Net (BORDERLANDS)",
+"revenue":   551.89 
+},
+{
+ "name": "Oathbow (BORDERLANDS)",
+"revenue":   326.37 
+},
+{
+ "name": "Oathbow (BORDERLANDS)",
+"revenue":    86.77 
+},
+{
+ "name": "Composite Longbow (RED CURTAIN)",
+"revenue":    60.58 
+},
+{
+ "name": "Crossbow, heavy  (U.N.N.)",
+"revenue":   246.73 
+},
+{
+ "name": "Crossbow, heavy  (U.N.N.)",
+"revenue":   770.43 
+},
+{
+ "name": "Crossbow, heavy  (U.N.N.)",
+"revenue":   729.58 
+},
+{
+ "name": "Hellsteel Martial Ranged Weapon (U.N.N.)",
+"revenue":   124.03 
+},
+{
+ "name": "Net (U.N.N.)",
+"revenue":   421.56 
+} 
+] 
+},
+{
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Breastplate (RED CURTAIN)",
+"revenue":   395.78 
+},
+{
+ "name": "Chain shirt (U.N.N.)",
+"revenue":    37.93 
+},
+{
+ "name": "Chain shirt (U.N.N.)",
+"revenue":    631.2 
+},
+{
+ "name": "Chain shirt (U.N.N.)",
+"revenue":     59.6 
+},
+{
+ "name": "Half plate (RED CURTAIN)",
+"revenue":    12.44 
+},
+{
+ "name": "Half plate (RED CURTAIN)",
+"revenue":    880.4 
+},
+{
+ "name": "Half plate (RED CURTAIN)",
+"revenue":   417.82 
+},
+{
+ "name": "Half plate (RED CURTAIN)",
+"revenue":   648.28 
+},
+{
+ "name": "Breastplate (U.N.N.)",
+"revenue":   384.09 
+},
+{
+ "name": "Living Medium Armour (SABLE)",
+"revenue":    34.16 
+},
+{
+ "name": "Half plate (U.N.N.)",
+"revenue":    257.4 
+},
+{
+ "name": "Half plate (U.N.N.)",
+"revenue":   158.28 
+} 
+] 
+},
+{
+ "name": "ROD",
+"children": [
+ {
+ "name": "Blast Scepter (BORDERLANDS)",
+"revenue":  1204.37 
+},
+{
+ "name": "Blast Scepter (BORDERLANDS)",
+"revenue":    655.5 
+},
+{
+ "name": "Blast Scepter (BORDERLANDS)",
+"revenue":   929.94 
+},
+{
+ "name": "Blast Scepter (RED CURTAIN)",
+"revenue":   504.91 
+},
+{
+ "name": "Blast Scepter (RED CURTAIN)",
+"revenue":   674.94 
+},
+{
+ "name": "Korolnor Scepter (MYTHAL)",
+"revenue":  1117.98 
+},
+{
+ "name": "Korolnor Scepter (MYTHAL)",
+"revenue":  1320.35 
+},
+{
+ "name": "Korolnor Scepter (MYTHAL)",
+"revenue":    33.73 
+},
+{
+ "name": "Korolnor Scepter (MYTHAL)",
+"revenue":   677.54 
+},
+{
+ "name": "Korolnor Scepter (U.N.N.)",
+"revenue":   507.24 
+},
+{
+ "name": "Korolnor Scepter (U.N.N.)",
+"revenue":   653.87 
+} 
+] 
+},
+{
+ "name": "SHIELD",
+"children": [
+ {
+ "name": "Shield (U.N.N.)",
+"revenue":   769.73 
+},
+{
+ "name": "Shield of the Uven Rune (SABLE)",
+"revenue":    22.14 
+},
+{
+ "name": "Shield of the Uven Rune (SABLE)",
+"revenue":    150.3 
+},
+{
+ "name": "Shield of the Hidden Lord (SABLE)",
+"revenue":   286.98 
+},
+{
+ "name": "Shield of the Hidden Lord (SABLE)",
+"revenue":    879.8 
+},
+{
+ "name": "Shield of the Hidden Lord (SABLE)",
+"revenue":    82.42 
+},
+{
+ "name": "Shield of the Hidden Lord (SABLE)",
+"revenue":   839.08 
+},
+{
+ "name": "Shield of Missile Attraction (RED CURTAIN)",
+"revenue":   343.74 
+},
+{
+ "name": "Shield of Missile Attraction (RED CURTAIN)",
+"revenue":  2193.18 
+},
+{
+ "name": "Shield (RED CURTAIN)",
+"revenue":   716.86 
+},
+{
+ "name": "Shield +1 (MYTHAL)",
+"revenue":   178.98 
+},
+{
+ "name": "Shield +3 (RED CURTAIN)",
+"revenue":   257.68 
+},
+{
+ "name": "Shield +3 (RED CURTAIN)",
+"revenue":    99.88 
+},
+{
+ "name": "Shield of Far Sight (BORDERLANDS)",
+"revenue":   114.53 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Hellsteel Simple Melee Weapon (U.N.N.)",
+"revenue":    83.61 
+},
+{
+ "name": "Quarterstaff (U.N.N.)",
+"revenue":   182.61 
+},
+{
+ "name": "Sword of the Paruns (U.N.N.)",
+"revenue":   154.24 
+},
+{
+ "name": "Spear (U.N.N.)",
+"revenue":   220.37 
+},
+{
+ "name": "Spear (U.N.N.)",
+"revenue":   313.79 
+},
+{
+ "name": "Veterans Cane (SABLE)",
+"revenue":  1143.31 
+},
+{
+ "name": "Hellsteel Simple Melee Weapon (RED CURTAIN)",
+"revenue":   120.82 
+},
+{
+ "name": "Bookmark (ARCANTIC)",
+"revenue":   594.56 
+},
+{
+ "name": "Quarterstaff (RED CURTAIN)",
+"revenue":  1864.86 
+},
+{
+ "name": "Quarterstaff (RED CURTAIN)",
+"revenue":  1299.38 
+},
+{
+ "name": "Javelin (10) (U.N.N.)",
+"revenue":   738.09 
+},
+{
+ "name": "Flame Tongue (BORDERLANDS)",
+"revenue":   146.55 
+},
+{
+ "name": "Flame Tongue (BORDERLANDS)",
+"revenue":    41.14 
+},
+{
+ "name": "Rakdos Riteknife (U.N.N.)",
+"revenue":    27.79 
+},
+{
+ "name": "Flame Tongue (MYTHAL)",
+"revenue":   119.54 
+},
+{
+ "name": "Sun Blade (SABLE)",
+"revenue":     85.2 
+},
+{
+ "name": "Spear (RED CURTAIN)",
+"revenue":   243.91 
+},
+{
+ "name": "Spear (RED CURTAIN)",
+"revenue":    155.5 
+},
+{
+ "name": "Dragontooth Dagger (U.N.N.)",
+"revenue":   657.49 
+},
+{
+ "name": "Azuredge (ARCANTIC)",
+"revenue":  1070.58 
+},
+{
+ "name": "Staff of Adornment (SABLE)",
+"revenue":   529.15 
+},
+{
+ "name": "Staff of Adornment (SABLE)",
+"revenue":   765.74 
+},
+{
+ "name": "Dagger (BORDERLANDS)",
+"revenue":    871.2 
+},
+{
+ "name": "Quarterstaff (BORDERLANDS)",
+"revenue":   810.78 
+},
+{
+ "name": "Quarterstaff (BORDERLANDS)",
+"revenue":   748.21 
+},
+{
+ "name": "Quarterstaff (BORDERLANDS)",
+"revenue":  1678.04 
+},
+{
+ "name": "Quarterstaff (BORDERLANDS)",
+"revenue":  2379.32 
+},
+{
+ "name": "Frost Brand (MYTHAL)",
+"revenue":   475.84 
+},
+{
+ "name": "Frost Brand (MYTHAL)",
+"revenue":   382.47 
+},
+{
+ "name": "Dagger of Venom (ARCANTIC)",
+"revenue":   289.92 
+},
+{
+ "name": "Dagger of Venom (ARCANTIC)",
+"revenue":   615.16 
+},
+{
+ "name": "Serpents Fang (U.N.N.)",
+"revenue":   578.66 
+},
+{
+ "name": "Serpents Fang (U.N.N.)",
+"revenue":    24.22 
+},
+{
+ "name": "Sun Blade (MYTHAL)",
+"revenue":   243.02 
+},
+{
+ "name": "Sun Blade (MYTHAL)",
+"revenue":   136.12 
+},
+{
+ "name": "Veterans Cane (SABLE)",
+"revenue":    29.45 
+},
+{
+ "name": "Veterans Cane (SABLE)",
+"revenue":    52.35 
+},
+{
+ "name": "Veterans Cane (SABLE)",
+"revenue":  2492.45 
+},
+{
+ "name": "Mace (U.N.N.)",
+"revenue":   130.27 
+},
+{
+ "name": "Tinderstrike (MYTHAL)",
+"revenue":   118.17 
+},
+{
+ "name": "Tinderstrike (MYTHAL)",
+"revenue":    29.79 
+},
+{
+ "name": "Light hammer (RED CURTAIN)",
+"revenue":   786.77 
+},
+{
+ "name": "Light hammer (RED CURTAIN)",
+"revenue":   748.37 
+},
+{
+ "name": "Spear (BORDERLANDS)",
+"revenue":    448.9 
+},
+{
+ "name": "Spear (BORDERLANDS)",
+"revenue":   291.16 
+},
+{
+ "name": "Hellsteel Simple Melee Weapon (BORDERLANDS)",
+"revenue":   136.53 
+},
+{
+ "name": "Azuredge (ARCANTIC)",
+"revenue":   909.95 
+},
+{
+ "name": "Shatterspike (ARCANTIC)",
+"revenue":    29.97 
+},
+{
+ "name": "Shatterspike (ARCANTIC)",
+"revenue":    61.94 
+},
+{
+ "name": "Shatterspike (ARCANTIC)",
+"revenue":    24.98 
+},
+{
+ "name": "Shatterspike (ARCANTIC)",
+"revenue":    59.44 
+},
+{
+ "name": "Javelin (10) (BORDERLANDS)",
+"revenue":   369.33 
+} 
+] 
+},
+{
+ "name": "SIMPLE RANGED WEAPON",
+"children": [
+ {
+ "name": "Dart (10) (U.N.N.)",
+"revenue":   851.14 
+},
+{
+ "name": "Dart (10) (U.N.N.)",
+"revenue":   874.92 
+},
+{
+ "name": "Seeker Dart (SABLE)",
+"revenue":   864.76 
+},
+{
+ "name": "Boomerang +2 (BORDERLANDS)",
+"revenue":    127.2 
+},
+{
+ "name": "Sling (U.N.N.)",
+"revenue":   850.51 
+},
+{
+ "name": "Sling (U.N.N.)",
+"revenue":   644.41 
+},
+{
+ "name": "Dwarven Thrower (SABLE)",
+"revenue":   594.54 
+},
+{
+ "name": "Seeker Dart (MYTHAL)",
+"revenue":   492.64 
+} 
+] 
+},
+{
+ "name": "STAFF",
+"children": [
+ {
+ "name": "Staff of Charming (RED CURTAIN)",
+"revenue":    37.84 
+},
+{
+ "name": "Dragonstaff of Ahghairon (MYTHAL)",
+"revenue":   664.78 
+},
+{
+ "name": "Staff of Frost (RED CURTAIN)",
+"revenue":   470.83 
+},
+{
+ "name": "Staff of Striking (RED CURTAIN)",
+"revenue":   378.18 
+},
+{
+ "name": "Staff of Striking (RED CURTAIN)",
+"revenue":   290.07 
+},
+{
+ "name": "Staff of Striking (RED CURTAIN)",
+"revenue":   422.73 
+},
+{
+ "name": "Staff of Striking (RED CURTAIN)",
+"revenue":   610.83 
+},
+{
+ "name": "Staff of Fire (BORDERLANDS)",
+"revenue":   557.36 
+},
+{
+ "name": "Staff of Fire (BORDERLANDS)",
+"revenue":   933.85 
+},
+{
+ "name": "Staff of Fire (BORDERLANDS)",
+"revenue":   912.22 
+},
+{
+ "name": "Staff of Fire (BORDERLANDS)",
+"revenue":  1276.92 
+},
+{
+ "name": "Staff of Fire (BORDERLANDS)",
+"revenue":   990.86 
+},
+{
+ "name": "Staff of Fire (BORDERLANDS)",
+"revenue":   892.56 
+},
+{
+ "name": "Staff of Thunder and Lightning (ARCANTIC)",
+"revenue":    32.44 
+},
+{
+ "name": "Skyblinder Staff (SABLE)",
+"revenue":      142 
+},
+{
+ "name": "Staff of the Claw (RED CURTAIN)",
+"revenue":   277.26 
+},
+{
+ "name": "Staff of Striking (ARCANTIC)",
+"revenue":    97.23 
+},
+{
+ "name": "Staff of Striking (ARCANTIC)",
+"revenue":   526.28 
+},
+{
+ "name": "Staff of Striking (ARCANTIC)",
+"revenue":   406.75 
+},
+{
+ "name": "Staff of Striking (ARCANTIC)",
+"revenue":    279.2 
+},
+{
+ "name": "Staff of Swarming Insects (SABLE)",
+"revenue":    41.58 
+},
+{
+ "name": "Staff of the Woodlands (U.N.N.)",
+"revenue":   174.67 
+},
+{
+ "name": "Dragonstaff of Ahghairon (SABLE)",
+"revenue":   785.18 
+},
+{
+ "name": "Staff of Power (SABLE)",
+"revenue":    28.45 
+},
+{
+ "name": "Staff of Power (SABLE)",
+"revenue":    337.9 
+},
+{
+ "name": "Staff of the Claw (RED CURTAIN)",
+"revenue":   321.79 
+} 
+] 
+},
+{
+ "name": "WAND",
+"children": [
+ {
+ "name": "Wand of Viscid Globs (ARCANTIC)",
+"revenue":   630.44 
+},
+{
+ "name": "Wand of Paralysis (RED CURTAIN)",
+"revenue":    86.68 
+},
+{
+ "name": "Wand of Paralysis (RED CURTAIN)",
+"revenue":   313.23 
+},
+{
+ "name": "Wand of the War Mage +2 (MYTHAL)",
+"revenue":    49.08 
+},
+{
+ "name": "Wand of the War Mage +2 (MYTHAL)",
+"revenue":    43.52 
+},
+{
+ "name": "Wand of Viscid Globs (ARCANTIC)",
+"revenue":   242.87 
+},
+{
+ "name": "Wand of Viscid Globs (ARCANTIC)",
+"revenue":   948.88 
+},
+{
+ "name": "Wand of Magic Missiles (SABLE)",
+"revenue":    85.57 
+},
+{
+ "name": "Wand of Magic Missiles (SABLE)",
+"revenue":    93.53 
+},
+{
+ "name": "Wand of Lightning Bolts (SABLE)",
+"revenue":   133.95 
+},
+{
+ "name": "Wand of Lightning Bolts (SABLE)",
+"revenue":     24.7 
+},
+{
+ "name": "Wand of the War Mage +3 (SABLE)",
+"revenue":    576.3 
+} 
+] 
+},
+{
+ "name": "WEAPON OTHER",
+"children": [
+ {
+ "name": "Weapon +3 (SABLE)",
+"revenue":    41.36 
+},
+{
+ "name": "Weapon +1 (RED CURTAIN)",
+"revenue":   680.97 
+},
+{
+ "name": "Weapon +1 (RED CURTAIN)",
+"revenue":    73.54 
+},
+{
+ "name": "Weapon +1 (RED CURTAIN)",
+"revenue":   642.67 
+},
+{
+ "name": "Weapon +1 (RED CURTAIN)",
+"revenue":  1069.34 
+},
+{
+ "name": "Weapon +1 (SABLE)",
+"revenue":   587.25 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "JEWELRY",
+"children": [
+ {
+ "name": "AMULET / NECKLACE",
+"children": [
+ {
+ "name": "Amulet of Protection from Turning (U.N.N.)",
+"revenue":    25.54 
+},
+{
+ "name": "Amulet of Protection from Turning (U.N.N.)",
+"revenue":    40.85 
+},
+{
+ "name": "Amulet of Protection from Turning (U.N.N.)",
+"revenue":    24.86 
+},
+{
+ "name": "Necklace of Fireballs (RED CURTAIN)",
+"revenue":    29.52 
+} 
+] 
+},
+{
+ "name": "RING",
+"children": [
+ {
+ "name": "Ring of the Ram (ARCANTIC)",
+"revenue":    53.91 
+},
+{
+ "name": "Ring of the Ram (ARCANTIC)",
+"revenue":    28.52 
+},
+{
+ "name": "Ring of Mind Shielding (ARCANTIC)",
+"revenue":    61.22 
+},
+{
+ "name": "Ring of Free Action (MYTHAL)",
+"revenue":    81.69 
+},
+{
+ "name": "Ring of Animal Influence (SABLE)",
+"revenue":    68.59 
+},
+{
+ "name": "Band of Loyalty (SABLE)",
+"revenue":    26.16 
+},
+{
+ "name": "Ring of Shooting Stars (SABLE)",
+"revenue":    49.99 
+},
+{
+ "name": "Ring of Feather Falling (RED CURTAIN)",
+"revenue":    14.67 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "BRASS INSTRUMENT",
+"children": [
+ {
+ "name": "Instrument of Scribing (SABLE)",
+"revenue":    53.24 
+},
+{
+ "name": "Instrument of Scribing (SABLE)",
+"revenue":    29.38 
+},
+{
+ "name": "Shawm (RED CURTAIN)",
+"revenue":   133.43 
+},
+{
+ "name": "Shawm (RED CURTAIN)",
+"revenue":    23.17 
+} 
+] 
+},
+{
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Lyre (BORDERLANDS)",
+"revenue":     56.4 
+},
+{
+ "name": "Lyre (BORDERLANDS)",
+"revenue":     23.9 
+},
+{
+ "name": "Guitar (RED CURTAIN)",
+"revenue":   131.35 
+},
+{
+ "name": "Guitar (RED CURTAIN)",
+"revenue":    31.14 
+},
+{
+ "name": "Viol (U.N.N.)",
+"revenue":    22.01 
+},
+{
+ "name": "Cli lyre (SABLE)",
+"revenue":    82.45 
+},
+{
+ "name": "Viol (RED CURTAIN)",
+"revenue":    26.95 
+},
+{
+ "name": "Canaith mandolin (U.N.N.)",
+"revenue":    78.85 
+} 
+] 
+},
+{
+ "name": "WIND INSTRUMENT",
+"children": [
+ {
+ "name": "Pipes of the Sewers (SABLE)",
+"revenue":    26.04 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Alchemist’s fire (flask) (RED CURTAIN)",
+"revenue":    49.54 
+},
+{
+ "name": "Potion of Frost Giant Strength (ARCANTIC)",
+"revenue":    27.17 
+},
+{
+ "name": "Potion of Fire Breath (SABLE)",
+"revenue":   116.86 
+},
+{
+ "name": "Pipe of Smoke Monsters (SABLE)",
+"revenue":    23.64 
+},
+{
+ "name": "Pipe of Smoke Monsters (SABLE)",
+"revenue":    66.02 
+},
+{
+ "name": "Elixir of Health (MYTHAL)",
+"revenue":    25.38 
+},
+{
+ "name": "Potion of Giant Size (ARCANTIC)",
+"revenue":    31.32 
+},
+{
+ "name": "Potion of Superior Healing (SABLE)",
+"revenue":    44.56 
+},
+{
+ "name": "Oil (flask) (BORDERLANDS)",
+"revenue":    41.28 
+},
+{
+ "name": "Oil (flask) (BORDERLANDS)",
+"revenue":    34.56 
+},
+{
+ "name": "Oil (flask) (BORDERLANDS)",
+"revenue":    26.88 
+},
+{
+ "name": "Oil (flask) (BORDERLANDS)",
+"revenue":    23.04 
+},
+{
+ "name": "Vial (Crate) (U.N.N.)",
+"revenue":     39.1 
+} 
+] 
+},
+{
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Spell Scroll Level 1 (RED CURTAIN)",
+"revenue":    24.62 
+},
+{
+ "name": "Spell Scroll Level 1 (RED CURTAIN)",
+"revenue":    43.34 
+},
+{
+ "name": "Spell Scroll Level 1 (RED CURTAIN)",
+"revenue":    24.62 
+},
+{
+ "name": "Spell Scroll Level 1 (RED CURTAIN)",
+"revenue":    33.49 
+},
+{
+ "name": "Spell Gem (Lapis Lazuli) (U.N.N.)",
+"revenue":    32.71 
+},
+{
+ "name": "Case, map or scroll  (U.N.N.)",
+"revenue":    52.67 
+},
+{
+ "name": "Scroll of Protection (Beasts) (ARCANTIC)",
+"revenue":     34.4 
+},
+{
+ "name": "Manual of Bodily Health (SABLE)",
+"revenue":    30.69 
+},
+{
+ "name": "Manual of Bodily Health (SABLE)",
+"revenue":    92.07 
+},
+{
+ "name": "Spell Gem (Star Ruby) (MYTHAL)",
+"revenue":    68.82 
+},
+{
+ "name": "Scroll of Protection (Undead) (SABLE)",
+"revenue":    16.56 
+},
+{
+ "name": "Scroll of Protection (Undead) (SABLE)",
+"revenue":     32.2 
+},
+{
+ "name": "Tome of Clear Thought (U.N.N.)",
+"revenue":    96.04 
+},
+{
+ "name": "Spellwrought Tattoo Enchantment (RED CURTAIN)",
+"revenue":    70.75 
+},
+{
+ "name": "Ink pen (with Ink) (BORDERLANDS)",
+"revenue":    83.78 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Bowl of Commanding Water Elementals (BORDERLANDS)",
+"revenue":    39.56 
+},
+{
+ "name": "Bowl of Commanding Water Elementals (BORDERLANDS)",
+"revenue":    51.43 
+},
+{
+ "name": "Black Crystal Tablet (MYTHAL)",
+"revenue":    32.44 
+},
+{
+ "name": "Marble Elephant of Wondrous Power (BORDERLANDS)",
+"revenue":     25.4 
+},
+{
+ "name": "Marble Elephant of Wondrous Power (BORDERLANDS)",
+"revenue":    14.89 
+},
+{
+ "name": "Bowl of Commanding Water Elementals (RED CURTAIN)",
+"revenue":    28.83 
+},
+{
+ "name": "Bowl of Commanding Water Elementals (RED CURTAIN)",
+"revenue":    25.23 
+},
+{
+ "name": "Bowl of Commanding Water Elementals (RED CURTAIN)",
+"revenue":    14.42 
+},
+{
+ "name": "Bronze Horn of Valhalla (SABLE)",
+"revenue":     41.5 
+},
+{
+ "name": "Marble Elephant of Wondrous Power (ARCANTIC)",
+"revenue":    15.22 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "CONTAINER",
+"children": [
+ {
+ "name": "Burlap Sack (Set of 20) (BORDERLANDS)",
+"revenue":    23.72 
+},
+{
+ "name": "Cauldron of Rebirth (SABLE)",
+"revenue":    27.64 
+} 
+] 
+},
+{
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Poisoner’s kit (RED CURTAIN)",
+"revenue":   155.26 
+},
+{
+ "name": "Herbalism kit (U.N.N.)",
+"revenue":    21.03 
+},
+{
+ "name": "Calligraphers supplies (RED CURTAIN)",
+"revenue":   139.31 
+},
+{
+ "name": "Calligraphers supplies (RED CURTAIN)",
+"revenue":    26.68 
+},
+{
+ "name": "Smith’s tools (BORDERLANDS)",
+"revenue":     26.1 
+},
+{
+ "name": "Cartographer’s tools (U.N.N.)",
+"revenue":   135.89 
+},
+{
+ "name": "Cartographer’s tools (U.N.N.)",
+"revenue":    26.55 
+},
+{
+ "name": "Weaver’s tools (BORDERLANDS)",
+"revenue":    53.41 
+},
+{
+ "name": "Forgery kit (RED CURTAIN)",
+"revenue":    24.45 
+},
+{
+ "name": "Thieves’ tools (U.N.N.)",
+"revenue":   124.88 
+},
+{
+ "name": "Thieves’ tools (U.N.N.)",
+"revenue":    27.97 
+},
+{
+ "name": "Alchemist’s supplies (RED CURTAIN)",
+"revenue":    56.84 
+},
+{
+ "name": "Weaver’s tools (U.N.N.)",
+"revenue":    53.01 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Pole (3m collapsable) (U.N.N.)",
+"revenue":   121.41 
+},
+{
+ "name": "Sealing wax (U.N.N.)",
+"revenue":    58.91 
+},
+{
+ "name": "Block and tackle (U.N.N.)",
+"revenue":   136.01 
+},
+{
+ "name": "Flask or tankard (Set of 24) (BORDERLANDS)",
+"revenue":    59.14 
+},
+{
+ "name": "Flask or tankard (Set of 24) (BORDERLANDS)",
+"revenue":    134.9 
+},
+{
+ "name": "Caltrops (bag of 20) (U.N.N.)",
+"revenue":    53.87 
+},
+{
+ "name": "Very Rare Crafting Components (MYTHAL)",
+"revenue":   150.29 
+},
+{
+ "name": "Mirror, steel  (U.N.N.)",
+"revenue":    33.56 
+},
+{
+ "name": "Mirror, steel  (U.N.N.)",
+"revenue":    87.84 
+},
+{
+ "name": "Quiver (BORDERLANDS)",
+"revenue":    39.03 
+},
+{
+ "name": "Quiver (BORDERLANDS)",
+"revenue":    31.93 
+},
+{
+ "name": "Abacus (BORDERLANDS)",
+"revenue":   126.15 
+},
+{
+ "name": "Healer’s kit (RED CURTAIN)",
+"revenue":   159.64 
+},
+{
+ "name": "Magnifying glass (U.N.N.)",
+"revenue":    48.76 
+},
+{
+ "name": "Magnifying glass (U.N.N.)",
+"revenue":     39.8 
+},
+{
+ "name": "Magnifying glass (U.N.N.)",
+"revenue":   143.28 
+},
+{
+ "name": "Case, crossbow bolt  (U.N.N.)",
+"revenue":    29.73 
+},
+{
+ "name": "Lamp (RED CURTAIN)",
+"revenue":    22.79 
+},
+{
+ "name": "Lamp (RED CURTAIN)",
+"revenue":    44.59 
+} 
+] 
+} 
+] 
+} 
+] 
+}
