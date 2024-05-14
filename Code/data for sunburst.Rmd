@@ -1,0 +1,158 @@
+---
+title: "data prep"
+author: "Joëlle Marotta, student number 2262252"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(skimr)
+library(dplyr)
+library(tidyr)
+library(lubridate)
+library(ggplot2)
+library(GGally)
+library(stringr)
+library(visdat)
+library(lubridate)
+library(pacman)
+```
+
+```{r, include=FALSE}
+# Set the working directory to the folder containing your CSV files (relative path)
+setwd("C:/Users/joell/Documents/Master Data Science and Statistics/data vis/DEAD/")
+customers <- read.csv("customers.csv")
+products <- read.csv("products.csv")
+regions <- read.csv("regions.csv")
+orders <- read.csv("orders.csv")
+coordinate <- read.csv("nation_region_coordinate.csv")
+```
+
+
+```{r, include=FALSE}
+## Remove spaces in column name
+customers <- customers %>% rename_with(make.names)
+orders <- orders %>% rename_with(make.names)
+products <- products %>% rename_with(make.names)
+regions <- regions %>% rename_with(make.names)
+
+## Convert date variable to corret type
+date_column <- c("OrderDate", "DeliveryDate")
+orders <- orders %>% mutate(OrderDate = as.Date(OrderDate), DeliveryDate = as.Date(DeliveryDate))
+
+orders <- orders %>% mutate(DeliveryTime = as.numeric(DeliveryDate - OrderDate))
+
+col_names <- names(regions)
+regions <- regions %>% mutate(across(all_of(col_names), as.factor))
+
+col_names <- names(customers)
+customers <- customers %>% mutate(across(all_of(col_names), as.factor))
+
+col_names <- names(products)
+products <- products %>% mutate(across(all_of(col_names), as.factor))
+
+# merge coordinate info with regions
+coordinate2 <- coordinate %>% select (-c("Region"))
+regions_coord <- merge(regions, coordinate2, by = "Nation", all.x=TRUE)
+
+
+## Merge customers and regions:
+custom_region <- merge(customers, regions_coord, by = "Territory", all.x = TRUE)
+
+## Merge orders, customers, regions:
+
+order_custom_region <- merge(orders, custom_region, by.x = "CustomerID", by.y = "Account.Code", all.x = TRUE)
+
+## long data format of orders
+order_custom_region_long <- order_custom_region %>% 
+  #mutate(Products = gsub(", b", "- b")) %>%
+  separate_rows(Products, ProductPricesInCP, sep = "; ")
+order_custom_region_long <- order_custom_region_long %>% 
+  #mutate(Products = gsub(", b", "- b")) %>%
+  separate_rows(Quantities, productsIDs, sep = ", ")
+
+##merge orders with product
+order_custom_region_long$productsIDs <- as.factor(order_custom_region_long$productsIDs)
+order_custom_region_long$Quantities <- as.factor(order_custom_region_long$Quantities)
+order_custom_region_long$ProductPricesInCP <- as.numeric(order_custom_region_long$ProductPricesInCP)
+order_custom_region_product <- merge(order_custom_region_long, products, by.x = "productsIDs", by.y = "product_code", all.x = TRUE)
+```
+
+```{r}
+data <- order_custom_region_product
+data <- data[, !names(data) %in% "Territory.y"]
+colnames(data)[which(colnames(data) == "Territory.x")] <- "Territory"
+```
+
+```{r}
+head(data, n=3)
+```
+
+```{r}
+custom_glimpse <- function(df) {
+  data.frame(
+    col_name = colnames(df),
+    col_index = 1:ncol(df),
+    col_class = sapply(df, class),
+    row.names = NULL
+  )
+}
+custom_glimpse(data)
+```
+
+```{r}
+library(jsonlite)
+```
+
+```{r}
+interesting_variables <- data %>%
+  select(Nation, Products, Type, Subtype, Quantities)
+# Filter the top 10 products for each nation by Quantity sum
+interesting_variables$Quantities <- as.numeric(as.character(interesting_variables$Quantities))
+top_products <- interesting_variables %>%
+  group_by(Nation, Products) %>%
+  summarise(Quantity_Sum = sum(Quantities)) %>%
+  top_n(10, Quantity_Sum) %>%
+  ungroup()
+```
+
+
+```{r}
+top_Subtype <- interesting_variables %>%
+  semi_join(top_products, by = c("Nation", "Products")) %>%
+  group_by(Nation, Products, Subtype) %>%
+  summarise(Quantity_Sum = sum(Quantities)) %>%
+  group_by(Nation, Subtype) %>%
+  mutate(Percentage = Quantity_Sum / sum(Quantity_Sum) * 100) %>%
+  top_n(10, Quantity_Sum) %>%
+  ungroup() %>%
+  arrange(Nation, desc(Quantity_Sum))
+```
+
+```{r}
+# Output the results
+top_Subtype_json <- toJSON(with(top_Subtype, list(
+  name = "Top Subtypes",
+  children = lapply(unique(Nation), function(nation) {
+    list(
+      name = nation,
+      children = lapply(unique(Subtype[Nation == nation]), function(subtype) {
+        list(
+          name = subtype,
+          children = lapply(unique(Products[Nation == nation & Subtype == subtype]), function(product) {
+            list(
+              name = product,
+              Quantity = Quantity_Sum[which(Nation == nation & Subtype == subtype & Products == product)]
+            )
+          })
+        )
+      })
+    )
+  })
+)), auto_unbox = TRUE, pretty = TRUE)
+
+# Save the JSON data to a file
+writeLines(top_Subtype_json, "top_subtypes.json")
+```
+
