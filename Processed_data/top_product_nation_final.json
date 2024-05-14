@@ -1,0 +1,5935 @@
+{
+  "name": "Top 10 products",
+  "children": [
+    {
+      "name": "Aglarond",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Lance (U.N.N.)",
+                  "Quantity": 459.91,
+                  "Percentage": 21.6337
+                },
+                {
+                  "name": "Lance (RED CURTAIN)",
+                  "Quantity": 401.17,
+                  "Percentage": 18.8706
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of the Claw (RED CURTAIN)",
+                  "Quantity": [321.79, 277.26],
+                  "Percentage": [15.1366, 13.042]
+                },
+                {
+                  "name": "Staff of the Woodlands (U.N.N.)",
+                  "Quantity": 174.67,
+                  "Percentage": 8.2163
+                },
+                {
+                  "name": "Staff of Striking (ARCANTIC)",
+                  "Quantity": 97.23,
+                  "Percentage": 4.5736
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Obsidian Flint Dragon Plate (MYTHAL)",
+                  "Quantity": 104.17,
+                  "Percentage": 4.9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "LIVESTOCK",
+              "children": [
+                {
+                  "name": "Pig (RED CURTAIN)",
+                  "Quantity": 102.82,
+                  "Percentage": 4.8365
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Feather Token (Feather Fall) (MYTHAL)",
+                  "Quantity": 94.81,
+                  "Percentage": 4.4598
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Manual of Bodily Health (SABLE)",
+                  "Quantity": 92.07,
+                  "Percentage": 4.3309
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alaron",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Studded leather armour (U.N.N.)",
+                  "Quantity": 617.92,
+                  "Percentage": 12.4799
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Fire (BORDERLANDS)",
+                  "Quantity": 557.36,
+                  "Percentage": 11.2568
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Battleaxe (BORDERLANDS)",
+                  "Quantity": 543.24,
+                  "Percentage": 10.9716
+                },
+                {
+                  "name": "Battleaxe (U.N.N.)",
+                  "Quantity": 504.54,
+                  "Percentage": 10.19
+                },
+                {
+                  "name": "Greatsword (BORDERLANDS)",
+                  "Quantity": 486.46,
+                  "Percentage": 9.8249
+                },
+                {
+                  "name": "Greatsword (U.N.N.)",
+                  "Quantity": 472.24,
+                  "Percentage": 9.5377
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Black Dragon Mask (SABLE)",
+                  "Quantity": 477.5,
+                  "Percentage": 9.6439
+                },
+                {
+                  "name": "Black Dragon Mask (MYTHAL)",
+                  "Quantity": 407.74,
+                  "Percentage": 8.235
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Splint mail (RED CURTAIN)",
+                  "Quantity": 444.99,
+                  "Percentage": 8.9873
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Longbow (U.N.N.)",
+                  "Quantity": 439.32,
+                  "Percentage": 8.8728
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amn",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Greatsword (U.N.N.)",
+                  "Quantity": 1321.91,
+                  "Percentage": 10.8449
+                },
+                {
+                  "name": "Battleaxe (BORDERLANDS)",
+                  "Quantity": 1299.2,
+                  "Percentage": 10.6586
+                },
+                {
+                  "name": "Greatsword (BORDERLANDS)",
+                  "Quantity": 1158.82,
+                  "Percentage": 9.5069
+                },
+                {
+                  "name": "Battleaxe (U.N.N.)",
+                  "Quantity": 1124.29,
+                  "Percentage": 9.2237
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Studded leather armour (U.N.N.)",
+                  "Quantity": 1317.79,
+                  "Percentage": 10.8111
+                },
+                {
+                  "name": "Studded leather armour (RED CURTAIN)",
+                  "Quantity": 1091.2,
+                  "Percentage": 8.9522
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Fire (BORDERLANDS)",
+                  "Quantity": 1276.92,
+                  "Percentage": 10.4758
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Black Dragon Mask (SABLE)",
+                  "Quantity": 1258.95,
+                  "Percentage": 10.3284
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Longbow (U.N.N.)",
+                  "Quantity": 1180.2,
+                  "Percentage": 9.6823
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Splint mail (RED CURTAIN)",
+                  "Quantity": 1159.92,
+                  "Percentage": 9.516
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arn Rock",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Air Elemental Essence Shard (MYTHAL)",
+                  "Quantity": 35.69,
+                  "Percentage": 13.8242
+                }
+              ]
+            },
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Gloves of Soul Catching (RED CURTAIN)",
+                  "Quantity": 23.61,
+                  "Percentage": 9.1451
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Oil of Etherealness (RED CURTAIN)",
+                  "Quantity": 23.4,
+                  "Percentage": 9.0638
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Manual of Bodily Health (SABLE)",
+                  "Quantity": 30.69,
+                  "Percentage": 11.8875
+                },
+                {
+                  "name": "Spell Scroll Level 1 (RED CURTAIN)",
+                  "Quantity": 24.62,
+                  "Percentage": 9.5364
+                }
+              ]
+            },
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Oil (flask) (BORDERLANDS)",
+                  "Quantity": 23.04,
+                  "Percentage": 8.9244
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "WIND INSTRUMENT",
+              "children": [
+                {
+                  "name": "Pipes of the Sewers (SABLE)",
+                  "Quantity": 26.04,
+                  "Percentage": 10.0864
+                }
+              ]
+            },
+            {
+              "name": "BRASS INSTRUMENT",
+              "children": [
+                {
+                  "name": "Shawm (RED CURTAIN)",
+                  "Quantity": 23.17,
+                  "Percentage": 8.9747
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SUMMONING DEVICE",
+          "children": [
+            {
+              "name": "SUMMONING DEVICE",
+              "children": [
+                {
+                  "name": "Bowl of Commanding Water Elementals (RED CURTAIN)",
+                  "Quantity": 25.23,
+                  "Percentage": 9.7726
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "GOGGLES",
+              "children": [
+                {
+                  "name": "Knaves Eyepatch (MYTHAL)",
+                  "Quantity": 22.68,
+                  "Percentage": 8.7849
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baldur's Gate",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Chain shirt (U.N.N.)",
+                  "Quantity": 631.2,
+                  "Percentage": 12.0007
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Unbreakable Arrow (SABLE)",
+                  "Quantity": 585.37,
+                  "Percentage": 11.1293
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Thunder Resistance (BORDERLANDS)",
+                  "Quantity": 579.92,
+                  "Percentage": 11.0257
+                },
+                {
+                  "name": "Armour of Thunder Resistance (MYTHAL)",
+                  "Quantity": 482.08,
+                  "Percentage": 9.1655
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Trident (RED CURTAIN)",
+                  "Quantity": 558.45,
+                  "Percentage": 10.6175
+                },
+                {
+                  "name": "Hammer of Thunderbolts (MYTHAL)",
+                  "Quantity": 533.28,
+                  "Percentage": 10.139
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Staff of Adornment (SABLE)",
+                  "Quantity": 529.15,
+                  "Percentage": 10.0604
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Hide of the Feral Guardian (RED CURTAIN)",
+                  "Quantity": 507.98,
+                  "Percentage": 9.6579
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Dwarven Plate (SABLE)",
+                  "Quantity": 474.1,
+                  "Percentage": 9.0138
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Striking (RED CURTAIN)",
+                  "Quantity": 378.18,
+                  "Percentage": 7.1901
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blingdenstone",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Half plate (RED CURTAIN)",
+                  "Quantity": 417.82,
+                  "Percentage": 16.7268
+                },
+                {
+                  "name": "Half plate (U.N.N.)",
+                  "Quantity": 158.28,
+                  "Percentage": 6.3365
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Tentacle Rod (MYTHAL)",
+                  "Quantity": 403.12,
+                  "Percentage": 16.1383
+                },
+                {
+                  "name": "Tentacle Rod (RED CURTAIN)",
+                  "Quantity": 303.53,
+                  "Percentage": 12.1514
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Vulnerability (MYTHAL)",
+                  "Quantity": 326.81,
+                  "Percentage": 13.0833
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Spear (BORDERLANDS)",
+                  "Quantity": 291.16,
+                  "Percentage": 11.6561
+                },
+                {
+                  "name": "Spear (U.N.N.)",
+                  "Quantity": 220.37,
+                  "Percentage": 8.8222
+                },
+                {
+                  "name": "Spear (RED CURTAIN)",
+                  "Quantity": 155.5,
+                  "Percentage": 6.2252
+                },
+                {
+                  "name": "Sun Blade (MYTHAL)",
+                  "Quantity": 136.12,
+                  "Percentage": 5.4494
+                },
+                {
+                  "name": "Sun Blade (SABLE)",
+                  "Quantity": 85.2,
+                  "Percentage": 3.4109
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calimshan",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Living Gloves (SABLE)",
+                  "Quantity": 446.91,
+                  "Percentage": 11.1351
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Hellsteel Martial Melee Weapon (RED CURTAIN)",
+                  "Quantity": 442.33,
+                  "Percentage": 11.021
+                },
+                {
+                  "name": "Maul (RED CURTAIN)",
+                  "Quantity": 424.44,
+                  "Percentage": 10.5753
+                },
+                {
+                  "name": "Pike (RED CURTAIN)",
+                  "Quantity": 374.93,
+                  "Percentage": 9.3417
+                },
+                {
+                  "name": "Flail (RED CURTAIN)",
+                  "Quantity": 368.01,
+                  "Percentage": 9.1693
+                },
+                {
+                  "name": "Wave (U.N.N.)",
+                  "Quantity": 353.43,
+                  "Percentage": 8.806
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Striking (RED CURTAIN)",
+                  "Quantity": 422.73,
+                  "Percentage": 10.5326
+                },
+                {
+                  "name": "Staff of Striking (ARCANTIC)",
+                  "Quantity": 406.75,
+                  "Percentage": 10.1345
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Padded armour (RED CURTAIN)",
+                  "Quantity": 391.52,
+                  "Percentage": 9.755
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Frost Brand (MYTHAL)",
+                  "Quantity": 382.47,
+                  "Percentage": 9.5295
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chessentea",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Fire (BORDERLANDS)",
+                  "Quantity": 912.22,
+                  "Percentage": 11.0449
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Crossbow bolts (100) (RED CURTAIN)",
+                  "Quantity": 904.3,
+                  "Percentage": 10.949
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield of the Hidden Lord (SABLE)",
+                  "Quantity": 879.8,
+                  "Percentage": 10.6524
+                },
+                {
+                  "name": "Shield (U.N.N.)",
+                  "Quantity": 769.73,
+                  "Percentage": 9.3197
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Dart (10) (U.N.N.)",
+                  "Quantity": 874.92,
+                  "Percentage": 10.5933
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Dagger (BORDERLANDS)",
+                  "Quantity": 871.2,
+                  "Percentage": 10.5482
+                },
+                {
+                  "name": "Quarterstaff (BORDERLANDS)",
+                  "Quantity": 810.78,
+                  "Percentage": 9.8167
+                },
+                {
+                  "name": "Light hammer (RED CURTAIN)",
+                  "Quantity": 786.77,
+                  "Percentage": 9.526
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Crossbow, heavy  (U.N.N.)",
+                  "Quantity": 729.58,
+                  "Percentage": 8.8335
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Morningstar (RED CURTAIN)",
+                  "Quantity": 719.9,
+                  "Percentage": 8.7163
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chondath",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "ROD",
+              "children": [
+                {
+                  "name": "Korolnor Scepter (MYTHAL)",
+                  "Quantity": 1320.35,
+                  "Percentage": 16.0473
+                },
+                {
+                  "name": "Blast Scepter (BORDERLANDS)",
+                  "Quantity": 1204.37,
+                  "Percentage": 14.6377
+                },
+                {
+                  "name": "Blast Scepter (RED CURTAIN)",
+                  "Quantity": 674.94,
+                  "Percentage": 8.2031
+                },
+                {
+                  "name": "Korolnor Scepter (U.N.N.)",
+                  "Quantity": 653.87,
+                  "Percentage": 7.947
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Pike (RED CURTAIN)",
+                  "Quantity": 1091.58,
+                  "Percentage": 13.2668
+                },
+                {
+                  "name": "Pike (U.N.N.)",
+                  "Quantity": 753.19,
+                  "Percentage": 9.1541
+                },
+                {
+                  "name": "Giant Slayer (BORDERLANDS)",
+                  "Quantity": 695.18,
+                  "Percentage": 8.4491
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Seeker Dart (SABLE)",
+                  "Quantity": 864.76,
+                  "Percentage": 10.5101
+                },
+                {
+                  "name": "Seeker Dart (MYTHAL)",
+                  "Quantity": 492.64,
+                  "Percentage": 5.9874
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Net (BORDERLANDS)",
+                  "Quantity": 477,
+                  "Percentage": 5.7974
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chult",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "WEAPON OTHER",
+              "children": [
+                {
+                  "name": "Weapon +1 (RED CURTAIN)",
+                  "Quantity": 73.54,
+                  "Percentage": 12.819
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Shatterspike (ARCANTIC)",
+                  "Quantity": 61.94,
+                  "Percentage": 10.797
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Blood Spear (SABLE)",
+                  "Quantity": 60.46,
+                  "Percentage": 10.539
+                },
+                {
+                  "name": "Trident of Fish Command (ARCANTIC)",
+                  "Quantity": 59.25,
+                  "Percentage": 10.3281
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "STRING INSTRUMENT",
+              "children": [
+                {
+                  "name": "Lyre (BORDERLANDS)",
+                  "Quantity": 56.4,
+                  "Percentage": 9.8313
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "RING",
+              "children": [
+                {
+                  "name": "Ring of the Ram (ARCANTIC)",
+                  "Quantity": 53.91,
+                  "Percentage": 9.3972
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Caltrops (bag of 20) (U.N.N.)",
+                  "Quantity": 53.87,
+                  "Percentage": 9.3903
+                }
+              ]
+            },
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Weaver’s tools (U.N.N.)",
+                  "Quantity": 53.01,
+                  "Percentage": 9.2403
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Helm of Telepathy (BORDERLANDS)",
+                  "Quantity": 50.95,
+                  "Percentage": 8.8813
+                }
+              ]
+            },
+            {
+              "name": "CONTAINER",
+              "children": [
+                {
+                  "name": "Bag of Holding (RED CURTAIN)",
+                  "Quantity": 50.35,
+                  "Percentage": 8.7767
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cormanthar",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Hellsteel Martial Ranged Weapon (RED CURTAIN)",
+                  "Quantity": 172.35,
+                  "Percentage": 12.5053
+                },
+                {
+                  "name": "Hellsteel Martial Ranged Weapon (U.N.N.)",
+                  "Quantity": 124.03,
+                  "Percentage": 8.9993
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Black Dragon Mask (SABLE)",
+                  "Quantity": 155.06,
+                  "Percentage": 11.2507
+                },
+                {
+                  "name": "Black Dragon Mask (MYTHAL)",
+                  "Quantity": 114.59,
+                  "Percentage": 8.3143
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Blowgun needles (50) (RED CURTAIN)",
+                  "Quantity": 151,
+                  "Percentage": 10.9562
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield of the Uven Rune (SABLE)",
+                  "Quantity": 150.3,
+                  "Percentage": 10.9054
+                },
+                {
+                  "name": "Shield of Far Sight (BORDERLANDS)",
+                  "Quantity": 114.53,
+                  "Percentage": 8.31
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Flame Tongue (BORDERLANDS)",
+                  "Quantity": 146.55,
+                  "Percentage": 10.6333
+                },
+                {
+                  "name": "Mace (U.N.N.)",
+                  "Quantity": 130.27,
+                  "Percentage": 9.452
+                },
+                {
+                  "name": "Flame Tongue (MYTHAL)",
+                  "Quantity": 119.54,
+                  "Percentage": 8.6735
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cormyr",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Ironfang (SABLE)",
+                  "Quantity": 2532.78,
+                  "Percentage": 20.6133
+                },
+                {
+                  "name": "Trident (RED CURTAIN)",
+                  "Quantity": 931.37,
+                  "Percentage": 7.58
+                },
+                {
+                  "name": "Hammer of Thunderbolts (MYTHAL)",
+                  "Quantity": 790.24,
+                  "Percentage": 6.4314
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Quarterstaff (BORDERLANDS)",
+                  "Quantity": 2379.32,
+                  "Percentage": 19.3643
+                },
+                {
+                  "name": "Quarterstaff (RED CURTAIN)",
+                  "Quantity": 1864.86,
+                  "Percentage": 15.1773
+                },
+                {
+                  "name": "Dagger of Venom (ARCANTIC)",
+                  "Quantity": 615.16,
+                  "Percentage": 5.0065
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Green Dragon Mask (U.N.N.)",
+                  "Quantity": 1119.93,
+                  "Percentage": 9.1147
+                },
+                {
+                  "name": "Green Dragon Mask (SABLE)",
+                  "Quantity": 720.43,
+                  "Percentage": 5.8633
+                }
+              ]
+            },
+            {
+              "name": "ROD",
+              "children": [
+                {
+                  "name": "Korolnor Scepter (MYTHAL)",
+                  "Quantity": 677.54,
+                  "Percentage": 5.5142
+                },
+                {
+                  "name": "Blast Scepter (BORDERLANDS)",
+                  "Quantity": 655.5,
+                  "Percentage": 5.3349
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Damara",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "ROD",
+              "children": [
+                {
+                  "name": "Korolnor Scepter (MYTHAL)",
+                  "Quantity": 1117.98,
+                  "Percentage": 21.1996
+                },
+                {
+                  "name": "Blast Scepter (BORDERLANDS)",
+                  "Quantity": 929.94,
+                  "Percentage": 17.6339
+                },
+                {
+                  "name": "Korolnor Scepter (U.N.N.)",
+                  "Quantity": 507.24,
+                  "Percentage": 9.6185
+                },
+                {
+                  "name": "Blast Scepter (RED CURTAIN)",
+                  "Quantity": 504.91,
+                  "Percentage": 9.5743
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Javelin (10) (U.N.N.)",
+                  "Quantity": 738.09,
+                  "Percentage": 13.996
+                },
+                {
+                  "name": "Javelin (10) (BORDERLANDS)",
+                  "Quantity": 369.33,
+                  "Percentage": 7.0034
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Hewards Hireling Armour (SABLE)",
+                  "Quantity": 365.77,
+                  "Percentage": 6.9359
+                },
+                {
+                  "name": "Hunters Coat (RED CURTAIN)",
+                  "Quantity": 246.88,
+                  "Percentage": 4.6814
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Halberd (U.N.N.)",
+                  "Quantity": 255.06,
+                  "Percentage": 4.8366
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Ring mail (BORDERLANDS)",
+                  "Quantity": 238.39,
+                  "Percentage": 4.5205
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dambrath",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Tentacle Rod (MYTHAL)",
+                  "Quantity": 703.31,
+                  "Percentage": 17.7842
+                },
+                {
+                  "name": "Tentacle Rod (RED CURTAIN)",
+                  "Quantity": 435.61,
+                  "Percentage": 11.015
+                }
+              ]
+            },
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Half plate (RED CURTAIN)",
+                  "Quantity": 648.28,
+                  "Percentage": 16.3927
+                },
+                {
+                  "name": "Half plate (U.N.N.)",
+                  "Quantity": 257.4,
+                  "Percentage": 6.5087
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Vulnerability (MYTHAL)",
+                  "Quantity": 506.23,
+                  "Percentage": 12.8008
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Spear (BORDERLANDS)",
+                  "Quantity": 448.9,
+                  "Percentage": 11.3511
+                },
+                {
+                  "name": "Spear (U.N.N.)",
+                  "Quantity": 313.79,
+                  "Percentage": 7.9346
+                },
+                {
+                  "name": "Spear (RED CURTAIN)",
+                  "Quantity": 243.91,
+                  "Percentage": 6.1676
+                },
+                {
+                  "name": "Sun Blade (MYTHAL)",
+                  "Quantity": 243.02,
+                  "Percentage": 6.1451
+                },
+                {
+                  "name": "Sword of the Paruns (U.N.N.)",
+                  "Quantity": 154.24,
+                  "Percentage": 3.9002
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Durpar",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Morningstar (RED CURTAIN)",
+                  "Quantity": 900.1,
+                  "Percentage": 11.1332
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Fire (BORDERLANDS)",
+                  "Quantity": 892.56,
+                  "Percentage": 11.04
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Crossbow bolts (100) (RED CURTAIN)",
+                  "Quantity": 883.16,
+                  "Percentage": 10.9237
+                },
+                {
+                  "name": "Crossbow bolts (100) (BORDERLANDS)",
+                  "Quantity": 734.89,
+                  "Percentage": 9.0898
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Dart (10) (U.N.N.)",
+                  "Quantity": 851.14,
+                  "Percentage": 10.5277
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield of the Hidden Lord (SABLE)",
+                  "Quantity": 839.08,
+                  "Percentage": 10.3785
+                },
+                {
+                  "name": "Shield (RED CURTAIN)",
+                  "Quantity": 716.86,
+                  "Percentage": 8.8668
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Crossbow, heavy  (U.N.N.)",
+                  "Quantity": 770.43,
+                  "Percentage": 9.5294
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Light hammer (RED CURTAIN)",
+                  "Quantity": 748.37,
+                  "Percentage": 9.2565
+                },
+                {
+                  "name": "Quarterstaff (BORDERLANDS)",
+                  "Quantity": 748.21,
+                  "Percentage": 9.2545
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dwarfholds",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Viscid Globs (ARCANTIC)",
+                  "Quantity": [948.88, 630.44],
+                  "Percentage": [14.1507, 9.4018]
+                },
+                {
+                  "name": "Wand of the War Mage +3 (SABLE)",
+                  "Quantity": 576.3,
+                  "Percentage": 8.5944
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Dragonstaff of Ahghairon (SABLE)",
+                  "Quantity": 785.18,
+                  "Percentage": 11.7094
+                },
+                {
+                  "name": "Dragonstaff of Ahghairon (MYTHAL)",
+                  "Quantity": 664.78,
+                  "Percentage": 9.9139
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Adamantine Armour (RED CURTAIN)",
+                  "Quantity": 722.37,
+                  "Percentage": 10.7727
+                },
+                {
+                  "name": "Splint mail (RED CURTAIN)",
+                  "Quantity": 552.97,
+                  "Percentage": 8.2465
+                },
+                {
+                  "name": "Efreeti Chain (MYTHAL)",
+                  "Quantity": 551.38,
+                  "Percentage": 8.2227
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Scimitar (BORDERLANDS)",
+                  "Quantity": 678.71,
+                  "Percentage": 10.1216
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Dwarven Thrower (SABLE)",
+                  "Quantity": 594.54,
+                  "Percentage": 8.8664
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Estagund",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Striking (RED CURTAIN)",
+                  "Quantity": 610.83,
+                  "Percentage": 12.1038
+                },
+                {
+                  "name": "Staff of Striking (ARCANTIC)",
+                  "Quantity": 526.28,
+                  "Percentage": 10.4284
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Padded armour (RED CURTAIN)",
+                  "Quantity": 544.33,
+                  "Percentage": 10.7861
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Maul (RED CURTAIN)",
+                  "Quantity": 540.28,
+                  "Percentage": 10.7058
+                },
+                {
+                  "name": "Hellsteel Martial Melee Weapon (RED CURTAIN)",
+                  "Quantity": 526.88,
+                  "Percentage": 10.4403
+                },
+                {
+                  "name": "Pike (RED CURTAIN)",
+                  "Quantity": 490.42,
+                  "Percentage": 9.7178
+                },
+                {
+                  "name": "Hellsteel Martial Melee Weapon (U.N.N.)",
+                  "Quantity": 423,
+                  "Percentage": 8.3819
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Frost Brand (MYTHAL)",
+                  "Quantity": 475.84,
+                  "Percentage": 9.4289
+                }
+              ]
+            },
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Living Gloves (SABLE)",
+                  "Quantity": 475.83,
+                  "Percentage": 9.4287
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Plate Armour of Etherealness (RED CURTAIN)",
+                  "Quantity": 432.91,
+                  "Percentage": 8.5783
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gracklstugh",
+      "children": [
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Scroll of Protection (Beasts) (ARCANTIC)",
+                  "Quantity": 34.4,
+                  "Percentage": 10.894
+                }
+              ]
+            },
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Potion of Giant Size (ARCANTIC)",
+                  "Quantity": 31.32,
+                  "Percentage": 9.9186
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "ROD",
+              "children": [
+                {
+                  "name": "Korolnor Scepter (MYTHAL)",
+                  "Quantity": 33.73,
+                  "Percentage": 10.6818
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Arrows +3 (SABLE)",
+                  "Quantity": 33.31,
+                  "Percentage": 10.5488
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Scowls (ARCANTIC)",
+                  "Quantity": 33.44,
+                  "Percentage": 10.59
+                }
+              ]
+            },
+            {
+              "name": "IOUN STONE",
+              "children": [
+                {
+                  "name": "Ioun Stone - Mastery (MYTHAL)",
+                  "Quantity": 30.69,
+                  "Percentage": 9.7191
+                }
+              ]
+            },
+            {
+              "name": "CLOAK",
+              "children": [
+                {
+                  "name": "Robe of Stars (RED CURTAIN)",
+                  "Quantity": 29.7,
+                  "Percentage": 9.4056
+                }
+              ]
+            },
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Gauntlets of Ogre Power (BORDERLANDS)",
+                  "Quantity": 29.31,
+                  "Percentage": 9.2821
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "War Steeder (U.N.N.)",
+                  "Quantity": 30.35,
+                  "Percentage": 9.6114
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "AMULET / NECKLACE",
+              "children": [
+                {
+                  "name": "Necklace of Fireballs (RED CURTAIN)",
+                  "Quantity": 29.52,
+                  "Percentage": 9.3486
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Great Dale",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Quarterstaff (BORDERLANDS)",
+                  "Quantity": 1678.04,
+                  "Percentage": 26.5411
+                },
+                {
+                  "name": "Quarterstaff (RED CURTAIN)",
+                  "Quantity": 1299.38,
+                  "Percentage": 20.552
+                },
+                {
+                  "name": "Quarterstaff (U.N.N.)",
+                  "Quantity": 182.61,
+                  "Percentage": 2.8883
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Ironfang (SABLE)",
+                  "Quantity": 1628.59,
+                  "Percentage": 25.759
+                },
+                {
+                  "name": "Ironfang (RED CURTAIN)",
+                  "Quantity": 250.71,
+                  "Percentage": 3.9654
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Green Dragon Mask (U.N.N.)",
+                  "Quantity": 678.8,
+                  "Percentage": 10.7364
+                },
+                {
+                  "name": "Green Dragon Mask (SABLE)",
+                  "Quantity": 485.21,
+                  "Percentage": 7.6744
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "AMULET / NECKLACE",
+              "children": [
+                {
+                  "name": "Amulet of Protection from Turning (U.N.N.)",
+                  "Quantity": 40.85,
+                  "Percentage": 0.6461
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Libram of Souls & Flesh (U.N.N.)",
+                  "Quantity": 39.12,
+                  "Percentage": 0.6188
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Vial (Crate) (U.N.N.)",
+                  "Quantity": 39.1,
+                  "Percentage": 0.6184
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gundarlund",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Charming (RED CURTAIN)",
+                  "Quantity": 37.84,
+                  "Percentage": 13.3418
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Tinderstrike (MYTHAL)",
+                  "Quantity": 29.79,
+                  "Percentage": 10.5035
+                },
+                {
+                  "name": "Shatterspike (ARCANTIC)",
+                  "Quantity": 24.98,
+                  "Percentage": 8.8076
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Splint mail (RED CURTAIN)",
+                  "Quantity": 29.45,
+                  "Percentage": 10.3836
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Wave (U.N.N.)",
+                  "Quantity": 27.54,
+                  "Percentage": 9.7102
+                },
+                {
+                  "name": "Battleaxe (U.N.N.)",
+                  "Quantity": 25,
+                  "Percentage": 8.8146
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "RING",
+              "children": [
+                {
+                  "name": "Ring of the Ram (ARCANTIC)",
+                  "Quantity": 28.52,
+                  "Percentage": 10.0557
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Hat of Vermin (MYTHAL)",
+                  "Quantity": 27.97,
+                  "Percentage": 9.8618
+                }
+              ]
+            },
+            {
+              "name": "CLOAK",
+              "children": [
+                {
+                  "name": "Cloak of Invisibility (MYTHAL)",
+                  "Quantity": 27.13,
+                  "Percentage": 9.5656
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SUMMONING DEVICE",
+          "children": [
+            {
+              "name": "SUMMONING DEVICE",
+              "children": [
+                {
+                  "name": "Marble Elephant of Wondrous Power (BORDERLANDS)",
+                  "Quantity": 25.4,
+                  "Percentage": 8.9556
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Halruaa",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Wave (U.N.N.)",
+                  "Quantity": 143.21,
+                  "Percentage": 11.5001
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Hellsteel Martial Ranged Weapon (RED CURTAIN)",
+                  "Quantity": 125,
+                  "Percentage": 10.0378
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Tinderstrike (MYTHAL)",
+                  "Quantity": 118.17,
+                  "Percentage": 9.4894
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Gloves of Missile Snaring (SABLE)",
+                  "Quantity": 132.46,
+                  "Percentage": 10.6369
+                }
+              ]
+            },
+            {
+              "name": "BELT / GIRDLE",
+              "children": [
+                {
+                  "name": "Belt of Fire Giant Strength (U.N.N.)",
+                  "Quantity": 122.3,
+                  "Percentage": 9.821
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Feather Token (Whip) (U.N.N.)",
+                  "Quantity": 122.24,
+                  "Percentage": 9.8162
+                }
+              ]
+            },
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Xorian Wenge Focus (RED CURTAIN)",
+                  "Quantity": 118.94,
+                  "Percentage": 9.5512
+                },
+                {
+                  "name": "Orb (BORDERLANDS)",
+                  "Quantity": 116.68,
+                  "Percentage": 9.3697
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Thieves’ tools (U.N.N.)",
+                  "Quantity": 124.88,
+                  "Percentage": 10.0282
+                }
+              ]
+            },
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Pole (3m collapsable) (U.N.N.)",
+                  "Quantity": 121.41,
+                  "Percentage": 9.7495
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Icewind Dale",
+      "children": [
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Drake (RED CURTAIN)",
+                  "Quantity": 52.5,
+                  "Percentage": 11.7392
+                },
+                {
+                  "name": "Giant Riding Lizard (U.N.N.)",
+                  "Quantity": 41.57,
+                  "Percentage": 9.2952
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SUMMONING DEVICE",
+          "children": [
+            {
+              "name": "SUMMONING DEVICE",
+              "children": [
+                {
+                  "name": "Bowl of Commanding Water Elementals (BORDERLANDS)",
+                  "Quantity": 51.43,
+                  "Percentage": 11.4999
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Ring mail (BORDERLANDS)",
+                  "Quantity": 48.25,
+                  "Percentage": 10.7889
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Loadstone (U.N.N.)",
+                  "Quantity": 47.32,
+                  "Percentage": 10.5809
+                },
+                {
+                  "name": "Kyrzins Ooze (SABLE)",
+                  "Quantity": 39.56,
+                  "Percentage": 8.8458
+                }
+              ]
+            },
+            {
+              "name": "BOOTS",
+              "children": [
+                {
+                  "name": "Boots of Levitation (SABLE)",
+                  "Quantity": 44.07,
+                  "Percentage": 9.8542
+                }
+              ]
+            },
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Gloves of Missile Snaring (SABLE)",
+                  "Quantity": 39.38,
+                  "Percentage": 8.8055
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Spell Scroll Level 1 (RED CURTAIN)",
+                  "Quantity": 43.34,
+                  "Percentage": 9.691
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Magnifying glass (U.N.N.)",
+                  "Quantity": 39.8,
+                  "Percentage": 8.8994
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Impiltur",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Lance (U.N.N.)",
+                  "Quantity": 739.93,
+                  "Percentage": 11.0439
+                },
+                {
+                  "name": "Greatsword (BORDERLANDS)",
+                  "Quantity": 711.9,
+                  "Percentage": 10.6255
+                },
+                {
+                  "name": "Shortsword (RED CURTAIN)",
+                  "Quantity": 699.84,
+                  "Percentage": 10.4455
+                },
+                {
+                  "name": "Greatsword (U.N.N.)",
+                  "Quantity": 679.56,
+                  "Percentage": 10.1428
+                },
+                {
+                  "name": "Lance (RED CURTAIN)",
+                  "Quantity": 622.47,
+                  "Percentage": 9.2907
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Arrows +3 (SABLE)",
+                  "Quantity": 717.36,
+                  "Percentage": 10.707
+                },
+                {
+                  "name": "Sling bullets (100) (U.N.N.)",
+                  "Quantity": 690.55,
+                  "Percentage": 10.3069
+                },
+                {
+                  "name": "Arrows +3 (BORDERLANDS)",
+                  "Quantity": 551.21,
+                  "Percentage": 8.2271
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Sling (U.N.N.)",
+                  "Quantity": 644.41,
+                  "Percentage": 9.6182
+                }
+              ]
+            },
+            {
+              "name": "WEAPON OTHER",
+              "children": [
+                {
+                  "name": "Weapon +1 (RED CURTAIN)",
+                  "Quantity": 642.67,
+                  "Percentage": 9.5922
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kara-Tur",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Magic Missiles (SABLE)",
+                  "Quantity": 93.53,
+                  "Percentage": 14.5375
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Oathbow (BORDERLANDS)",
+                  "Quantity": 86.77,
+                  "Percentage": 13.4868
+                },
+                {
+                  "name": "Composite Longbow (RED CURTAIN)",
+                  "Quantity": 60.58,
+                  "Percentage": 9.416
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Cold Resistance (BORDERLANDS)",
+                  "Quantity": 62.02,
+                  "Percentage": 9.6399
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Shatterspike (ARCANTIC)",
+                  "Quantity": 59.44,
+                  "Percentage": 9.2389
+                },
+                {
+                  "name": "Veterans Cane (SABLE)",
+                  "Quantity": 52.35,
+                  "Percentage": 8.1368
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Hammer of Thunderbolts (U.N.N.)",
+                  "Quantity": 55.59,
+                  "Percentage": 8.6404
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "IOUN STONE",
+              "children": [
+                {
+                  "name": "Ioun Stone - Vitality (SABLE)",
+                  "Quantity": 61.51,
+                  "Percentage": 9.5606
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Sealing wax (U.N.N.)",
+                  "Quantity": 58.91,
+                  "Percentage": 9.1565
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Case, map or scroll  (U.N.N.)",
+                  "Quantity": 52.67,
+                  "Percentage": 8.1866
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Korinn Archipelego",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "BELT / GIRDLE",
+              "children": [
+                {
+                  "name": "Belt of Dwarvenkind (RED CURTAIN)",
+                  "Quantity": 112.52,
+                  "Percentage": 12.1691
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Candle of Invocation (SABLE)",
+                  "Quantity": 101.69,
+                  "Percentage": 10.9978
+                }
+              ]
+            },
+            {
+              "name": "CONTAINER",
+              "children": [
+                {
+                  "name": "Bag of Holding (BORDERLANDS)",
+                  "Quantity": 94.76,
+                  "Percentage": 10.2483
+                }
+              ]
+            },
+            {
+              "name": "ROD",
+              "children": [
+                {
+                  "name": "Rod of the Pact Keeper +1 (BORDERLANDS)",
+                  "Quantity": 84.58,
+                  "Percentage": 9.1473
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Revenant Double-Bladed Scimitar (SABLE)",
+                  "Quantity": 99.22,
+                  "Percentage": 10.7307
+                }
+              ]
+            },
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Paralysis (RED CURTAIN)",
+                  "Quantity": 86.68,
+                  "Percentage": 9.3745
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Necrotic Resistance (MYTHAL)",
+                  "Quantity": 84.28,
+                  "Percentage": 9.1149
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield of the Hidden Lord (SABLE)",
+                  "Quantity": 82.42,
+                  "Percentage": 8.9137
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Tome of Clear Thought (U.N.N.)",
+                  "Quantity": 96.04,
+                  "Percentage": 10.3867
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "STRING INSTRUMENT",
+              "children": [
+                {
+                  "name": "Cli lyre (SABLE)",
+                  "Quantity": 82.45,
+                  "Percentage": 8.917
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lantan",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "BOOTS",
+              "children": [
+                {
+                  "name": "Boots of Elvenkind (MYTHAL)",
+                  "Quantity": 50.79,
+                  "Percentage": 11.1749
+                }
+              ]
+            },
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Crystal (U.N.N.)",
+                  "Quantity": 45.47,
+                  "Percentage": 10.0044
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Alchemist’s fire (flask) (RED CURTAIN)",
+                  "Quantity": 49.54,
+                  "Percentage": 10.8999
+                },
+                {
+                  "name": "Potion of Superior Healing (SABLE)",
+                  "Quantity": 44.56,
+                  "Percentage": 9.8042
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Magnifying glass (U.N.N.)",
+                  "Quantity": 48.76,
+                  "Percentage": 10.7283
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Cold Resistance (SABLE)",
+                  "Quantity": 45.73,
+                  "Percentage": 10.0616
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Whip (U.N.N.)",
+                  "Quantity": 45.21,
+                  "Percentage": 9.9472
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Swarming Insects (SABLE)",
+                  "Quantity": 41.58,
+                  "Percentage": 9.1485
+                }
+              ]
+            },
+            {
+              "name": "WEAPON OTHER",
+              "children": [
+                {
+                  "name": "Weapon +3 (SABLE)",
+                  "Quantity": 41.36,
+                  "Percentage": 9.1001
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SUMMONING DEVICE",
+          "children": [
+            {
+              "name": "SUMMONING DEVICE",
+              "children": [
+                {
+                  "name": "Bronze Horn of Valhalla (SABLE)",
+                  "Quantity": 41.5,
+                  "Percentage": 9.1309
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lapaliiya & Thindol",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Arrows +3 (SABLE)",
+                  "Quantity": 1223.78,
+                  "Percentage": 12.1191
+                },
+                {
+                  "name": "Sling bullets (100) (U.N.N.)",
+                  "Quantity": 949.72,
+                  "Percentage": 9.4051
+                },
+                {
+                  "name": "Arrows +3 (BORDERLANDS)",
+                  "Quantity": 838.01,
+                  "Percentage": 8.2988
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Shortsword (RED CURTAIN)",
+                  "Quantity": 1122.94,
+                  "Percentage": 11.1205
+                },
+                {
+                  "name": "Greatsword (U.N.N.)",
+                  "Quantity": 1102.18,
+                  "Percentage": 10.9149
+                },
+                {
+                  "name": "Lance (U.N.N.)",
+                  "Quantity": 1087.5,
+                  "Percentage": 10.7695
+                },
+                {
+                  "name": "Greatsword (BORDERLANDS)",
+                  "Quantity": 948.41,
+                  "Percentage": 9.3921
+                },
+                {
+                  "name": "Lance (RED CURTAIN)",
+                  "Quantity": 905.56,
+                  "Percentage": 8.9678
+                }
+              ]
+            },
+            {
+              "name": "WEAPON OTHER",
+              "children": [
+                {
+                  "name": "Weapon +1 (RED CURTAIN)",
+                  "Quantity": 1069.34,
+                  "Percentage": 10.5897
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Sling (U.N.N.)",
+                  "Quantity": 850.51,
+                  "Percentage": 8.4226
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Luiren",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Oathbow (BORDERLANDS)",
+                  "Quantity": 326.37,
+                  "Percentage": 12.412
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Wave (U.N.N.)",
+                  "Quantity": [319.46, 165.76],
+                  "Percentage": [12.1492, 6.3039]
+                },
+                {
+                  "name": "Morningstar (RED CURTAIN)",
+                  "Quantity": 266.34,
+                  "Percentage": 10.129
+                },
+                {
+                  "name": "Morningstar (U.N.N.)",
+                  "Quantity": 202.1,
+                  "Percentage": 7.6859
+                },
+                {
+                  "name": "Morningstar (BORDERLANDS)",
+                  "Quantity": 168.34,
+                  "Percentage": 6.402
+                }
+              ]
+            },
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Paralysis (RED CURTAIN)",
+                  "Quantity": 313.23,
+                  "Percentage": 11.9122
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Living Heavy Armour (MYTHAL)",
+                  "Quantity": 298.61,
+                  "Percentage": 11.3562
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Striking (RED CURTAIN)",
+                  "Quantity": 290.07,
+                  "Percentage": 11.0315
+                },
+                {
+                  "name": "Staff of Striking (ARCANTIC)",
+                  "Quantity": 279.2,
+                  "Percentage": 10.6181
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Luskan",
+      "children": [
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Riding Horse (BORDERLANDS)",
+                  "Quantity": 89.35,
+                  "Percentage": 11.4628
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Mirror, steel  (U.N.N.)",
+                  "Quantity": 87.84,
+                  "Percentage": 11.2691
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Magic Missiles (SABLE)",
+                  "Quantity": 85.57,
+                  "Percentage": 10.9778
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Warhammer (BORDERLANDS)",
+                  "Quantity": 81.14,
+                  "Percentage": 10.4095
+                },
+                {
+                  "name": "Nine Lives Stealer (SABLE)",
+                  "Quantity": 79.6,
+                  "Percentage": 10.2119
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Obsidian Flint Dragon Plate (MYTHAL)",
+                  "Quantity": 79.55,
+                  "Percentage": 10.2055
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "CLOTHING",
+              "children": [
+                {
+                  "name": "Winter Jacket (U.N.N.)",
+                  "Quantity": 70.55,
+                  "Percentage": 9.0509
+                }
+              ]
+            },
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Fernian Ash Focus (BORDERLANDS)",
+                  "Quantity": 68.47,
+                  "Percentage": 8.7841
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Spell Gem (Star Ruby) (MYTHAL)",
+                  "Quantity": 68.82,
+                  "Percentage": 8.829
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "RING",
+              "children": [
+                {
+                  "name": "Ring of Animal Influence (SABLE)",
+                  "Quantity": 68.59,
+                  "Percentage": 8.7995
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mantol Dereith",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Gavel of the Venn Rune (SABLE)",
+                  "Quantity": 28.63,
+                  "Percentage": 18.1054
+                },
+                {
+                  "name": "Charm of Plant Command (ARCANTIC)",
+                  "Quantity": 12.98,
+                  "Percentage": 8.2084
+                }
+              ]
+            },
+            {
+              "name": "IOUN STONE",
+              "children": [
+                {
+                  "name": "Ioun Stone - Regeneration (SABLE)",
+                  "Quantity": 14.8,
+                  "Percentage": 9.3594
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Scroll of Protection (Undead) (SABLE)",
+                  "Quantity": 16.56,
+                  "Percentage": 10.4724
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SUMMONING DEVICE",
+          "children": [
+            {
+              "name": "SUMMONING DEVICE",
+              "children": [
+                {
+                  "name": "Marble Elephant of Wondrous Power (ARCANTIC)",
+                  "Quantity": 15.22,
+                  "Percentage": 9.625
+                },
+                {
+                  "name": "Marble Elephant of Wondrous Power (BORDERLANDS)",
+                  "Quantity": 14.89,
+                  "Percentage": 9.4163
+                },
+                {
+                  "name": "Bowl of Commanding Water Elementals (RED CURTAIN)",
+                  "Quantity": 14.42,
+                  "Percentage": 9.1191
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "RING",
+              "children": [
+                {
+                  "name": "Ring of Feather Falling (RED CURTAIN)",
+                  "Quantity": 14.67,
+                  "Percentage": 9.2772
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "LIVESTOCK",
+              "children": [
+                {
+                  "name": "Ox (BORDERLANDS)",
+                  "Quantity": 13.52,
+                  "Percentage": 8.5499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Half plate (RED CURTAIN)",
+                  "Quantity": 12.44,
+                  "Percentage": 7.8669
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maztica",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Insignia of Claws (BORDERLANDS)",
+                  "Quantity": 71.83,
+                  "Percentage": 11.5709
+                }
+              ]
+            },
+            {
+              "name": "IOUN STONE",
+              "children": [
+                {
+                  "name": "Ioun Stone - Gunner (ARCANTIC)",
+                  "Quantity": 66.58,
+                  "Percentage": 10.7252
+                },
+                {
+                  "name": "Ioun Stone - Mastery (MYTHAL)",
+                  "Quantity": 66.03,
+                  "Percentage": 10.6366
+                }
+              ]
+            },
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Clockwork Amulet (RED CURTAIN)",
+                  "Quantity": 64.53,
+                  "Percentage": 10.395
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Circlet of Human Perfection (SABLE)",
+                  "Quantity": 62.91,
+                  "Percentage": 10.134
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Flask or tankard (Set of 24) (BORDERLANDS)",
+                  "Quantity": 59.14,
+                  "Percentage": 9.5267
+                }
+              ]
+            },
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Alchemist’s supplies (RED CURTAIN)",
+                  "Quantity": 56.84,
+                  "Percentage": 9.1562
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Warhammer (BORDERLANDS)",
+                  "Quantity": 59.01,
+                  "Percentage": 9.5058
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Lightning vulnerability (SABLE)",
+                  "Quantity": 56.9,
+                  "Percentage": 9.1659
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Rowboat (U.N.N.)",
+                  "Quantity": 57.01,
+                  "Percentage": 9.1836
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Menzoberranzan",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Charm of Plant Command (ARCANTIC)",
+                  "Quantity": 38.01,
+                  "Percentage": 12.7392
+                }
+              ]
+            },
+            {
+              "name": "CONTAINER",
+              "children": [
+                {
+                  "name": "Alchemy Jug (ARCANTIC)",
+                  "Quantity": 31.65,
+                  "Percentage": 10.6076
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Living Medium Armour (SABLE)",
+                  "Quantity": 34.16,
+                  "Percentage": 11.4489
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Shatterspike (ARCANTIC)",
+                  "Quantity": 29.97,
+                  "Percentage": 10.0446
+                },
+                {
+                  "name": "Rakdos Riteknife (U.N.N.)",
+                  "Quantity": 27.79,
+                  "Percentage": 9.3139
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Scroll of Protection (Undead) (SABLE)",
+                  "Quantity": 32.2,
+                  "Percentage": 10.792
+                }
+              ]
+            },
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Elixir of Health (MYTHAL)",
+                  "Quantity": 25.38,
+                  "Percentage": 8.5062
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "STRING INSTRUMENT",
+              "children": [
+                {
+                  "name": "Viol (RED CURTAIN)",
+                  "Quantity": 26.95,
+                  "Percentage": 9.0324
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "RING",
+              "children": [
+                {
+                  "name": "Band of Loyalty (SABLE)",
+                  "Quantity": 26.16,
+                  "Percentage": 8.7676
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Smith’s tools (BORDERLANDS)",
+                  "Quantity": 26.1,
+                  "Percentage": 8.7475
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mereu",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of the War Mage +2 (MYTHAL)",
+                  "Quantity": 43.52,
+                  "Percentage": 12.7655
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Flame Tongue (BORDERLANDS)",
+                  "Quantity": 41.14,
+                  "Percentage": 12.0673
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Last Stand Armour (ARCANTIC)",
+                  "Quantity": 35.26,
+                  "Percentage": 10.3426
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Oil (flask) (BORDERLANDS)",
+                  "Quantity": 34.56,
+                  "Percentage": 10.1373
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "BELT / GIRDLE",
+              "children": [
+                {
+                  "name": "Belt of Hill Giant Strength (BORDERLANDS)",
+                  "Quantity": 34.47,
+                  "Percentage": 10.1109
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Balance of Harmony (RED CURTAIN)",
+                  "Quantity": 30.67,
+                  "Percentage": 8.9962
+                },
+                {
+                  "name": "Charm of Plant Command (ARCANTIC)",
+                  "Quantity": 29.66,
+                  "Percentage": 8.7
+                },
+                {
+                  "name": "Bag of Beans (BORDERLANDS)",
+                  "Quantity": 28.93,
+                  "Percentage": 8.4859
+                }
+              ]
+            },
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Imbued Wood Focus (MYTHAL)",
+                  "Quantity": 28.76,
+                  "Percentage": 8.436
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Saddlebags (RED CURTAIN)",
+                  "Quantity": 33.95,
+                  "Percentage": 9.9583
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mintarn",
+      "children": [
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Thieves’ tools (U.N.N.)",
+                  "Quantity": 27.97,
+                  "Percentage": 10.916
+                }
+              ]
+            },
+            {
+              "name": "CONTAINER",
+              "children": [
+                {
+                  "name": "Cauldron of Rebirth (SABLE)",
+                  "Quantity": 27.64,
+                  "Percentage": 10.7872
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Sled (BORDERLANDS)",
+                  "Quantity": 26.64,
+                  "Percentage": 10.3969
+                },
+                {
+                  "name": "Drake (RED CURTAIN)",
+                  "Quantity": 24.5,
+                  "Percentage": 9.5617
+                }
+              ]
+            },
+            {
+              "name": "VEHICLE",
+              "children": [
+                {
+                  "name": "Broom of Flying (MYTHAL)",
+                  "Quantity": 25.81,
+                  "Percentage": 10.073
+                }
+              ]
+            },
+            {
+              "name": "LIVESTOCK",
+              "children": [
+                {
+                  "name": "Pig (RED CURTAIN)",
+                  "Quantity": 25.22,
+                  "Percentage": 9.8427
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "AMULET / NECKLACE",
+              "children": [
+                {
+                  "name": "Amulet of Protection from Turning (U.N.N.)",
+                  "Quantity": 24.86,
+                  "Percentage": 9.7022
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "CONTAINER",
+              "children": [
+                {
+                  "name": "Hewards Handy Spice Pouch (BORDERLANDS)",
+                  "Quantity": 24.85,
+                  "Percentage": 9.6983
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Lightning vulnerability (SABLE)",
+                  "Quantity": 24.52,
+                  "Percentage": 9.5695
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Serpents Fang (U.N.N.)",
+                  "Quantity": 24.22,
+                  "Percentage": 9.4524
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moray",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Net (BORDERLANDS)",
+                  "Quantity": 551.89,
+                  "Percentage": 19.613
+                },
+                {
+                  "name": "Net (U.N.N.)",
+                  "Quantity": 421.56,
+                  "Percentage": 14.9813
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Light Armour +3 (RED CURTAIN)",
+                  "Quantity": 329.18,
+                  "Percentage": 11.6984
+                },
+                {
+                  "name": "Light Armour +3 (SABLE)",
+                  "Quantity": 174.81,
+                  "Percentage": 6.2124
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Scimitar (BORDERLANDS)",
+                  "Quantity": 302.94,
+                  "Percentage": 10.7658
+                },
+                {
+                  "name": "Scimitar (U.N.N.)",
+                  "Quantity": 192.98,
+                  "Percentage": 6.8581
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Demon Armour (SABLE)",
+                  "Quantity": 290.86,
+                  "Percentage": 10.3365
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Arrows (100) (U.N.N.)",
+                  "Quantity": 241.26,
+                  "Percentage": 8.5739
+                },
+                {
+                  "name": "Arrows (100) (BORDERLANDS)",
+                  "Quantity": 129.44,
+                  "Percentage": 4.6
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield +1 (MYTHAL)",
+                  "Quantity": 178.98,
+                  "Percentage": 6.3606
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mulhorand",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Spellbook (U.N.N.)",
+                  "Quantity": 36.67,
+                  "Percentage": 14.0042
+                },
+                {
+                  "name": "Orb (BORDERLANDS)",
+                  "Quantity": 26.35,
+                  "Percentage": 10.063
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Charm of Plant Command (SABLE)",
+                  "Quantity": 29.46,
+                  "Percentage": 11.2507
+                },
+                {
+                  "name": "Vox Seeker (RED CURTAIN)",
+                  "Quantity": 25.53,
+                  "Percentage": 9.7499
+                },
+                {
+                  "name": "Eversmoking Bottle (MYTHAL)",
+                  "Quantity": 24.05,
+                  "Percentage": 9.1846
+                }
+              ]
+            },
+            {
+              "name": "CLOTHING",
+              "children": [
+                {
+                  "name": "Cloak of Many Fashions (SABLE)",
+                  "Quantity": 23.87,
+                  "Percentage": 9.1159
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Spell Scroll Level 1 (RED CURTAIN)",
+                  "Quantity": 24.62,
+                  "Percentage": 9.4023
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Living Gloves (SABLE)",
+                  "Quantity": 24.26,
+                  "Percentage": 9.2648
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Scimitar of Speed (SABLE)",
+                  "Quantity": 23.14,
+                  "Percentage": 8.8371
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "STRING INSTRUMENT",
+              "children": [
+                {
+                  "name": "Lyre (BORDERLANDS)",
+                  "Quantity": 23.9,
+                  "Percentage": 9.1274
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Murghom",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Demon Armour (SABLE)",
+                  "Quantity": 698.75,
+                  "Percentage": 20.256
+                },
+                {
+                  "name": "Heavy Armour +2 (MYTHAL)",
+                  "Quantity": 230.88,
+                  "Percentage": 6.6929
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Arrows (100) (U.N.N.)",
+                  "Quantity": 496.6,
+                  "Percentage": 14.3959
+                },
+                {
+                  "name": "Arrows (100) (BORDERLANDS)",
+                  "Quantity": 192.78,
+                  "Percentage": 5.5885
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Scimitar (BORDERLANDS)",
+                  "Quantity": 451.66,
+                  "Percentage": 13.0931
+                },
+                {
+                  "name": "Scimitar (U.N.N.)",
+                  "Quantity": 330.15,
+                  "Percentage": 9.5707
+                },
+                {
+                  "name": "Scimitar (RED CURTAIN)",
+                  "Quantity": 225.85,
+                  "Percentage": 6.5471
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Red Dragon Mask (MYTHAL)",
+                  "Quantity": 289.22,
+                  "Percentage": 8.3842
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield of the Hidden Lord (SABLE)",
+                  "Quantity": 286.98,
+                  "Percentage": 8.3192
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Crossbow, heavy  (U.N.N.)",
+                  "Quantity": 246.73,
+                  "Percentage": 7.1524
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Narfell",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Nightfall Pearl (ARCANTIC)",
+                  "Quantity": 40.59,
+                  "Percentage": 12.0915
+                },
+                {
+                  "name": "Loadstone (U.N.N.)",
+                  "Quantity": 30.03,
+                  "Percentage": 8.9458
+                }
+              ]
+            },
+            {
+              "name": "GOGGLES",
+              "children": [
+                {
+                  "name": "Finders Goggles (SABLE)",
+                  "Quantity": 39.2,
+                  "Percentage": 11.6774
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Lost Crown of Besilmer (SABLE)",
+                  "Quantity": 35.3,
+                  "Percentage": 10.5157
+                }
+              ]
+            },
+            {
+              "name": "CONTAINER",
+              "children": [
+                {
+                  "name": "Alchemy Jug (ARCANTIC)",
+                  "Quantity": 31.65,
+                  "Percentage": 9.4283
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Mirror, steel  (U.N.N.)",
+                  "Quantity": 33.56,
+                  "Percentage": 9.9973
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Hide of the Feral Guardian (RED CURTAIN)",
+                  "Quantity": 33.54,
+                  "Percentage": 9.9914
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Thunder and Lightning (ARCANTIC)",
+                  "Quantity": 32.44,
+                  "Percentage": 9.6637
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Necrotic vulnerability (U.N.N.)",
+                  "Quantity": 30,
+                  "Percentage": 8.9368
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "BRASS INSTRUMENT",
+              "children": [
+                {
+                  "name": "Instrument of Scribing (SABLE)",
+                  "Quantity": 29.38,
+                  "Percentage": 8.7521
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neverwinter",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Maul (RED CURTAIN)",
+                  "Quantity": 367.43,
+                  "Percentage": 12.47
+                },
+                {
+                  "name": "Morningstar (RED CURTAIN)",
+                  "Quantity": 326.11,
+                  "Percentage": 11.0677
+                },
+                {
+                  "name": "Morningstar (U.N.N.)",
+                  "Quantity": 309.49,
+                  "Percentage": 10.5036
+                },
+                {
+                  "name": "Maul (U.N.N.)",
+                  "Quantity": 224.56,
+                  "Percentage": 7.6212
+                }
+              ]
+            },
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Power (SABLE)",
+                  "Quantity": 337.9,
+                  "Percentage": 11.4678
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Studded leather armour (U.N.N.)",
+                  "Quantity": 316.19,
+                  "Percentage": 10.731
+                },
+                {
+                  "name": "Studded leather armour (RED CURTAIN)",
+                  "Quantity": 274.35,
+                  "Percentage": 9.311
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Dagger of Venom (ARCANTIC)",
+                  "Quantity": 289.92,
+                  "Percentage": 9.8395
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield +3 (RED CURTAIN)",
+                  "Quantity": 257.68,
+                  "Percentage": 8.7453
+                }
+              ]
+            },
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Viscid Globs (ARCANTIC)",
+                  "Quantity": 242.87,
+                  "Percentage": 8.2427
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Norland",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Frost (RED CURTAIN)",
+                  "Quantity": 470.83,
+                  "Percentage": 13.6138
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Crossbow Bolts +3 (U.N.N.)",
+                  "Quantity": 445.97,
+                  "Percentage": 12.895
+                },
+                {
+                  "name": "Arrows (100) (U.N.N.)",
+                  "Quantity": 288.22,
+                  "Percentage": 8.3337
+                },
+                {
+                  "name": "Blowgun needles (50) (RED CURTAIN)",
+                  "Quantity": 237.37,
+                  "Percentage": 6.8634
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Sword of Answering (BORDERLANDS)",
+                  "Quantity": 398.22,
+                  "Percentage": 11.5143
+                }
+              ]
+            },
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Breastplate (RED CURTAIN)",
+                  "Quantity": 395.78,
+                  "Percentage": 11.4438
+                },
+                {
+                  "name": "Breastplate (U.N.N.)",
+                  "Quantity": 384.09,
+                  "Percentage": 11.1058
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield of Missile Attraction (RED CURTAIN)",
+                  "Quantity": 343.74,
+                  "Percentage": 9.9391
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Medium Armour +2 (SABLE)",
+                  "Quantity": 270.8,
+                  "Percentage": 7.8301
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Light Armour +3 (RED CURTAIN)",
+                  "Quantity": 223.45,
+                  "Percentage": 6.4609
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Purple Rock Isles",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "BELT / GIRDLE",
+              "children": [
+                {
+                  "name": "Belt of Fire Giant Strength (U.N.N.)",
+                  "Quantity": 31.78,
+                  "Percentage": 12.973
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Candle of Invocation (SABLE)",
+                  "Quantity": 26.45,
+                  "Percentage": 10.7972
+                },
+                {
+                  "name": "Paper Bird (ARCANTIC)",
+                  "Quantity": 22.72,
+                  "Percentage": 9.2746
+                }
+              ]
+            },
+            {
+              "name": "CONTAINER",
+              "children": [
+                {
+                  "name": "Bag of Holding (RED CURTAIN)",
+                  "Quantity": 20.9,
+                  "Percentage": 8.5317
+                }
+              ]
+            },
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Grimorie Infinitus (U.N.N.)",
+                  "Quantity": 20.74,
+                  "Percentage": 8.4663
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Thunder vulnerability (ARCANTIC)",
+                  "Quantity": 30.97,
+                  "Percentage": 12.6424
+                },
+                {
+                  "name": "Armour of Lightning vulnerability (SABLE)",
+                  "Quantity": 24.52,
+                  "Percentage": 10.0094
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield of the Uven Rune (SABLE)",
+                  "Quantity": 22.14,
+                  "Percentage": 9.0378
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "CONTAINER",
+              "children": [
+                {
+                  "name": "Burlap Sack (Set of 20) (BORDERLANDS)",
+                  "Quantity": 23.72,
+                  "Percentage": 9.6828
+                }
+              ]
+            },
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Herbalism kit (U.N.N.)",
+                  "Quantity": 21.03,
+                  "Percentage": 8.5847
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ruathym",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Efreeti Chain (MYTHAL)",
+                  "Quantity": 194.04,
+                  "Percentage": 14.8937
+                },
+                {
+                  "name": "Splint mail (RED CURTAIN)",
+                  "Quantity": 159.51,
+                  "Percentage": 12.2433
+                },
+                {
+                  "name": "Splint mail (BORDERLANDS)",
+                  "Quantity": 121.86,
+                  "Percentage": 9.3535
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Maul (RED CURTAIN)",
+                  "Quantity": 170.14,
+                  "Percentage": 13.0593
+                },
+                {
+                  "name": "Maul (U.N.N.)",
+                  "Quantity": 89.24,
+                  "Percentage": 6.8497
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Hellsteel Simple Melee Weapon (BORDERLANDS)",
+                  "Quantity": 136.53,
+                  "Percentage": 10.4795
+                },
+                {
+                  "name": "Hellsteel Simple Melee Weapon (RED CURTAIN)",
+                  "Quantity": 120.82,
+                  "Percentage": 9.2737
+                },
+                {
+                  "name": "Hellsteel Simple Melee Weapon (U.N.N.)",
+                  "Quantity": 83.61,
+                  "Percentage": 6.4176
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Boomerang +2 (BORDERLANDS)",
+                  "Quantity": 127.2,
+                  "Percentage": 9.7634
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield +3 (RED CURTAIN)",
+                  "Quantity": 99.88,
+                  "Percentage": 7.6664
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sembia",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Tentacle Rod (MYTHAL)",
+                  "Quantity": 1037.82,
+                  "Percentage": 11.9304
+                },
+                {
+                  "name": "Trident (RED CURTAIN)",
+                  "Quantity": 788.78,
+                  "Percentage": 9.0676
+                },
+                {
+                  "name": "Hammer of Thunderbolts (MYTHAL)",
+                  "Quantity": 762.96,
+                  "Percentage": 8.7707
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Unbreakable Arrow (SABLE)",
+                  "Quantity": 1005.17,
+                  "Percentage": 11.5551
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Thunder Resistance (BORDERLANDS)",
+                  "Quantity": 929.44,
+                  "Percentage": 10.6845
+                },
+                {
+                  "name": "Armour of Vulnerability (MYTHAL)",
+                  "Quantity": 819.51,
+                  "Percentage": 9.4208
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Dwarven Plate (SABLE)",
+                  "Quantity": 882.1,
+                  "Percentage": 10.1403
+                }
+              ]
+            },
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Half plate (RED CURTAIN)",
+                  "Quantity": 880.4,
+                  "Percentage": 10.1208
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Hide of the Feral Guardian (RED CURTAIN)",
+                  "Quantity": 827,
+                  "Percentage": 9.5069
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Staff of Adornment (SABLE)",
+                  "Quantity": 765.74,
+                  "Percentage": 8.8027
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shar",
+      "children": [
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Exotic Saddle (U.N.N.)",
+                  "Quantity": 36.21,
+                  "Percentage": 13.4156
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SUMMONING DEVICE",
+          "children": [
+            {
+              "name": "SUMMONING DEVICE",
+              "children": [
+                {
+                  "name": "Bowl of Commanding Water Elementals (RED CURTAIN)",
+                  "Quantity": 28.83,
+                  "Percentage": 10.6813
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Power (SABLE)",
+                  "Quantity": 28.45,
+                  "Percentage": 10.5406
+                }
+              ]
+            },
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Lightning Bolts (SABLE)",
+                  "Quantity": 24.7,
+                  "Percentage": 9.1512
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Blood Spear (ARCANTIC)",
+                  "Quantity": 24.49,
+                  "Percentage": 9.0734
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Calligraphers supplies (RED CURTAIN)",
+                  "Quantity": 26.68,
+                  "Percentage": 9.8848
+                },
+                {
+                  "name": "Forgery kit (RED CURTAIN)",
+                  "Quantity": 24.45,
+                  "Percentage": 9.0586
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Gloves of Missile Snaring (SABLE)",
+                  "Quantity": 25.95,
+                  "Percentage": 9.6143
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Thermal Cube (ARCANTIC)",
+                  "Quantity": 25.58,
+                  "Percentage": 9.4772
+                },
+                {
+                  "name": "Loadstone (U.N.N.)",
+                  "Quantity": 24.57,
+                  "Percentage": 9.103
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Silverymoon",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Morningstar (RED CURTAIN)",
+                  "Quantity": 1062.71,
+                  "Percentage": 16.0108
+                },
+                {
+                  "name": "Blackrazor (SABLE)",
+                  "Quantity": 694.36,
+                  "Percentage": 10.4612
+                },
+                {
+                  "name": "Flail (RED CURTAIN)",
+                  "Quantity": 654.8,
+                  "Percentage": 9.8652
+                },
+                {
+                  "name": "Warhammer (BORDERLANDS)",
+                  "Quantity": 627.88,
+                  "Percentage": 9.4596
+                },
+                {
+                  "name": "Morningstar (U.N.N.)",
+                  "Quantity": 580.96,
+                  "Percentage": 8.7527
+                }
+              ]
+            },
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Living Gloves (SABLE)",
+                  "Quantity": 750.13,
+                  "Percentage": 11.3014
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Bookmark (ARCANTIC)",
+                  "Quantity": 594.56,
+                  "Percentage": 8.9576
+                },
+                {
+                  "name": "Serpents Fang (U.N.N.)",
+                  "Quantity": 578.66,
+                  "Percentage": 8.7181
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Arcane Firearm (SABLE)",
+                  "Quantity": 557.5,
+                  "Percentage": 8.3993
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Adamantine Armour (RED CURTAIN)",
+                  "Quantity": 535.91,
+                  "Percentage": 8.074
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Snowdown",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "CLOTHING",
+              "children": [
+                {
+                  "name": "Toque (RED CURTAIN)",
+                  "Quantity": 88.61,
+                  "Percentage": 14.6448
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Vox Seeker (RED CURTAIN)",
+                  "Quantity": 51.06,
+                  "Percentage": 8.4388
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Tentacle Rod (MYTHAL)",
+                  "Quantity": 67.66,
+                  "Percentage": 11.1824
+                },
+                {
+                  "name": "Shortsword (RED CURTAIN)",
+                  "Quantity": 62.98,
+                  "Percentage": 10.4089
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Radiant vulnerability (BORDERLANDS)",
+                  "Quantity": 59.83,
+                  "Percentage": 9.8883
+                }
+              ]
+            },
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Living Gloves (SABLE)",
+                  "Quantity": 56.91,
+                  "Percentage": 9.4057
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Arrows +3 (BORDERLANDS)",
+                  "Quantity": 53.56,
+                  "Percentage": 8.852
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "RING",
+              "children": [
+                {
+                  "name": "Ring of Mind Shielding (ARCANTIC)",
+                  "Quantity": 61.22,
+                  "Percentage": 10.118
+                },
+                {
+                  "name": "Ring of Shooting Stars (SABLE)",
+                  "Quantity": 49.99,
+                  "Percentage": 8.262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "BRASS INSTRUMENT",
+              "children": [
+                {
+                  "name": "Instrument of Scribing (SABLE)",
+                  "Quantity": 53.24,
+                  "Percentage": 8.7991
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tethyr",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Thermal Cube (ARCANTIC)",
+                  "Quantity": 183.61,
+                  "Percentage": 12.6351
+                },
+                {
+                  "name": "Charm of Plant Command (ARCANTIC)",
+                  "Quantity": 136.27,
+                  "Percentage": 9.3774
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Poisoner’s kit (RED CURTAIN)",
+                  "Quantity": 155.26,
+                  "Percentage": 10.6842
+                },
+                {
+                  "name": "Calligraphers supplies (RED CURTAIN)",
+                  "Quantity": 139.31,
+                  "Percentage": 9.5866
+                }
+              ]
+            },
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Very Rare Crafting Components (MYTHAL)",
+                  "Quantity": 150.29,
+                  "Percentage": 10.3422
+                },
+                {
+                  "name": "Block and tackle (U.N.N.)",
+                  "Quantity": 136.01,
+                  "Percentage": 9.3595
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Riding Horse (U.N.N.)",
+                  "Quantity": 143.04,
+                  "Percentage": 9.8433
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Skyblinder Staff (SABLE)",
+                  "Quantity": 142,
+                  "Percentage": 9.7717
+                }
+              ]
+            },
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Lightning Bolts (SABLE)",
+                  "Quantity": 133.95,
+                  "Percentage": 9.2178
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "BRASS INSTRUMENT",
+              "children": [
+                {
+                  "name": "Shawm (RED CURTAIN)",
+                  "Quantity": 133.43,
+                  "Percentage": 9.182
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tharsult",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Pike (RED CURTAIN)",
+                  "Quantity": 36.39,
+                  "Percentage": 11.6694
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Veterans Cane (SABLE)",
+                  "Quantity": 29.45,
+                  "Percentage": 9.4439
+                }
+              ]
+            },
+            {
+              "name": "GOGGLES",
+              "children": [
+                {
+                  "name": "Knaves Eyepatch (MYTHAL)",
+                  "Quantity": 28.56,
+                  "Percentage": 9.1585
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Spell Scroll Level 1 (RED CURTAIN)",
+                  "Quantity": 33.49,
+                  "Percentage": 10.7395
+                },
+                {
+                  "name": "Spell Gem (Lapis Lazuli) (U.N.N.)",
+                  "Quantity": 32.71,
+                  "Percentage": 10.4894
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SUMMONING DEVICE",
+          "children": [
+            {
+              "name": "SUMMONING DEVICE",
+              "children": [
+                {
+                  "name": "Black Crystal Tablet (MYTHAL)",
+                  "Quantity": 32.44,
+                  "Percentage": 10.4028
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "STRING INSTRUMENT",
+              "children": [
+                {
+                  "name": "Guitar (RED CURTAIN)",
+                  "Quantity": 31.14,
+                  "Percentage": 9.9859
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Camel (U.N.N.)",
+                  "Quantity": 29.79,
+                  "Percentage": 9.553
+                }
+              ]
+            },
+            {
+              "name": "LIVESTOCK",
+              "children": [
+                {
+                  "name": "Ox (U.N.N.)",
+                  "Quantity": 28.38,
+                  "Percentage": 9.1008
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Circlet of Human Perfection (SABLE)",
+                  "Quantity": 29.49,
+                  "Percentage": 9.4568
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thay",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Fire (BORDERLANDS)",
+                  "Quantity": 990.86,
+                  "Percentage": 11.6156
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Battleaxe (U.N.N.)",
+                  "Quantity": 984.98,
+                  "Percentage": 11.5466
+                },
+                {
+                  "name": "Battleaxe (BORDERLANDS)",
+                  "Quantity": 953.17,
+                  "Percentage": 11.1737
+                },
+                {
+                  "name": "Greatsword (U.N.N.)",
+                  "Quantity": 878.03,
+                  "Percentage": 10.2929
+                },
+                {
+                  "name": "Greatsword (BORDERLANDS)",
+                  "Quantity": 745.12,
+                  "Percentage": 8.7348
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Studded leather armour (U.N.N.)",
+                  "Quantity": 876.28,
+                  "Percentage": 10.2724
+                },
+                {
+                  "name": "Studded leather armour (RED CURTAIN)",
+                  "Quantity": 747.88,
+                  "Percentage": 8.7672
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL RANGED WEAPON",
+              "children": [
+                {
+                  "name": "Longbow (U.N.N.)",
+                  "Quantity": 833.28,
+                  "Percentage": 9.7683
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Black Dragon Mask (SABLE)",
+                  "Quantity": 814.92,
+                  "Percentage": 9.5531
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Splint mail (RED CURTAIN)",
+                  "Quantity": 705.93,
+                  "Percentage": 8.2754
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thesk",
+      "children": [
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "SCROLL",
+              "children": [
+                {
+                  "name": "Ink pen (with Ink) (BORDERLANDS)",
+                  "Quantity": 83.78,
+                  "Percentage": 11.1592
+                },
+                {
+                  "name": "Spellwrought Tattoo Enchantment (RED CURTAIN)",
+                  "Quantity": 70.75,
+                  "Percentage": 9.4237
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "RING",
+              "children": [
+                {
+                  "name": "Ring of Free Action (MYTHAL)",
+                  "Quantity": 81.69,
+                  "Percentage": 10.8808
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "STRING INSTRUMENT",
+              "children": [
+                {
+                  "name": "Canaith mandolin (U.N.N.)",
+                  "Quantity": 78.85,
+                  "Percentage": 10.5026
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Hewards Handy Haversack (ARCANTIC)",
+                  "Quantity": 75.82,
+                  "Percentage": 10.099
+                }
+              ]
+            },
+            {
+              "name": "ROD",
+              "children": [
+                {
+                  "name": "Rod of Security (RED CURTAIN)",
+                  "Quantity": 69.16,
+                  "Percentage": 9.2119
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Unbreakable Arrow (SABLE)",
+                  "Quantity": 75,
+                  "Percentage": 9.9897
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Hammer of Thunderbolts (MYTHAL)",
+                  "Quantity": 73.92,
+                  "Percentage": 9.8459
+                },
+                {
+                  "name": "Ironfang (SABLE)",
+                  "Quantity": 71.04,
+                  "Percentage": 9.4623
+                }
+              ]
+            },
+            {
+              "name": "HELMET",
+              "children": [
+                {
+                  "name": "Propellor Helm (SABLE)",
+                  "Quantity": 70.76,
+                  "Percentage": 9.425
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Turmish",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Living Heavy Armour (MYTHAL)",
+                  "Quantity": 2752.52,
+                  "Percentage": 19.1487
+                },
+                {
+                  "name": "Adamantine Armour (RED CURTAIN)",
+                  "Quantity": 2344.49,
+                  "Percentage": 16.3101
+                },
+                {
+                  "name": "Adamantine Armour (MYTHAL)",
+                  "Quantity": 1224.95,
+                  "Percentage": 8.5217
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Veterans Cane (SABLE)",
+                  "Quantity": [2492.45, 1143.31],
+                  "Percentage": [17.3395, 7.9538]
+                },
+                {
+                  "name": "Azuredge (ARCANTIC)",
+                  "Quantity": [1070.58, 909.95],
+                  "Percentage": [7.4478, 6.3303]
+                }
+              ]
+            },
+            {
+              "name": "SHIELD",
+              "children": [
+                {
+                  "name": "Shield of Missile Attraction (RED CURTAIN)",
+                  "Quantity": 2193.18,
+                  "Percentage": 15.2575
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Abacus (BORDERLANDS)",
+                  "Quantity": 126.15,
+                  "Percentage": 0.8776
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Potion of Fire Breath (SABLE)",
+                  "Quantity": 116.86,
+                  "Percentage": 0.813
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unther",
+      "children": [
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Pipe of Smoke Monsters (SABLE)",
+                  "Quantity": 66.02,
+                  "Percentage": 13.1721
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Chain shirt (U.N.N.)",
+                  "Quantity": 59.6,
+                  "Percentage": 11.8912
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Cold vulnerability (ARCANTIC)",
+                  "Quantity": 52.97,
+                  "Percentage": 10.5684
+                }
+              ]
+            },
+            {
+              "name": "AMMUNITION",
+              "children": [
+                {
+                  "name": "Sling bullets (100) (U.N.N.)",
+                  "Quantity": 45.54,
+                  "Percentage": 9.086
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Clockwork Amulet (RED CURTAIN)",
+                  "Quantity": 55.69,
+                  "Percentage": 11.1111
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Feather Token (Whip) (U.N.N.)",
+                  "Quantity": 47.21,
+                  "Percentage": 9.4192
+                }
+              ]
+            },
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Gloves of Thievery (MYTHAL)",
+                  "Quantity": 43.99,
+                  "Percentage": 8.7768
+                }
+              ]
+            },
+            {
+              "name": "CLOTHING",
+              "children": [
+                {
+                  "name": "Toque (U.N.N.)",
+                  "Quantity": 42.96,
+                  "Percentage": 8.5713
+                }
+              ]
+            },
+            {
+              "name": "GAMING SET",
+              "children": [
+                {
+                  "name": "Charlatans Die (SABLE)",
+                  "Quantity": 42.64,
+                  "Percentage": 8.5074
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Lamp (RED CURTAIN)",
+                  "Quantity": 44.59,
+                  "Percentage": 8.8965
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vaasa",
+      "children": [
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "STAFF",
+              "children": [
+                {
+                  "name": "Staff of Fire (BORDERLANDS)",
+                  "Quantity": 933.85,
+                  "Percentage": 13.3699
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Hellsteel Martial Melee Weapon (U.N.N.)",
+                  "Quantity": 801.59,
+                  "Percentage": 11.4763
+                },
+                {
+                  "name": "Hellsteel Martial Melee Weapon (RED CURTAIN)",
+                  "Quantity": 741.37,
+                  "Percentage": 10.6142
+                },
+                {
+                  "name": "Pike (RED CURTAIN)",
+                  "Quantity": 701.62,
+                  "Percentage": 10.0451
+                },
+                {
+                  "name": "Whelm (SABLE)",
+                  "Quantity": [600.56, 561.82],
+                  "Percentage": [8.5982, 8.0436]
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Efreeti Chain (MYTHAL)",
+                  "Quantity": 718.2,
+                  "Percentage": 10.2824
+                }
+              ]
+            },
+            {
+              "name": "WEAPON OTHER",
+              "children": [
+                {
+                  "name": "Weapon +1 (RED CURTAIN)",
+                  "Quantity": 680.97,
+                  "Percentage": 9.7494
+                },
+                {
+                  "name": "Weapon +1 (SABLE)",
+                  "Quantity": 587.25,
+                  "Percentage": 8.4076
+                }
+              ]
+            },
+            {
+              "name": "SIMPLE MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Dragontooth Dagger (U.N.N.)",
+                  "Quantity": 657.49,
+                  "Percentage": 9.4133
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veldorn",
+      "children": [
+        {
+          "name": "SUMMONING DEVICE",
+          "children": [
+            {
+              "name": "SUMMONING DEVICE",
+              "children": [
+                {
+                  "name": "Bowl of Commanding Water Elementals (BORDERLANDS)",
+                  "Quantity": 39.56,
+                  "Percentage": 14.4033
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Quiver (BORDERLANDS)",
+                  "Quantity": 31.93,
+                  "Percentage": 11.6253
+                },
+                {
+                  "name": "Case, crossbow bolt  (U.N.N.)",
+                  "Quantity": 29.73,
+                  "Percentage": 10.8243
+                },
+                {
+                  "name": "Lamp (RED CURTAIN)",
+                  "Quantity": 22.79,
+                  "Percentage": 8.2975
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "BRACERS",
+              "children": [
+                {
+                  "name": "Braclet of Rock Magic (SABLE)",
+                  "Quantity": 27.68,
+                  "Percentage": 10.0779
+                }
+              ]
+            },
+            {
+              "name": "HEAVY ARMOUR",
+              "children": [
+                {
+                  "name": "Ring mail (BORDERLANDS)",
+                  "Quantity": 26.49,
+                  "Percentage": 9.6447
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Potion of Frost Giant Strength (ARCANTIC)",
+                  "Quantity": 27.17,
+                  "Percentage": 9.8922
+                },
+                {
+                  "name": "Pipe of Smoke Monsters (SABLE)",
+                  "Quantity": 23.64,
+                  "Percentage": 8.607
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Candle of the Deep (ARCANTIC)",
+                  "Quantity": 23.66,
+                  "Percentage": 8.6143
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "STRING INSTRUMENT",
+              "children": [
+                {
+                  "name": "Viol (U.N.N.)",
+                  "Quantity": 22.01,
+                  "Percentage": 8.0135
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Waterdeep",
+      "children": [
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Healer’s kit (RED CURTAIN)",
+                  "Quantity": 159.64,
+                  "Percentage": 11.2951
+                },
+                {
+                  "name": "Magnifying glass (U.N.N.)",
+                  "Quantity": 143.28,
+                  "Percentage": 10.1376
+                },
+                {
+                  "name": "Flask or tankard (Set of 24) (BORDERLANDS)",
+                  "Quantity": 134.9,
+                  "Percentage": 9.5447
+                }
+              ]
+            },
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Cartographer’s tools (U.N.N.)",
+                  "Quantity": 135.89,
+                  "Percentage": 9.6147
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Thermal Cube (ARCANTIC)",
+                  "Quantity": 147.4,
+                  "Percentage": 10.4291
+                },
+                {
+                  "name": "Oil of Etherealness (RED CURTAIN)",
+                  "Quantity": 137.48,
+                  "Percentage": 9.7272
+                }
+              ]
+            },
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Staff (RED CURTAIN)",
+                  "Quantity": 146.17,
+                  "Percentage": 10.3421
+                }
+              ]
+            },
+            {
+              "name": "SURVIVAL & WILDERNESS",
+              "children": [
+                {
+                  "name": "Barrel (RED CURTAIN)",
+                  "Quantity": 137.82,
+                  "Percentage": 9.7513
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ANIMALS & TRANSPORTATION",
+          "children": [
+            {
+              "name": "MOUNT",
+              "children": [
+                {
+                  "name": "Sled (BORDERLANDS)",
+                  "Quantity": 139.42,
+                  "Percentage": 9.8645
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MUSICAL INSTRUMENT",
+          "children": [
+            {
+              "name": "STRING INSTRUMENT",
+              "children": [
+                {
+                  "name": "Guitar (RED CURTAIN)",
+                  "Quantity": 131.35,
+                  "Percentage": 9.2935
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Whalebone Isles",
+      "children": [
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Totem (Druidic focus) (U.N.N.)",
+                  "Quantity": 40.59,
+                  "Percentage": 13.8334
+                }
+              ]
+            },
+            {
+              "name": "CLOTHING",
+              "children": [
+                {
+                  "name": "Robes (BORDERLANDS)",
+                  "Quantity": 34.94,
+                  "Percentage": 11.9078
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Loadstone (U.N.N.)",
+                  "Quantity": 26.39,
+                  "Percentage": 8.9939
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "MEDIUM ARMOUR",
+              "children": [
+                {
+                  "name": "Chain shirt (U.N.N.)",
+                  "Quantity": 37.93,
+                  "Percentage": 12.9269
+                }
+              ]
+            },
+            {
+              "name": "GAUNTLETS / GLOVES",
+              "children": [
+                {
+                  "name": "Living Gloves (SABLE)",
+                  "Quantity": 25.19,
+                  "Percentage": 8.585
+                }
+              ]
+            },
+            {
+              "name": "MARTIAL MELEE WEAPON",
+              "children": [
+                {
+                  "name": "Shortsword (RED CURTAIN)",
+                  "Quantity": 24.84,
+                  "Percentage": 8.4657
+                }
+              ]
+            },
+            {
+              "name": "LIGHT ARMOUR",
+              "children": [
+                {
+                  "name": "Leather Armour (U.N.N.)",
+                  "Quantity": 24.57,
+                  "Percentage": 8.3737
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Oil (flask) (BORDERLANDS)",
+                  "Quantity": 26.88,
+                  "Percentage": 9.1609
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Cartographer’s tools (U.N.N.)",
+                  "Quantity": 26.55,
+                  "Percentage": 9.0485
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JEWELRY",
+          "children": [
+            {
+              "name": "AMULET / NECKLACE",
+              "children": [
+                {
+                  "name": "Amulet of Protection from Turning (U.N.N.)",
+                  "Quantity": 25.54,
+                  "Percentage": 8.7042
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zakhara",
+      "children": [
+        {
+          "name": "TOOLS & KITS",
+          "children": [
+            {
+              "name": "TOOL KITS",
+              "children": [
+                {
+                  "name": "Weaver’s tools (BORDERLANDS)",
+                  "Quantity": 53.41,
+                  "Percentage": 12.7714
+                }
+              ]
+            },
+            {
+              "name": "TOOLS",
+              "children": [
+                {
+                  "name": "Quiver (BORDERLANDS)",
+                  "Quantity": 39.03,
+                  "Percentage": 9.3329
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ADVENTURING EQUIPMENT",
+          "children": [
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of Scowls (ARCANTIC)",
+                  "Quantity": 49.24,
+                  "Percentage": 11.7743
+                }
+              ]
+            },
+            {
+              "name": "SPELL FOCUS",
+              "children": [
+                {
+                  "name": "Fernian Ash Focus (BORDERLANDS)",
+                  "Quantity": 40.33,
+                  "Percentage": 9.6437
+                }
+              ]
+            },
+            {
+              "name": "MAGIC UTILITY",
+              "children": [
+                {
+                  "name": "Gavel of the Venn Rune (SABLE)",
+                  "Quantity": 36.21,
+                  "Percentage": 8.6585
+                }
+              ]
+            },
+            {
+              "name": "CLOTHING",
+              "children": [
+                {
+                  "name": "Clothes, traveler’s  (U.N.N.)",
+                  "Quantity": 35.3,
+                  "Percentage": 8.4409
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARMS & ARMOUR",
+          "children": [
+            {
+              "name": "WAND",
+              "children": [
+                {
+                  "name": "Wand of the War Mage +2 (MYTHAL)",
+                  "Quantity": 49.08,
+                  "Percentage": 11.736
+                }
+              ]
+            },
+            {
+              "name": "ARMOUR OTHER",
+              "children": [
+                {
+                  "name": "Armour of Necrotic vulnerability (U.N.N.)",
+                  "Quantity": 39,
+                  "Percentage": 9.3257
+                },
+                {
+                  "name": "Armour of Lightning vulnerability (SABLE)",
+                  "Quantity": 35.32,
+                  "Percentage": 8.4457
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POTIONS & SCROLLS",
+          "children": [
+            {
+              "name": "POTIONS & ALCHEMY",
+              "children": [
+                {
+                  "name": "Oil (flask) (BORDERLANDS)",
+                  "Quantity": 41.28,
+                  "Percentage": 9.8709
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
