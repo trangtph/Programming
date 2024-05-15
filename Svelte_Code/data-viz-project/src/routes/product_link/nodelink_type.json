@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "index": "ADVENTURING EQUIPMENT",
+      "group": "1",
+      "name": "ADVENTURING EQUIPMENT",
+      "size": "162228"
+    },
+    {
+      "index": "ANIMALS & TRANSPORTATION",
+      "group": "2",
+      "name": "ANIMALS & TRANSPORTATION",
+      "size": "37328"
+    },
+    {
+      "index": "ARMS & ARMOUR",
+      "group": "3",
+      "name": "ARMS & ARMOUR",
+      "size": "179144"
+    },
+    {
+      "index": "JEWELRY",
+      "group": "4",
+      "name": "JEWELRY",
+      "size": "30555"
+    },
+    {
+      "index": "MUSICAL INSTRUMENT",
+      "group": "5",
+      "name": "MUSICAL INSTRUMENT",
+      "size": "24176"
+    },
+    {
+      "index": "POTIONS & SCROLLS",
+      "group": "6",
+      "name": "POTIONS & SCROLLS",
+      "size": "72948"
+    },
+    {
+      "index": "SUMMONING DEVICE",
+      "group": "7",
+      "name": "SUMMONING DEVICE",
+      "size": "24600"
+    },
+    {
+      "index": "TOOLS & KITS",
+      "group": "8",
+      "name": "TOOLS & KITS",
+      "size": "75732"
+    }
+  ],
+    "links": [
+      {
+        "source": "ADVENTURING EQUIPMENT",
+        "target": "ARMS & ARMOUR",
+        "value": "93305"
+      },
+      {
+        "source": "ADVENTURING EQUIPMENT",
+        "target": "TOOLS & KITS",
+        "value": "45528"
+      },
+      {
+        "source": "ADVENTURING EQUIPMENT",
+        "target": "POTIONS & SCROLLS",
+        "value": "43885"
+      },
+      {
+        "source": "ARMS & ARMOUR",
+        "target": "TOOLS & KITS",
+        "value": "42888"
+      },
+      {
+        "source": "ARMS & ARMOUR",
+        "target": "POTIONS & SCROLLS",
+        "value": "41557"
+      },
+      {
+        "source": "ADVENTURING EQUIPMENT",
+        "target": "ANIMALS & TRANSPORTATION",
+        "value": "22316"
+      },
+      {
+        "source": "ANIMALS & TRANSPORTATION",
+        "target": "ARMS & ARMOUR",
+        "value": "21262"
+      },
+      {
+        "source": "POTIONS & SCROLLS",
+        "target": "TOOLS & KITS",
+        "value": "19836"
+      },
+      {
+        "source": "ADVENTURING EQUIPMENT",
+        "target": "JEWELRY",
+        "value": "18163"
+      },
+      {
+        "source": "ARMS & ARMOUR",
+        "target": "JEWELRY",
+        "value": "17317"
+      },
+      {
+        "source": "ADVENTURING EQUIPMENT",
+        "target": "SUMMONING DEVICE",
+        "value": "14691"
+      },
+      {
+        "source": "ADVENTURING EQUIPMENT",
+        "target": "MUSICAL INSTRUMENT",
+        "value": "14397"
+      },
+      {
+        "source": "ARMS & ARMOUR",
+        "target": "SUMMONING DEVICE",
+        "value": "13883"
+      },
+      {
+        "source": "ARMS & ARMOUR",
+        "target": "MUSICAL INSTRUMENT",
+        "value": "13650"
+      },
+      {
+        "source": "ANIMALS & TRANSPORTATION",
+        "target": "TOOLS & KITS",
+        "value": "10156"
+      },
+      {
+        "source": "ANIMALS & TRANSPORTATION",
+        "target": "POTIONS & SCROLLS",
+        "value": "9754"
+      },
+      {
+        "source": "JEWELRY",
+        "target": "TOOLS & KITS",
+        "value": "8244"
+      },
+      {
+        "source": "JEWELRY",
+        "target": "POTIONS & SCROLLS",
+        "value": "8035"
+      },
+      {
+        "source": "SUMMONING DEVICE",
+        "target": "TOOLS & KITS",
+        "value": "6634"
+      },
+      {
+        "source": "MUSICAL INSTRUMENT",
+        "target": "TOOLS & KITS",
+        "value": "6527"
+      },
+      {
+        "source": "MUSICAL INSTRUMENT",
+        "target": "POTIONS & SCROLLS",
+        "value": "6369"
+      },
+      {
+        "source": "POTIONS & SCROLLS",
+        "target": "SUMMONING DEVICE",
+        "value": "6328"
+      },
+      {
+        "source": "ANIMALS & TRANSPORTATION",
+        "target": "JEWELRY",
+        "value": "3972"
+      },
+      {
+        "source": "ANIMALS & TRANSPORTATION",
+        "target": "SUMMONING DEVICE",
+        "value": "3141"
+      },
+      {
+        "source": "ANIMALS & TRANSPORTATION",
+        "target": "MUSICAL INSTRUMENT",
+        "value": "3137"
+      },
+      {
+        "source": "JEWELRY",
+        "target": "SUMMONING DEVICE",
+        "value": "2665"
+      },
+      {
+        "source": "JEWELRY",
+        "target": "MUSICAL INSTRUMENT",
+        "value": "2643"
+      },
+      {
+        "source": "MUSICAL INSTRUMENT",
+        "target": "SUMMONING DEVICE",
+        "value": "2060"
+      }
+    ]
+  }

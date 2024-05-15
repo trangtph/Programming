@@ -1,0 +1,5385 @@
+{
+ "name": "Top 10 Products",
+"children": [
+ {
+ "name": "Aglarond",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CONTAINER",
+"children": [
+ {
+ "name": "Giant Riding Lizard",
+"Percentage":   149925 
+},
+{
+ "name": "Painter’s supplies",
+"Percentage":   148177 
+},
+{
+ "name": "Toque",
+"Percentage":   147520 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Pig",
+"Percentage":   180874 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Staff of the Claw",
+"Percentage":   599052 
+} 
+] 
+},
+{
+ "name": "WEAPON OTHER",
+"children": [
+ {
+ "name": "Staff of the Woodlands",
+"Percentage":   262292 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Jeweler’s tools",
+"Percentage":   167246 
+} 
+] 
+},
+{
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":   177416 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Cobbler’s tools",
+"Percentage":   155203 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Lance",
+"Percentage":   887986 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Alaron",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Greatsword",
+"Percentage":  1102203 
+},
+{
+ "name": "Splint mail",
+"Percentage":   865936 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "SHIELD",
+"children": [
+ {
+ "name": "Blackstaff",
+"Percentage":   390734 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "JEWELRY",
+"children": [
+ {
+ "name": "AMULET / NECKLACE",
+"children": [
+ {
+ "name": "Studded leather armour",
+"Percentage":  1048075 
+},
+{
+ "name": "Longbow",
+"Percentage":   983856 
+},
+{
+ "name": "Black Dragon Mask",
+"Percentage":   885242 
+},
+{
+ "name": "Staff of Fire",
+"Percentage":   843911 
+},
+{
+ "name": "Arcane Firearm",
+"Percentage": 464559.4 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Sunsword",
+"Percentage":   359384 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Battleaxe",
+"Percentage":  1143339 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Amn",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Studded leather armour",
+"Percentage":  2470628 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "VEHICLE",
+"children": [
+ {
+ "name": "Battleaxe",
+"Percentage":  2662622 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "ARMOUR OTHER",
+"children": [
+ {
+ "name": "Arcane Firearm",
+"Percentage":  1227006 
+},
+{
+ "name": "Blackstaff",
+"Percentage":  1025732 
+},
+{
+ "name": "Hazirawn",
+"Percentage":  1019293 
+} 
+] 
+},
+{
+ "name": "GAUNTLETS / GLOVES",
+"children": [
+ {
+ "name": "Splint mail",
+"Percentage":  2350004 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Black Dragon Mask",
+"Percentage":  2144026 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Longbow",
+"Percentage":  2524838 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Greatsword",
+"Percentage":  2926725 
+} 
+] 
+},
+{
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Staff of Fire",
+"Percentage":  2065711 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Arn Rock",
+"children": [
+ {
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "ARMOUR OTHER",
+"children": [
+ {
+ "name": "Shawm",
+"Percentage":    42014 
+},
+{
+ "name": "Bowl of Commanding Water Elementals",
+"Percentage":    41052 
+},
+{
+ "name": "Ioun Stone - Natural Knowledge",
+"Percentage":    39868 
+},
+{
+ "name": "Manual of Bodily Health",
+"Percentage":    35775 
+},
+{
+ "name": "Air Elemental Essence Shard",
+"Percentage":    35685 
+},
+{
+ "name": "Dust of Deliciousness",
+"Percentage":    34574 
+},
+{
+ "name": "Healer’s kit",
+"Percentage":    34196 
+},
+{
+ "name": "Rod of Rulership",
+"Percentage":    31340 
+},
+{
+ "name": "Clothes, traveler’s",
+"Percentage":    30705 
+},
+{
+ "name": "Black Dragon Mask",
+"Percentage":    29909 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Baldur's Gate",
+"children": [
+ {
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "ARMOUR OTHER",
+"children": [
+ {
+ "name": "Armour of Thunder Resistance",
+"Percentage":  1061995 
+},
+{
+ "name": "Hammer of Thunderbolts",
+"Percentage":   901155 
+},
+{
+ "name": "Chain shirt",
+"Percentage":   886637 
+},
+{
+ "name": "Morningstar",
+"Percentage":   779731 
+},
+{
+ "name": "Staff of Striking",
+"Percentage":   751036 
+},
+{
+ "name": "Cap of Water Breathing",
+"Percentage":   667370 
+},
+{
+ "name": "Staff of Adornment",
+"Percentage":   651476 
+},
+{
+ "name": "Unbreakable Arrow",
+"Percentage":   647999 
+},
+{
+ "name": "Trident",
+"Percentage":   582606 
+},
+{
+ "name": "Oathbow",
+"Percentage":   548400 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Blingdenstone",
+"children": [
+ {
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "AMMUNITION",
+"children": [
+ {
+ "name": "Spear",
+"Percentage":   667036 
+},
+{
+ "name": "Armour of Vulnerability",
+"Percentage":   375180 
+},
+{
+ "name": "Sun Blade",
+"Percentage":   221320 
+},
+{
+ "name": "Sword of the Paruns",
+"Percentage":   124151 
+},
+{
+ "name": "Black Crystal Tablet",
+"Percentage":    27856 
+} 
+] 
+},
+{
+ "name": "ARMOUR OTHER",
+"children": [
+ {
+ "name": "Tentacle Rod",
+"Percentage":   706649 
+} 
+] 
+},
+{
+ "name": "SHIELD",
+"children": [
+ {
+ "name": "Half plate",
+"Percentage":   607533 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Bell",
+"Percentage":    25926 
+},
+{
+ "name": "Riding Horse",
+"Percentage":    24540 
+},
+{
+ "name": "Poisoner’s kit",
+"Percentage":    24208 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Calimshan",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CONTAINER",
+"children": [
+ {
+ "name": "Padded armour",
+"Percentage":   859827 
+},
+{
+ "name": "Wave",
+"Percentage":   578550 
+},
+{
+ "name": "Composite Longbow",
+"Percentage":   573392 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Maul",
+"Percentage":   737312 
+},
+{
+ "name": "Pike",
+"Percentage":   660008 
+},
+{
+ "name": "Flail",
+"Percentage":   499317 
+},
+{
+ "name": "Living Gloves",
+"Percentage":   478502 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Hellsteel Martial Melee Weapon",
+"Percentage":  1088688 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "JEWELRY",
+"children": [
+ {
+ "name": "AMULET / NECKLACE",
+"children": [
+ {
+ "name": "Staff of Striking",
+"Percentage":   829482 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "WIND INSTRUMENT",
+"children": [
+ {
+ "name": "Frost Brand",
+"Percentage":   482172 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Chessentea",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Shield",
+"Percentage":  1839996 
+},
+{
+ "name": "Light hammer",
+"Percentage":  1756647 
+},
+{
+ "name": "Staff of Fire",
+"Percentage":  1458753 
+},
+{
+ "name": "Dragon Scale Mail",
+"Percentage":   903669 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Crossbow bolts (100)",
+"Percentage":  1948668 
+},
+{
+ "name": "Dart (10)",
+"Percentage":  1715188 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Shield of the Hidden Lord",
+"Percentage":  1174750 
+} 
+] 
+},
+{
+ "name": "SHIELD",
+"children": [
+ {
+ "name": "Quarterstaff",
+"Percentage":  1558263 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "JEWELRY",
+"children": [
+ {
+ "name": "RING",
+"children": [
+ {
+ "name": "Morningstar",
+"Percentage":  1762494 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Crossbow, heavy",
+"Percentage":  1606750 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Chondath",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "BELT / GIRDLE",
+"children": [
+ {
+ "name": "Giant Slayer",
+"Percentage":   739505 
+},
+{
+ "name": "Light Armour +3",
+"Percentage":   566109 
+},
+{
+ "name": "Shield +1",
+"Percentage": 222240.8 
+},
+{
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":   209408 
+},
+{
+ "name": "Composite Longbow",
+"Percentage":   203540 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Korolnor Scepter",
+"Percentage":  1974220 
+},
+{
+ "name": "Blast Scepter",
+"Percentage":  1879315 
+},
+{
+ "name": "Pike",
+"Percentage":  1859686 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Seeker Dart",
+"Percentage":  1357398 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Net",
+"Percentage":   944111 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Chult",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "BELT / GIRDLE",
+"children": [
+ {
+ "name": "Weapon +1",
+"Percentage":   104799 
+},
+{
+ "name": "Weaver’s tools",
+"Percentage":    78461 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Candle of Invocation",
+"Percentage":    69006 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Bag of Holding",
+"Percentage":    74504 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Bag of Beans",
+"Percentage":    72291 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Blood Spear",
+"Percentage":    77205 
+},
+{
+ "name": "Caltrops (bag of 20)",
+"Percentage":    70425 
+},
+{
+ "name": "Riding Saddle",
+"Percentage":    70115 
+} 
+] 
+},
+{
+ "name": "STAFF",
+"children": [
+ {
+ "name": "Spellguard Shield",
+"Percentage":    70328 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Scimitar",
+"Percentage":    74124 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Cormanthar",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Flame Tongue",
+"Percentage":   266090 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "AMMUNITION",
+"children": [
+ {
+ "name": "Club",
+"Percentage":   122216 
+} 
+] 
+},
+{
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Sickle",
+"Percentage":   121191 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Blowgun needles (50)",
+"Percentage":   198346 
+},
+{
+ "name": "Mace",
+"Percentage":   166796 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Staff of Fire",
+"Percentage":   134839 
+} 
+] 
+},
+{
+ "name": "ROD",
+"children": [
+ {
+ "name": "Hellsteel Martial Ranged Weapon",
+"Percentage":   339747 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Shield of the Uven Rune",
+"Percentage":   229064 
+},
+{
+ "name": "Shield of Far Sight",
+"Percentage":   141939 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Black Dragon Mask",
+"Percentage":   269645 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Cormyr",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "BOOTS",
+"children": [
+ {
+ "name": "Korolnor Scepter",
+"Percentage":  1011558 
+},
+{
+ "name": "Blast Scepter",
+"Percentage":   964947 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Trident",
+"Percentage":   970490 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "LIVESTOCK",
+"children": [
+ {
+ "name": "Quarterstaff",
+"Percentage":  4501225 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Ironfang",
+"Percentage":  2922180 
+},
+{
+ "name": "Morningstar",
+"Percentage":  1324081 
+} 
+] 
+},
+{
+ "name": "SIMPLE RANGED WEAPON",
+"children": [
+ {
+ "name": "Hammer of Thunderbolts",
+"Percentage":  1270385 
+},
+{
+ "name": "Shortbow",
+"Percentage":  1193055 
+},
+{
+ "name": "Studded leather armour",
+"Percentage":  1133983 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Green Dragon Mask",
+"Percentage":  1840365 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Damara",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "BOOTS",
+"children": [
+ {
+ "name": "Korolnor Scepter",
+"Percentage":  1625219 
+},
+{
+ "name": "Blast Scepter",
+"Percentage":  1434848 
+},
+{
+ "name": "Javelin (10)",
+"Percentage":  1274158 
+} 
+] 
+},
+{
+ "name": "BRACERS",
+"children": [
+ {
+ "name": "Hellsteel Simple Melee Weapon",
+"Percentage":   356931 
+},
+{
+ "name": "Splint mail",
+"Percentage":   338634 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "BRACERS",
+"children": [
+ {
+ "name": "Hewards Hireling Armour",
+"Percentage":   441372 
+},
+{
+ "name": "Maul",
+"Percentage":   323623 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Halberd",
+"Percentage":   640353 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Ring mail",
+"Percentage":   541187 
+},
+{
+ "name": "Hunters Coat",
+"Percentage":   300992 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Dambrath",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Half plate",
+"Percentage":   965165 
+},
+{
+ "name": "Sun Blade",
+"Percentage":   394424 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "VEHICLE",
+"children": [
+ {
+ "name": "Giant Riding Lizard",
+"Percentage":    78342 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Spear",
+"Percentage":  1006601 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "JEWELRY",
+"children": [
+ {
+ "name": "AMULET / NECKLACE",
+"children": [
+ {
+ "name": "Riding Horse",
+"Percentage":    94998 
+},
+{
+ "name": "Toque",
+"Percentage":    90976 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Tentacle Rod",
+"Percentage":  1138924 
+},
+{
+ "name": "Sword of the Paruns",
+"Percentage":   237526 
+},
+{
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":   118316 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Armour of Vulnerability",
+"Percentage":   595784 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Durpar",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOTHING",
+"children": [
+ {
+ "name": "Shield",
+"Percentage":  1762242 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Shield of the Hidden Lord",
+"Percentage":  1108277 
+},
+{
+ "name": "Dragon Scale Mail",
+"Percentage":   810939 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Crossbow, heavy",
+"Percentage":  1561225 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Quarterstaff",
+"Percentage":  1404894 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "CONTAINER",
+"children": [
+ {
+ "name": "Morningstar",
+"Percentage":  2071081 
+},
+{
+ "name": "Crossbow bolts (100)",
+"Percentage":  1948645 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Staff of Fire",
+"Percentage":  1366153 
+} 
+] 
+},
+{
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Dart (10)",
+"Percentage":  1756819 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Light hammer",
+"Percentage":  1717899 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Dwarfholds",
+"children": [
+ {
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Hellsteel Simple Melee Weapon",
+"Percentage":  1089834 
+} 
+] 
+},
+{
+ "name": "VEHICLE",
+"children": [
+ {
+ "name": "Adamantine Armour",
+"Percentage":  1148288 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "CLOAK",
+"children": [
+ {
+ "name": "Scimitar",
+"Percentage":  1524690 
+} 
+] 
+},
+{
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Wand of Viscid Globs",
+"Percentage":  1579321 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Maul",
+"Percentage":   869432 
+},
+{
+ "name": "Studded leather armour",
+"Percentage":   834110 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Dragonstaff of Ahghairon",
+"Percentage":  1449962 
+},
+{
+ "name": "Splint mail",
+"Percentage":  1030556 
+},
+{
+ "name": "Wand of the War Mage +3",
+"Percentage":   928484 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Sword of Vengeance",
+"Percentage": 883795.8 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Estagund",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "GAMING SET",
+"children": [
+ {
+ "name": "Living Gloves",
+"Percentage":   521625 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Plate Armour of Etherealness",
+"Percentage":   510454 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Bracer of Flying Daggers",
+"Percentage":   374273 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Maul",
+"Percentage":   854674 
+} 
+] 
+},
+{
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Frost Brand",
+"Percentage":   607776 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Padded armour",
+"Percentage":  1045738 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "CONTAINER",
+"children": [
+ {
+ "name": "Hellsteel Martial Melee Weapon",
+"Percentage":  1362593 
+},
+{
+ "name": "Staff of Striking",
+"Percentage":  1137110 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Pike",
+"Percentage":   862914 
+},
+{
+ "name": "Weapon +2",
+"Percentage":   594108 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Gracklstugh",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOAK",
+"children": [
+ {
+ "name": "Cow",
+"Percentage":    37476 
+} 
+] 
+},
+{
+ "name": "CONTAINER",
+"children": [
+ {
+ "name": "Arrows +3",
+"Percentage":    44832 
+} 
+] 
+},
+{
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Jeweler’s tools",
+"Percentage":    42140 
+},
+{
+ "name": "Potion of Giant Size",
+"Percentage":    41812 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Studded leather armour",
+"Percentage":    42384 
+},
+{
+ "name": "Scroll of Protection (Beasts)",
+"Percentage":  41481.8 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Amulet of Health",
+"Percentage":    38681 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Saint Markovias Thighbone",
+"Percentage":    40803 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Feather Token (Whip)",
+"Percentage":    38205 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Vorpal Sword",
+"Percentage":    37764 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Great Dale",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOAK",
+"children": [
+ {
+ "name": "Ironfang",
+"Percentage":  1879303 
+},
+{
+ "name": "Green Dragon Mask",
+"Percentage":  1164015 
+},
+{
+ "name": "Libram of Souls & Flesh",
+"Percentage":    65174 
+},
+{
+ "name": "Vial (Crate)",
+"Percentage":    44240 
+},
+{
+ "name": "Weaver’s tools",
+"Percentage":    42700 
+},
+{
+ "name": "Riding Horse",
+"Percentage":    41442 
+} 
+] 
+},
+{
+ "name": "CLOTHING",
+"children": [
+ {
+ "name": "Quarterstaff",
+"Percentage":  3160024 
+},
+{
+ "name": "Amulet of Protection from Turning",
+"Percentage":    52428 
+},
+{
+ "name": "Toque",
+"Percentage":    37381 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Crystal",
+"Percentage":    38962 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Gundarlund",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOTHING",
+"children": [
+ {
+ "name": "Staff of Charming",
+"Percentage":    42115 
+},
+{
+ "name": "Ring mail",
+"Percentage":    41615 
+},
+{
+ "name": "Viol",
+"Percentage":    40795 
+},
+{
+ "name": "Riding Saddle",
+"Percentage":    36824 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Splint mail",
+"Percentage":    35592 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Wave",
+"Percentage":    34820 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Ioun Stone - Regeneration",
+"Percentage":    33675 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Block and tackle",
+"Percentage":    36641 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Red Dragon Mask",
+"Percentage":    36604 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Tinderstrike",
+"Percentage":    34998 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Halruaa",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOTHING",
+"children": [
+ {
+ "name": "Healer’s kit",
+"Percentage":   208361 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Jeweler’s tools",
+"Percentage":   206140 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "LIVESTOCK",
+"children": [
+ {
+ "name": "Hellsteel Martial Ranged Weapon",
+"Percentage":   211918 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "AMMUNITION",
+"children": [
+ {
+ "name": "Pole (3m collapsable)",
+"Percentage":   197260 
+},
+{
+ "name": "Riding Horse",
+"Percentage":   196728 
+},
+{
+ "name": "Weaver’s tools",
+"Percentage":   190673 
+},
+{
+ "name": "Feather Token (Whip)",
+"Percentage":   190329 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Ring mail",
+"Percentage":   215748 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Wave",
+"Percentage":   189128 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Clothes, traveler’s",
+"Percentage":   231823 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Icewind Dale",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Potion of Superior Healing",
+"Percentage":    61778 
+},
+{
+ "name": "Ring mail",
+"Percentage":    60807 
+},
+{
+ "name": "Drake",
+"Percentage":    57964 
+},
+{
+ "name": "Viol",
+"Percentage":    56503 
+},
+{
+ "name": "Winter Jacket",
+"Percentage":    54715 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Bowl of Commanding Water Elementals",
+"Percentage":    65844 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Robes",
+"Percentage":    66653 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Saddlebags",
+"Percentage":    70933 
+} 
+] 
+},
+{
+ "name": "SIMPLE RANGED WEAPON",
+"children": [
+ {
+ "name": "Navigator’s tools",
+"Percentage":    67456 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Pole (3m collapsable)",
+"Percentage":    67093 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Impiltur",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Shortsword",
+"Percentage":   863109 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Shortbow",
+"Percentage":  1491156 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Crossbow Bolts +2",
+"Percentage":   547794 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Weapon +1",
+"Percentage":  1144721 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Sling",
+"Percentage":  1285090 
+},
+{
+ "name": "Arrows +3",
+"Percentage":  1268574 
+},
+{
+ "name": "Sling bullets (100)",
+"Percentage":  1202309 
+} 
+] 
+},
+{
+ "name": "SIMPLE RANGED WEAPON",
+"children": [
+ {
+ "name": "Hazirawn",
+"Percentage": 465556.3 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Greatsword",
+"Percentage":  1628237 
+},
+{
+ "name": "Lance",
+"Percentage":  1393598 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Kara-Tur",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Oathbow",
+"Percentage":   111490 
+},
+{
+ "name": "Hammer of Thunderbolts",
+"Percentage":   107510 
+},
+{
+ "name": "Viol",
+"Percentage":    85012 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Amulet of Protection from Turning",
+"Percentage":    91035 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Wand of Magic Missiles",
+"Percentage":   100982 
+},
+{
+ "name": "Cobbler’s tools",
+"Percentage":    87765 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Composite Longbow",
+"Percentage":   142862 
+} 
+] 
+},
+{
+ "name": "SIMPLE RANGED WEAPON",
+"children": [
+ {
+ "name": "Armour of Cold Resistance",
+"Percentage":    88287 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "GAMING SET",
+"children": [
+ {
+ "name": "Veterans Cane",
+"Percentage":    85801 
+} 
+] 
+},
+{
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Ioun Stone - Vitality",
+"Percentage":    84894 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Korinn Archipelego",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Riding Horse",
+"Percentage":   159726 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Revenant Double-Bladed Scimitar",
+"Percentage":   146774 
+},
+{
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":   144188 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Candle of Invocation",
+"Percentage":   139816 
+} 
+] 
+},
+{
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Rod of the Pact Keeper +1",
+"Percentage":   143937 
+},
+{
+ "name": "Belt of Dwarvenkind",
+"Percentage":   137426 
+} 
+] 
+},
+{
+ "name": "STAFF",
+"children": [
+ {
+ "name": "Wand Sheath",
+"Percentage":   137279 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "WIND INSTRUMENT",
+"children": [
+ {
+ "name": "Tambourine",
+"Percentage":   146211 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "GAMING SET",
+"children": [
+ {
+ "name": "Bag of Holding",
+"Percentage":   155558 
+},
+{
+ "name": "Hellsteel Martial Melee Weapon",
+"Percentage":   139128 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Lantan",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Robes",
+"Percentage":    70292 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Potion of Superior Healing",
+"Percentage":    67155 
+},
+{
+ "name": "Nightfall Pearl",
+"Percentage":    60590 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Alchemist’s fire (flask)",
+"Percentage":    77511 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Armour of Cold Resistance",
+"Percentage":    61539 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Ox",
+"Percentage":    67030 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Plate mail",
+"Percentage":    79936 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "PERCUSSION INSTRUMENT",
+"children": [
+ {
+ "name": "Bronze Horn of Valhalla",
+"Percentage":    64583 
+} 
+] 
+},
+{
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Torch (set of 20)",
+"Percentage":    63956 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Boar",
+"Percentage":    62951 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Lapaliiya & Thindol",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Greatsword",
+"Percentage":  2461864 
+},
+{
+ "name": "Shortbow",
+"Percentage":  2143527 
+},
+{
+ "name": "Arrows +3",
+"Percentage":  2061790 
+},
+{
+ "name": "Sling bullets (100)",
+"Percentage":  1735656 
+},
+{
+ "name": "Shortsword",
+"Percentage":  1356498 
+},
+{
+ "name": "Crossbow Bolts +2",
+"Percentage":   777990 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Hazirawn",
+"Percentage": 604451.9 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Lance",
+"Percentage":  2035336 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Weapon +1",
+"Percentage":  1811679 
+} 
+] 
+},
+{
+ "name": "SIMPLE RANGED WEAPON",
+"children": [
+ {
+ "name": "Sling",
+"Percentage":  1811856 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Luiren",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Staff of Striking",
+"Percentage":   569266 
+},
+{
+ "name": "Playing card set",
+"Percentage":   136545 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Jeweler’s tools",
+"Percentage":   156358 
+},
+{
+ "name": "Knaves Eyepatch",
+"Percentage":   138980 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Living Heavy Armour",
+"Percentage":   301080 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Oathbow",
+"Percentage":   475224 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Exotic Saddle",
+"Percentage":   157686 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Morningstar",
+"Percentage":   636774 
+},
+{
+ "name": "Wave",
+"Percentage":   485224 
+},
+{
+ "name": "Wand of Paralysis",
+"Percentage":   339790 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Luskan",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Tambourine",
+"Percentage":   132952 
+},
+{
+ "name": "Piton (set of 10)",
+"Percentage":   126642 
+},
+{
+ "name": "Mirror, steel",
+"Percentage":   124403 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Toque",
+"Percentage":   142027 
+},
+{
+ "name": "Healer’s kit",
+"Percentage":   118418 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":   120240 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Riding Horse",
+"Percentage":   156168 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Clothes, traveler’s",
+"Percentage":   138568 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Cow",
+"Percentage":   120421 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Robes",
+"Percentage":   118661 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Mantol Dereith",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Robe of the Archmagi",
+"Percentage":    14150 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Gavel of the Venn Rune",
+"Percentage":    35698 
+},
+{
+ "name": "Marble Elephant of Wondrous Power",
+"Percentage":    30112 
+},
+{
+ "name": "Scroll of Protection (Undead)",
+"Percentage":    16560 
+},
+{
+ "name": "Painter’s supplies",
+"Percentage":    15557 
+},
+{
+ "name": "Mantle of Spell Resistance",
+"Percentage":    15110 
+},
+{
+ "name": "Ioun Stone - Regeneration",
+"Percentage":    14800 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Ring of Feather Falling",
+"Percentage":    14672 
+},
+{
+ "name": "Bowl of Commanding Water Elementals",
+"Percentage":    14416 
+},
+{
+ "name": "Ox",
+"Percentage":    14099 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Maztica",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Boar",
+"Percentage":    82917 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Ioun Stone - Protection",
+"Percentage":    86159 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Composite Longbow",
+"Percentage":    95038 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Net",
+"Percentage":    90697 
+},
+{
+ "name": "Toque",
+"Percentage":    84370 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Circlet of Human Perfection",
+"Percentage":    86992 
+} 
+] 
+},
+{
+ "name": "WIND INSTRUMENT",
+"children": [
+ {
+ "name": "Spell Gem (Lapis Lazuli)",
+"Percentage":    87372 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":   110728 
+} 
+] 
+},
+{
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Shortbow",
+"Percentage":    84822 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Wand Sheath",
+"Percentage":    90248 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Menzoberranzan",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "GAUNTLETS / GLOVES",
+"children": [
+ {
+ "name": "Charm of Plant Command",
+"Percentage":    47827 
+},
+{
+ "name": "Alchemy Jug",
+"Percentage":    44404 
+} 
+] 
+},
+{
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Spikes, iron (10)",
+"Percentage":    36685 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Viol",
+"Percentage":    51807 
+},
+{
+ "name": "Living Medium Armour",
+"Percentage":    43887 
+},
+{
+ "name": "Scroll of Protection (Undead)",
+"Percentage":    39233 
+},
+{
+ "name": "Abacus",
+"Percentage":    33411 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Staff of Striking",
+"Percentage":    32788 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Pot, iron",
+"Percentage":    31873 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Band of Loyalty",
+"Percentage":    48698 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Mereu",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOTHING",
+"children": [
+ {
+ "name": "Potion of Superior Healing",
+"Percentage":    44484 
+} 
+] 
+},
+{
+ "name": "GAUNTLETS / GLOVES",
+"children": [
+ {
+ "name": "Eversmoking Bottle",
+"Percentage":    40992 
+},
+{
+ "name": "Wave",
+"Percentage":    40824 
+},
+{
+ "name": "Balance of Harmony",
+"Percentage":    40211 
+},
+{
+ "name": "Greatsword",
+"Percentage":    39813 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Saddlebags",
+"Percentage":    63119 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "LIGHT ARMOUR",
+"children": [
+ {
+ "name": "Wand of the War Mage +2",
+"Percentage":    49006 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Flame Tongue",
+"Percentage":    54956 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Cobbler’s tools",
+"Percentage":    44354 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Oil (flask)",
+"Percentage":    41808 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Mintarn",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Hourglass",
+"Percentage":    44621 
+},
+{
+ "name": "Cloak of Elvenkind",
+"Percentage":    41754 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Painter’s supplies",
+"Percentage":    31163 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Deck of Illusions",
+"Percentage":    32008 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Amulet of Protection from Turning",
+"Percentage":    34324 
+},
+{
+ "name": "Lamp",
+"Percentage":    33679 
+},
+{
+ "name": "Pot of Awakening",
+"Percentage":    33600 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Hide armour",
+"Percentage":    33749 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Sled",
+"Percentage":    36184 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Potion of Superior Healing",
+"Percentage":    34668 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Moray",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Crossbow Bolts +3",
+"Percentage":    81348 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Scimitar",
+"Percentage":   616323 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Net",
+"Percentage":  1010896 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Arrows (100)",
+"Percentage":   427135 
+},
+{
+ "name": "Fulminating Treatise",
+"Percentage":    82934 
+} 
+] 
+},
+{
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Demon Armour",
+"Percentage":   361787 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Toque",
+"Percentage":    81540 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Light Armour +3",
+"Percentage":   503992 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Shield +1",
+"Percentage":   204138 
+},
+{
+ "name": "Abacus",
+"Percentage":    81744 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Mulhorand",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOAK",
+"children": [
+ {
+ "name": "Ioun Stone - Fortitude",
+"Percentage":    26855 
+} 
+] 
+},
+{
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Spellbook",
+"Percentage":    45054 
+},
+{
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":    30440 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Wand Sheath",
+"Percentage":    36586 
+},
+{
+ "name": "Charm of Plant Command",
+"Percentage":    29460 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Clothes, traveler’s",
+"Percentage":    27909 
+},
+{
+ "name": "Lyre",
+"Percentage":    27070 
+},
+{
+ "name": "Orb",
+"Percentage":    27064 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Spell Scroll Level 1",
+"Percentage":    35675 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Fulminating Treatise",
+"Percentage":    29650 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Murghom",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Red Dragon Mask",
+"Percentage":   435198 
+},
+{
+ "name": "Shield of the Hidden Lord",
+"Percentage":   388407 
+},
+{
+ "name": "Club",
+"Percentage":   298006 
+},
+{
+ "name": "Heavy Armour +2",
+"Percentage":   282316 
+},
+{
+ "name": "Blowgun needles (50)",
+"Percentage":   242594 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Scimitar",
+"Percentage":  1007658 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Arrows (100)",
+"Percentage":   806614 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Demon Armour",
+"Percentage":   797029 
+} 
+] 
+},
+{
+ "name": "SIMPLE RANGED WEAPON",
+"children": [
+ {
+ "name": "Crossbow, heavy",
+"Percentage":   489889 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Shield of Expression",
+"Percentage":   223283 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Narfell",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CONTAINER",
+"children": [
+ {
+ "name": "Finders Goggles",
+"Percentage":    48326 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Mirror, steel",
+"Percentage":    60088 
+},
+{
+ "name": "Tinderstrike",
+"Percentage":    37716 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Riding Horse",
+"Percentage":    39456 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "LIGHT ARMOUR",
+"children": [
+ {
+ "name": "Lost Crown of Besilmer",
+"Percentage":    43981 
+},
+{
+ "name": "Ioun Stone - Natural Knowledge",
+"Percentage":    42300 
+},
+{
+ "name": "Healer’s kit",
+"Percentage":    42235 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Badge of the Watch",
+"Percentage":    40528 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Nightfall Pearl",
+"Percentage":    69490 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Manual of Golems",
+"Percentage":    39162 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Neverwinter",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Maul",
+"Percentage":   618403 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Shield +3",
+"Percentage":   316481 
+} 
+] 
+},
+{
+ "name": "WIND INSTRUMENT",
+"children": [
+ {
+ "name": "Shortbow",
+"Percentage":   543183 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Wand of Viscid Globs",
+"Percentage": 456802.8 
+} 
+] 
+},
+{
+ "name": "VEHICLE",
+"children": [
+ {
+ "name": "Staff of Power",
+"Percentage":   476608 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "LIGHT ARMOUR",
+"children": [
+ {
+ "name": "Dagger of Venom",
+"Percentage": 364414.2 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "BRASS INSTRUMENT",
+"children": [
+ {
+ "name": "Morningstar",
+"Percentage":   837701 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Greatclub",
+"Percentage":   283714 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Studded leather armour",
+"Percentage":   606642 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Mace of Terror",
+"Percentage": 371144.3 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Norland",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "BRACERS",
+"children": [
+ {
+ "name": "Breastplate",
+"Percentage":   824030 
+} 
+] 
+},
+{
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Shield of Missile Attraction",
+"Percentage": 351496.6 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Staff of Frost",
+"Percentage":   574165 
+},
+{
+ "name": "Arrows (100)",
+"Percentage":   471647 
+},
+{
+ "name": "Sword of Answering",
+"Percentage":   448987 
+},
+{
+ "name": "Sentinel Shield",
+"Percentage":   409024 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Crossbow Bolts +3",
+"Percentage":   649668 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Light Armour +3",
+"Percentage":   389649 
+},
+{
+ "name": "Blowgun needles (50)",
+"Percentage":   373014 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Medium Armour +2",
+"Percentage":   452757 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Purple Rock Isles",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "IOUN STONE",
+"children": [
+ {
+ "name": "Pig",
+"Percentage":    30168 
+},
+{
+ "name": "Burlap Sack (Set of 20)",
+"Percentage":    28660 
+},
+{
+ "name": "Armour of Lightning vulnerability",
+"Percentage":    28458 
+},
+{
+ "name": "Bag of Holding",
+"Percentage":    28332 
+},
+{
+ "name": "Candle of Invocation",
+"Percentage":    26452 
+},
+{
+ "name": "Herbalism kit",
+"Percentage":    26235 
+},
+{
+ "name": "Shield of the Uven Rune",
+"Percentage":    25663 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Armour of Thunder vulnerability",
+"Percentage":    41922 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "BRASS INSTRUMENT",
+"children": [
+ {
+ "name": "Block and tackle",
+"Percentage":    32790 
+} 
+] 
+},
+{
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Belt of Fire Giant Strength",
+"Percentage":  37465.8 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Ruathym",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "IOUN STONE",
+"children": [
+ {
+ "name": "Hellsteel Simple Melee Weapon",
+"Percentage":   340961 
+},
+{
+ "name": "Splint mail",
+"Percentage":   320846 
+},
+{
+ "name": "Maul",
+"Percentage":   273810 
+},
+{
+ "name": "Efreeti Chain",
+"Percentage":   229182 
+},
+{
+ "name": "Azuredge",
+"Percentage":   148070 
+},
+{
+ "name": "Shield +3",
+"Percentage":   140159 
+},
+{
+ "name": "Boomerang +2",
+"Percentage":   138845 
+},
+{
+ "name": "Tambourine",
+"Percentage":    33105 
+},
+{
+ "name": "Morningstar",
+"Percentage":    32641 
+},
+{
+ "name": "Infernal Tack",
+"Percentage":    32637 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Sembia",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "IOUN STONE",
+"children": [
+ {
+ "name": "Tentacle Rod",
+"Percentage":  1700757 
+},
+{
+ "name": "Armour of Thunder Resistance",
+"Percentage":  1616130 
+},
+{
+ "name": "Spear",
+"Percentage":  1428756 
+},
+{
+ "name": "Hammer of Thunderbolts",
+"Percentage":  1388620 
+},
+{
+ "name": "Half plate",
+"Percentage":  1345404 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Unbreakable Arrow",
+"Percentage":  1128418 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Chain shirt",
+"Percentage":  1222117 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Armour of Vulnerability",
+"Percentage":   955000 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Cap of Water Breathing",
+"Percentage":  1116205 
+},
+{
+ "name": "Staff of Adornment",
+"Percentage": 959398.5 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Shar",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Philter of Love",
+"Percentage":    35320 
+},
+{
+ "name": "Parchment (twenty pages)",
+"Percentage":    34087 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Calligraphers supplies",
+"Percentage":    34999 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "GOGGLES",
+"children": [
+ {
+ "name": "Bowl of Commanding Water Elementals",
+"Percentage":    34766 
+} 
+] 
+},
+{
+ "name": "ROD",
+"children": [
+ {
+ "name": "Vorpal Sword",
+"Percentage":    34524 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Rod of the Pact Keeper +1",
+"Percentage":    41382 
+},
+{
+ "name": "Thermal Cube",
+"Percentage":    37772 
+} 
+] 
+},
+{
+ "name": "SIMPLE RANGED WEAPON",
+"children": [
+ {
+ "name": "Alchemical Compendium",
+"Percentage":    36936 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Exotic Saddle",
+"Percentage":    41819 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Staff of Power",
+"Percentage":    35322 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Silverymoon",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Scimitar",
+"Percentage":   866343 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Morningstar",
+"Percentage":  2138092 
+},
+{
+ "name": "Serpents Fang",
+"Percentage":   978835 
+} 
+] 
+},
+{
+ "name": "SURVIVAL & WILDERNESS",
+"children": [
+ {
+ "name": "Blackrazor",
+"Percentage":   809791 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Dragonstaff of Ahghairon",
+"Percentage":   755126 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Wand of Viscid Globs",
+"Percentage": 872907.9 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Bookmark",
+"Percentage":  1055236 
+},
+{
+ "name": "Flail",
+"Percentage":   949733 
+},
+{
+ "name": "Living Gloves",
+"Percentage":   796282 
+},
+{
+ "name": "Warhammer",
+"Percentage":   777149 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Snowdown",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Arrows +3",
+"Percentage":    79182 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "LIGHT ARMOUR",
+"children": [
+ {
+ "name": "Toque",
+"Percentage":   122464 
+},
+{
+ "name": "Armour of Radiant vulnerability",
+"Percentage":    86112 
+},
+{
+ "name": "Riding Saddle",
+"Percentage":    77884 
+},
+{
+ "name": "Ring of Mind Shielding",
+"Percentage":  77742.1 
+},
+{
+ "name": "Badge of the Watch",
+"Percentage":    77161 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Tentacle Rod",
+"Percentage":    74648 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Pole (3m collapsable)",
+"Percentage":    79132 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Weaver’s tools",
+"Percentage":    85359 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Dart (10)",
+"Percentage":    79623 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Tethyr",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Hide armour",
+"Percentage":   231275 
+},
+{
+ "name": "Robes",
+"Percentage":   229340 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "GAUNTLETS / GLOVES",
+"children": [
+ {
+ "name": "Composite Longbow",
+"Percentage":   277042 
+} 
+] 
+},
+{
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Block and tackle",
+"Percentage":   273453 
+} 
+] 
+},
+{
+ "name": "LIGHT ARMOUR",
+"children": [
+ {
+ "name": "Thermal Cube",
+"Percentage": 248986.4 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Halberd",
+"Percentage":   225289 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Banner of the Krig Rune",
+"Percentage":   227832 
+} 
+] 
+},
+{
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Crossbow bolts (100)",
+"Percentage":   237116 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Riding Horse",
+"Percentage":   286050 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Boar",
+"Percentage":   229955 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Tharsult",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "GAMING SET",
+"children": [
+ {
+ "name": "Guitar",
+"Percentage":    40076 
+} 
+] 
+},
+{
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Wand Sheath",
+"Percentage":    40443 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Black Crystal Tablet",
+"Percentage":    38163 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Circlet of Human Perfection",
+"Percentage":    35510 
+},
+{
+ "name": "Spell Gem (Lapis Lazuli)",
+"Percentage":    34488 
+},
+{
+ "name": "Sled",
+"Percentage":    33997 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Ox",
+"Percentage":    39381 
+},
+{
+ "name": "Padded armour",
+"Percentage":    38416 
+},
+{
+ "name": "Halberd",
+"Percentage":    36403 
+} 
+] 
+},
+{
+ "name": "WIND INSTRUMENT",
+"children": [
+ {
+ "name": "Pike",
+"Percentage":    40333 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Thay",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOAK",
+"children": [
+ {
+ "name": "Black Dragon Mask",
+"Percentage":  1495429 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Greatsword",
+"Percentage":  1894363 
+} 
+] 
+},
+{
+ "name": "SIMPLE MELEE WEAPON",
+"children": [
+ {
+ "name": "Battleaxe",
+"Percentage":  2081251 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Staff of Fire",
+"Percentage":  1480604 
+},
+{
+ "name": "Splint mail",
+"Percentage":  1426644 
+},
+{
+ "name": "Blackstaff",
+"Percentage":   702046 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Arcane Firearm",
+"Percentage": 822434.2 
+},
+{
+ "name": "Sunsword",
+"Percentage":   573356 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Longbow",
+"Percentage":  1697054 
+},
+{
+ "name": "Studded leather armour",
+"Percentage":  1668817 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Thesk",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":   117196 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Spellbook",
+"Percentage":   118523 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Hellsteel Martial Melee Weapon",
+"Percentage":   108093 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "ARMOUR OTHER",
+"children": [
+ {
+ "name": "Jeweler’s tools",
+"Percentage":   129724 
+},
+{
+ "name": "Ink pen (with Ink)",
+"Percentage":   106824 
+},
+{
+ "name": "Toque",
+"Percentage":   103454 
+} 
+] 
+},
+{
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Composite Longbow",
+"Percentage":   107895 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "JEWELRY",
+"children": [
+ {
+ "name": "AMULET / NECKLACE",
+"children": [
+ {
+ "name": "Canaith mandolin",
+"Percentage":   107468 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Ring of Free Action",
+"Percentage":   110809 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Boar",
+"Percentage":   112884 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Turmish",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOTHING",
+"children": [
+ {
+ "name": "Shield of Missile Attraction",
+"Percentage":  2246811 
+},
+{
+ "name": "Azuredge",
+"Percentage":  1980523 
+},
+{
+ "name": "Amulet of Protection from Turning",
+"Percentage":   185319 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Jeweler’s tools",
+"Percentage":   174996 
+},
+{
+ "name": "Bit & Bridle",
+"Percentage":   171912 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Abacus",
+"Percentage":   180178 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Veterans Cane",
+"Percentage":  3635757 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Adamantine Armour",
+"Percentage":  3569440 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Living Heavy Armour",
+"Percentage":  2777712 
+},
+{
+ "name": "Necklace of Adaptation",
+"Percentage":   168683 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Unther",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "CLOAK",
+"children": [
+ {
+ "name": "Chain shirt",
+"Percentage":    67255 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Armour of Cold Resistance",
+"Percentage":    72360 
+},
+{
+ "name": "Jeweler’s tools",
+"Percentage":    67500 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Amulet of Protection from Turning",
+"Percentage":    68849 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Mirror, steel",
+"Percentage":    72011 
+},
+{
+ "name": "Feather Token (Whip)",
+"Percentage":    71778 
+},
+{
+ "name": "Pipe of Smoke Monsters",
+"Percentage":    68951 
+} 
+] 
+},
+{
+ "name": "MEDIUM ARMOUR",
+"children": [
+ {
+ "name": "Morningstar",
+"Percentage":    80643 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Bag of Beans",
+"Percentage":    68621 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Plate mail",
+"Percentage":    67167 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Vaasa",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Pike",
+"Percentage":  1195262 
+},
+{
+ "name": "Arrows (100)",
+"Percentage":   988218 
+},
+{
+ "name": "Mace of Terror",
+"Percentage":   927489 
+},
+{
+ "name": "Dragontooth Dagger",
+"Percentage":   715542 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Efreeti Chain",
+"Percentage":   849230 
+} 
+] 
+},
+{
+ "name": "MARTIAL RANGED WEAPON",
+"children": [
+ {
+ "name": "Whelm",
+"Percentage":  1162385 
+},
+{
+ "name": "Staff of the Magi",
+"Percentage":   513304 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "JEWELRY",
+"children": [
+ {
+ "name": "AMULET / NECKLACE",
+"children": [
+ {
+ "name": "Hellsteel Martial Melee Weapon",
+"Percentage":  2068984 
+},
+{
+ "name": "Staff of Fire",
+"Percentage":  1391809 
+},
+{
+ "name": "Weapon +1",
+"Percentage":  1268228 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Veldorn",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Spellbook",
+"Percentage":    35864 
+},
+{
+ "name": "Alchemist’s supplies",
+"Percentage":    34976 
+},
+{
+ "name": "Case, crossbow bolt",
+"Percentage":    34026 
+},
+{
+ "name": "Wand of Viscid Globs",
+"Percentage":    31089 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Pipe of Smoke Monsters",
+"Percentage":    29507 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "HEAVY ARMOUR",
+"children": [
+ {
+ "name": "Lamp",
+"Percentage":    45048 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "STRING INSTRUMENT",
+"children": [
+ {
+ "name": "Alchemy Jug",
+"Percentage":    32327 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Bowl of Commanding Water Elementals",
+"Percentage":    39560 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "SUMMONING DEVICE",
+"children": [
+ {
+ "name": "Quiver",
+"Percentage":    40948 
+},
+{
+ "name": "Braclet of Rock Magic",
+"Percentage":    31620 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Waterdeep",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Healer’s kit",
+"Percentage":   300912 
+},
+{
+ "name": "Flask or tankard (Set of 24)",
+"Percentage":   290304 
+},
+{
+ "name": "Bit & Bridle",
+"Percentage":   271257 
+},
+{
+ "name": "Toque",
+"Percentage":   261792 
+},
+{
+ "name": "Giant Riding Lizard",
+"Percentage":   254511 
+},
+{
+ "name": "Composite Longbow",
+"Percentage":   242600 
+} 
+] 
+},
+{
+ "name": "SPELL FOCUS",
+"children": [
+ {
+ "name": "Wand Sheath",
+"Percentage":   225020 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "LIVESTOCK",
+"children": [
+ {
+ "name": "Cow",
+"Percentage":   223080 
+} 
+] 
+},
+{
+ "name": "MOUNT",
+"children": [
+ {
+ "name": "Crystal",
+"Percentage":   219262 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Marble Elephant of Wondrous Power",
+"Percentage":   240411 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Whalebone Isles",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "HELMET",
+"children": [
+ {
+ "name": "Oil (flask)",
+"Percentage":    30096 
+} 
+] 
+},
+{
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Piton (set of 10)",
+"Percentage":    33577 
+},
+{
+ "name": "Greatsword",
+"Percentage":    31598 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "LIGHT ARMOUR",
+"children": [
+ {
+ "name": "Robes",
+"Percentage":    51369 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "JEWELRY",
+"children": [
+ {
+ "name": "AMULET / NECKLACE",
+"children": [
+ {
+ "name": "Viol",
+"Percentage":    30446 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "MUSICAL INSTRUMENT",
+"children": [
+ {
+ "name": "WIND INSTRUMENT",
+"children": [
+ {
+ "name": "Alchemy Jug",
+"Percentage":    39025 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "SCROLL",
+"children": [
+ {
+ "name": "Chain shirt",
+"Percentage":    37957 
+},
+{
+ "name": "Loadstone",
+"Percentage":    32438 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOL KITS",
+"children": [
+ {
+ "name": "Totem (Druidic focus)",
+"Percentage":    40590 
+} 
+] 
+},
+{
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Halberd",
+"Percentage":    29991 
+} 
+] 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "Zakhara",
+"children": [
+ {
+ "name": "ADVENTURING EQUIPMENT",
+"children": [
+ {
+ "name": "MAGIC UTILITY",
+"children": [
+ {
+ "name": "Wand of the War Mage +2",
+"Percentage":    58675 
+},
+{
+ "name": "Bell",
+"Percentage":    57534 
+},
+{
+ "name": "Quiver",
+"Percentage":    55212 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ANIMALS & TRANSPORTATION",
+"children": [
+ {
+ "name": "LIVESTOCK",
+"children": [
+ {
+ "name": "Gavel of the Venn Rune",
+"Percentage":    53174 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "ARMS & ARMOUR",
+"children": [
+ {
+ "name": "MARTIAL MELEE WEAPON",
+"children": [
+ {
+ "name": "Ioun Stone - Regeneration",
+"Percentage":    50356 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "POTIONS & SCROLLS",
+"children": [
+ {
+ "name": "POTIONS & ALCHEMY",
+"children": [
+ {
+ "name": "Weaver’s tools",
+"Percentage":    61956 
+},
+{
+ "name": "Crossbow, heavy",
+"Percentage":    54087 
+},
+{
+ "name": "Fernian Ash Focus",
+"Percentage":    49724 
+},
+{
+ "name": "Healer’s kit",
+"Percentage":    49310 
+} 
+] 
+} 
+] 
+},
+{
+ "name": "TOOLS & KITS",
+"children": [
+ {
+ "name": "TOOLS",
+"children": [
+ {
+ "name": "Wand of Scowls",
+"Percentage":    54047 
+} 
+] 
+} 
+] 
+} 
+] 
+} 
+] 
+}

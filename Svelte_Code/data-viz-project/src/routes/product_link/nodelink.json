@@ -1,0 +1,4521 @@
+{
+  "nodes": [
+    {
+      "index": "CONTAINER",
+      "group": "1",
+      "name": "CONTAINER"
+    },
+    {
+      "index": "TOOLS",
+      "group": "2",
+      "name": "TOOLS"
+    },
+    {
+      "index": "STRING INSTRUMENT",
+      "group": "3",
+      "name": "STRING INSTRUMENT"
+    },
+    {
+      "index": "SCROLL",
+      "group": "4",
+      "name": "SCROLL"
+    },
+    {
+      "index": "LIGHT ARMOUR",
+      "group": "5",
+      "name": "LIGHT ARMOUR"
+    },
+    {
+      "index": "IOUN STONE",
+      "group": "6",
+      "name": "IOUN STONE"
+    },
+    {
+      "index": "MAGIC UTILITY",
+      "group": "7",
+      "name": "MAGIC UTILITY"
+    },
+    {
+      "index": "WAND",
+      "group": "8",
+      "name": "WAND"
+    },
+    {
+      "index": "MOUNT",
+      "group": "9",
+      "name": "MOUNT"
+    },
+    {
+      "index": "HELMET",
+      "group": "10",
+      "name": "HELMET"
+    },
+    {
+      "index": "CLOTHING",
+      "group": "11",
+      "name": "CLOTHING"
+    },
+    {
+      "index": "SIMPLE MELEE WEAPON",
+      "group": "12",
+      "name": "SIMPLE MELEE WEAPON"
+    },
+    {
+      "index": "RING",
+      "group": "13",
+      "name": "RING"
+    },
+    {
+      "index": "TOOL KITS",
+      "group": "14",
+      "name": "TOOL KITS"
+    },
+    {
+      "index": "MARTIAL MELEE WEAPON",
+      "group": "15",
+      "name": "MARTIAL MELEE WEAPON"
+    },
+    {
+      "index": "MARTIAL RANGED WEAPON",
+      "group": "16",
+      "name": "MARTIAL RANGED WEAPON"
+    },
+    {
+      "index": "MEDIUM ARMOUR",
+      "group": "17",
+      "name": "MEDIUM ARMOUR"
+    },
+    {
+      "index": "SPELL FOCUS",
+      "group": "18",
+      "name": "SPELL FOCUS"
+    },
+    {
+      "index": "SURVIVAL & WILDERNESS",
+      "group": "19",
+      "name": "SURVIVAL & WILDERNESS"
+    },
+    {
+      "index": "HEAVY ARMOUR",
+      "group": "20",
+      "name": "HEAVY ARMOUR"
+    },
+    {
+      "index": "WIND INSTRUMENT",
+      "group": "21",
+      "name": "WIND INSTRUMENT"
+    },
+    {
+      "index": "SUMMONING DEVICE",
+      "group": "22",
+      "name": "SUMMONING DEVICE"
+    },
+    {
+      "index": "STAFF",
+      "group": "23",
+      "name": "STAFF"
+    },
+    {
+      "index": "POTIONS & ALCHEMY",
+      "group": "24",
+      "name": "POTIONS & ALCHEMY"
+    },
+    {
+      "index": "BRACERS",
+      "group": "25",
+      "name": "BRACERS"
+    },
+    {
+      "index": "BRASS INSTRUMENT",
+      "group": "26",
+      "name": "BRASS INSTRUMENT"
+    },
+    {
+      "index": "BELT / GIRDLE",
+      "group": "27",
+      "name": "BELT / GIRDLE"
+    },
+    {
+      "index": "ROD",
+      "group": "28",
+      "name": "ROD"
+    },
+    {
+      "index": "ARMOUR OTHER",
+      "group": "29",
+      "name": "ARMOUR OTHER"
+    },
+    {
+      "index": "AMMUNITION",
+      "group": "30",
+      "name": "AMMUNITION"
+    },
+    {
+      "index": "AMULET / NECKLACE",
+      "group": "31",
+      "name": "AMULET / NECKLACE"
+    },
+    {
+      "index": "GAUNTLETS / GLOVES",
+      "group": "32",
+      "name": "GAUNTLETS / GLOVES"
+    },
+    {
+      "index": "GOGGLES",
+      "group": "33",
+      "name": "GOGGLES"
+    },
+    {
+      "index": "CLOAK",
+      "group": "34",
+      "name": "CLOAK"
+    },
+    {
+      "index": "GAMING SET",
+      "group": "35",
+      "name": "GAMING SET"
+    },
+    {
+      "index": "BOOTS",
+      "group": "36",
+      "name": "BOOTS"
+    },
+    {
+      "index": "LIVESTOCK",
+      "group": "37",
+      "name": "LIVESTOCK"
+    },
+    {
+      "index": "PERCUSSION INSTRUMENT",
+      "group": "38",
+      "name": "PERCUSSION INSTRUMENT"
+    },
+    {
+      "index": "SHIELD",
+      "group": "39",
+      "name": "SHIELD"
+    },
+    {
+      "index": "SIMPLE RANGED WEAPON",
+      "group": "40",
+      "name": "SIMPLE RANGED WEAPON"
+    },
+    {
+      "index": "WEAPON OTHER",
+      "group": "41",
+      "name": "WEAPON OTHER"
+    },
+    {
+      "index": "VEHICLE",
+      "group": "42",
+      "name": "VEHICLE"
+    }
+  ],
+    "links": [
+      {
+        "source": "AMMUNITION",
+        "target": "AMULET / NECKLACE",
+        "value": "382"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "ARMOUR OTHER",
+        "value": "1293"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "BELT / GIRDLE",
+        "value": "210"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "BOOTS",
+        "value": "179"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "BRACERS",
+        "value": "186"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "BRASS INSTRUMENT",
+        "value": "177"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "CLOAK",
+        "value": "507"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "CLOTHING",
+        "value": "521"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "CONTAINER",
+        "value": "464"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "GAMING SET",
+        "value": "205"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "193"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "GOGGLES",
+        "value": "251"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "HEAVY ARMOUR",
+        "value": "1120"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "HELMET",
+        "value": "1281"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "IOUN STONE",
+        "value": "541"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "LIGHT ARMOUR",
+        "value": "961"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "LIVESTOCK",
+        "value": "192"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "MAGIC UTILITY",
+        "value": "2706"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "4795"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "1167"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "MEDIUM ARMOUR",
+        "value": "1268"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "MOUNT",
+        "value": "1145"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "69"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "POTIONS & ALCHEMY",
+        "value": "1296"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "RING",
+        "value": "725"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "ROD",
+        "value": "328"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "SCROLL",
+        "value": "1437"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "SHIELD",
+        "value": "1592"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "2852"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1935"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "SPELL FOCUS",
+        "value": "1317"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "STAFF",
+        "value": "1829"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "STRING INSTRUMENT",
+        "value": "419"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "SUMMONING DEVICE",
+        "value": "752"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "729"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "TOOL KITS",
+        "value": "933"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "TOOLS",
+        "value": "1576"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "VEHICLE",
+        "value": "51"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "WAND",
+        "value": "734"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "WEAPON OTHER",
+        "value": "894"
+      },
+      {
+        "source": "AMMUNITION",
+        "target": "WIND INSTRUMENT",
+        "value": "271"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "ARMOUR OTHER",
+        "value": "838"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "BELT / GIRDLE",
+        "value": "230"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "BOOTS",
+        "value": "210"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "BRACERS",
+        "value": "167"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "BRASS INSTRUMENT",
+        "value": "218"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "CLOAK",
+        "value": "620"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "CLOTHING",
+        "value": "611"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "CONTAINER",
+        "value": "544"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "GAMING SET",
+        "value": "261"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "247"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "GOGGLES",
+        "value": "313"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "HEAVY ARMOUR",
+        "value": "551"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "HELMET",
+        "value": "771"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "IOUN STONE",
+        "value": "639"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "LIGHT ARMOUR",
+        "value": "447"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "LIVESTOCK",
+        "value": "248"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "MAGIC UTILITY",
+        "value": "3073"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "1967"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "404"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "MEDIUM ARMOUR",
+        "value": "432"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "MOUNT",
+        "value": "1293"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "91"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "POTIONS & ALCHEMY",
+        "value": "1666"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "RING",
+        "value": "907"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "ROD",
+        "value": "362"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "SCROLL",
+        "value": "1756"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "SHIELD",
+        "value": "428"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "1411"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "436"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "SPELL FOCUS",
+        "value": "1548"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "STAFF",
+        "value": "630"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "STRING INSTRUMENT",
+        "value": "518"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "SUMMONING DEVICE",
+        "value": "889"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "856"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "TOOL KITS",
+        "value": "1043"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "TOOLS",
+        "value": "1869"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "VEHICLE",
+        "value": "50"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "WAND",
+        "value": "636"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "WEAPON OTHER",
+        "value": "156"
+      },
+      {
+        "source": "AMULET / NECKLACE",
+        "target": "WIND INSTRUMENT",
+        "value": "291"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "BELT / GIRDLE",
+        "value": "393"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "BOOTS",
+        "value": "380"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "BRACERS",
+        "value": "281"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "BRASS INSTRUMENT",
+        "value": "332"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "CLOAK",
+        "value": "1185"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "CLOTHING",
+        "value": "1027"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "CONTAINER",
+        "value": "875"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "GAMING SET",
+        "value": "427"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "536"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "GOGGLES",
+        "value": "506"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "HEAVY ARMOUR",
+        "value": "1655"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "HELMET",
+        "value": "1797"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "IOUN STONE",
+        "value": "1018"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "LIGHT ARMOUR",
+        "value": "1371"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "LIVESTOCK",
+        "value": "349"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "MAGIC UTILITY",
+        "value": "5067"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "5152"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "867"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "MEDIUM ARMOUR",
+        "value": "1522"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "MOUNT",
+        "value": "2145"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "138"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "POTIONS & ALCHEMY",
+        "value": "2538"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "RING",
+        "value": "1445"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "ROD",
+        "value": "608"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "SCROLL",
+        "value": "2648"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "SHIELD",
+        "value": "898"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "3341"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1004"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "SPELL FOCUS",
+        "value": "2413"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "STAFF",
+        "value": "1751"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "STRING INSTRUMENT",
+        "value": "715"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "SUMMONING DEVICE",
+        "value": "1410"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "1367"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "TOOL KITS",
+        "value": "1665"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "TOOLS",
+        "value": "3018"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "VEHICLE",
+        "value": "86"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "WAND",
+        "value": "1597"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "WEAPON OTHER",
+        "value": "391"
+      },
+      {
+        "source": "ARMOUR OTHER",
+        "target": "WIND INSTRUMENT",
+        "value": "474"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "BOOTS",
+        "value": "108"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "BRACERS",
+        "value": "57"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "BRASS INSTRUMENT",
+        "value": "114"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "CLOAK",
+        "value": "267"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "CLOTHING",
+        "value": "294"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "CONTAINER",
+        "value": "286"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "GAMING SET",
+        "value": "137"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "113"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "GOGGLES",
+        "value": "161"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "HEAVY ARMOUR",
+        "value": "232"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "HELMET",
+        "value": "359"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "IOUN STONE",
+        "value": "334"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "LIGHT ARMOUR",
+        "value": "219"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "LIVESTOCK",
+        "value": "127"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "MAGIC UTILITY",
+        "value": "1488"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "906"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "200"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "MEDIUM ARMOUR",
+        "value": "210"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "MOUNT",
+        "value": "626"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "47"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "POTIONS & ALCHEMY",
+        "value": "707"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "RING",
+        "value": "431"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "ROD",
+        "value": "183"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "SCROLL",
+        "value": "829"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "SHIELD",
+        "value": "197"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "649"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "209"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "SPELL FOCUS",
+        "value": "693"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "STAFF",
+        "value": "318"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "STRING INSTRUMENT",
+        "value": "229"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "SUMMONING DEVICE",
+        "value": "469"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "414"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "TOOL KITS",
+        "value": "537"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "TOOLS",
+        "value": "940"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "VEHICLE",
+        "value": "35"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "WAND",
+        "value": "322"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "WEAPON OTHER",
+        "value": "78"
+      },
+      {
+        "source": "BELT / GIRDLE",
+        "target": "WIND INSTRUMENT",
+        "value": "158"
+      },
+      {
+        "source": "BOOTS",
+        "target": "BRACERS",
+        "value": "65"
+      },
+      {
+        "source": "BOOTS",
+        "target": "BRASS INSTRUMENT",
+        "value": "88"
+      },
+      {
+        "source": "BOOTS",
+        "target": "CLOAK",
+        "value": "249"
+      },
+      {
+        "source": "BOOTS",
+        "target": "CLOTHING",
+        "value": "271"
+      },
+      {
+        "source": "BOOTS",
+        "target": "CONTAINER",
+        "value": "209"
+      },
+      {
+        "source": "BOOTS",
+        "target": "GAMING SET",
+        "value": "124"
+      },
+      {
+        "source": "BOOTS",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "97"
+      },
+      {
+        "source": "BOOTS",
+        "target": "GOGGLES",
+        "value": "110"
+      },
+      {
+        "source": "BOOTS",
+        "target": "HEAVY ARMOUR",
+        "value": "276"
+      },
+      {
+        "source": "BOOTS",
+        "target": "HELMET",
+        "value": "347"
+      },
+      {
+        "source": "BOOTS",
+        "target": "IOUN STONE",
+        "value": "255"
+      },
+      {
+        "source": "BOOTS",
+        "target": "LIGHT ARMOUR",
+        "value": "190"
+      },
+      {
+        "source": "BOOTS",
+        "target": "LIVESTOCK",
+        "value": "94"
+      },
+      {
+        "source": "BOOTS",
+        "target": "MAGIC UTILITY",
+        "value": "1283"
+      },
+      {
+        "source": "BOOTS",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "891"
+      },
+      {
+        "source": "BOOTS",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "157"
+      },
+      {
+        "source": "BOOTS",
+        "target": "MEDIUM ARMOUR",
+        "value": "160"
+      },
+      {
+        "source": "BOOTS",
+        "target": "MOUNT",
+        "value": "552"
+      },
+      {
+        "source": "BOOTS",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "39"
+      },
+      {
+        "source": "BOOTS",
+        "target": "POTIONS & ALCHEMY",
+        "value": "658"
+      },
+      {
+        "source": "BOOTS",
+        "target": "RING",
+        "value": "385"
+      },
+      {
+        "source": "BOOTS",
+        "target": "ROD",
+        "value": "145"
+      },
+      {
+        "source": "BOOTS",
+        "target": "SCROLL",
+        "value": "724"
+      },
+      {
+        "source": "BOOTS",
+        "target": "SHIELD",
+        "value": "164"
+      },
+      {
+        "source": "BOOTS",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "633"
+      },
+      {
+        "source": "BOOTS",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "191"
+      },
+      {
+        "source": "BOOTS",
+        "target": "SPELL FOCUS",
+        "value": "653"
+      },
+      {
+        "source": "BOOTS",
+        "target": "STAFF",
+        "value": "264"
+      },
+      {
+        "source": "BOOTS",
+        "target": "STRING INSTRUMENT",
+        "value": "190"
+      },
+      {
+        "source": "BOOTS",
+        "target": "SUMMONING DEVICE",
+        "value": "409"
+      },
+      {
+        "source": "BOOTS",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "371"
+      },
+      {
+        "source": "BOOTS",
+        "target": "TOOL KITS",
+        "value": "437"
+      },
+      {
+        "source": "BOOTS",
+        "target": "TOOLS",
+        "value": "849"
+      },
+      {
+        "source": "BOOTS",
+        "target": "VEHICLE",
+        "value": "23"
+      },
+      {
+        "source": "BOOTS",
+        "target": "WAND",
+        "value": "274"
+      },
+      {
+        "source": "BOOTS",
+        "target": "WEAPON OTHER",
+        "value": "109"
+      },
+      {
+        "source": "BOOTS",
+        "target": "WIND INSTRUMENT",
+        "value": "112"
+      },
+      {
+        "source": "BRACERS",
+        "target": "BRASS INSTRUMENT",
+        "value": "56"
+      },
+      {
+        "source": "BRACERS",
+        "target": "CLOAK",
+        "value": "197"
+      },
+      {
+        "source": "BRACERS",
+        "target": "CLOTHING",
+        "value": "170"
+      },
+      {
+        "source": "BRACERS",
+        "target": "CONTAINER",
+        "value": "179"
+      },
+      {
+        "source": "BRACERS",
+        "target": "GAMING SET",
+        "value": "96"
+      },
+      {
+        "source": "BRACERS",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "204"
+      },
+      {
+        "source": "BRACERS",
+        "target": "GOGGLES",
+        "value": "99"
+      },
+      {
+        "source": "BRACERS",
+        "target": "HEAVY ARMOUR",
+        "value": "293"
+      },
+      {
+        "source": "BRACERS",
+        "target": "HELMET",
+        "value": "221"
+      },
+      {
+        "source": "BRACERS",
+        "target": "IOUN STONE",
+        "value": "184"
+      },
+      {
+        "source": "BRACERS",
+        "target": "LIGHT ARMOUR",
+        "value": "291"
+      },
+      {
+        "source": "BRACERS",
+        "target": "LIVESTOCK",
+        "value": "70"
+      },
+      {
+        "source": "BRACERS",
+        "target": "MAGIC UTILITY",
+        "value": "925"
+      },
+      {
+        "source": "BRACERS",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "999"
+      },
+      {
+        "source": "BRACERS",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "203"
+      },
+      {
+        "source": "BRACERS",
+        "target": "MEDIUM ARMOUR",
+        "value": "139"
+      },
+      {
+        "source": "BRACERS",
+        "target": "MOUNT",
+        "value": "363"
+      },
+      {
+        "source": "BRACERS",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "35"
+      },
+      {
+        "source": "BRACERS",
+        "target": "POTIONS & ALCHEMY",
+        "value": "467"
+      },
+      {
+        "source": "BRACERS",
+        "target": "RING",
+        "value": "246"
+      },
+      {
+        "source": "BRACERS",
+        "target": "ROD",
+        "value": "125"
+      },
+      {
+        "source": "BRACERS",
+        "target": "SCROLL",
+        "value": "496"
+      },
+      {
+        "source": "BRACERS",
+        "target": "SHIELD",
+        "value": "137"
+      },
+      {
+        "source": "BRACERS",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "616"
+      },
+      {
+        "source": "BRACERS",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "282"
+      },
+      {
+        "source": "BRACERS",
+        "target": "SPELL FOCUS",
+        "value": "451"
+      },
+      {
+        "source": "BRACERS",
+        "target": "STAFF",
+        "value": "390"
+      },
+      {
+        "source": "BRACERS",
+        "target": "STRING INSTRUMENT",
+        "value": "153"
+      },
+      {
+        "source": "BRACERS",
+        "target": "SUMMONING DEVICE",
+        "value": "277"
+      },
+      {
+        "source": "BRACERS",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "249"
+      },
+      {
+        "source": "BRACERS",
+        "target": "TOOL KITS",
+        "value": "347"
+      },
+      {
+        "source": "BRACERS",
+        "target": "TOOLS",
+        "value": "598"
+      },
+      {
+        "source": "BRACERS",
+        "target": "VEHICLE",
+        "value": "24"
+      },
+      {
+        "source": "BRACERS",
+        "target": "WAND",
+        "value": "270"
+      },
+      {
+        "source": "BRACERS",
+        "target": "WEAPON OTHER",
+        "value": "233"
+      },
+      {
+        "source": "BRACERS",
+        "target": "WIND INSTRUMENT",
+        "value": "83"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "CLOAK",
+        "value": "252"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "CLOTHING",
+        "value": "274"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "CONTAINER",
+        "value": "217"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "GAMING SET",
+        "value": "121"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "115"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "GOGGLES",
+        "value": "128"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "HEAVY ARMOUR",
+        "value": "235"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "HELMET",
+        "value": "292"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "IOUN STONE",
+        "value": "303"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "LIGHT ARMOUR",
+        "value": "171"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "LIVESTOCK",
+        "value": "85"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "MAGIC UTILITY",
+        "value": "1308"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "813"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "162"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "MEDIUM ARMOUR",
+        "value": "161"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "MOUNT",
+        "value": "597"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "48"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "POTIONS & ALCHEMY",
+        "value": "707"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "RING",
+        "value": "346"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "ROD",
+        "value": "143"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "SCROLL",
+        "value": "792"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "SHIELD",
+        "value": "197"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "557"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "203"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "SPELL FOCUS",
+        "value": "620"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "STAFF",
+        "value": "284"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "STRING INSTRUMENT",
+        "value": "177"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "SUMMONING DEVICE",
+        "value": "394"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "398"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "TOOL KITS",
+        "value": "455"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "TOOLS",
+        "value": "790"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "VEHICLE",
+        "value": "26"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "WAND",
+        "value": "261"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "WEAPON OTHER",
+        "value": "71"
+      },
+      {
+        "source": "BRASS INSTRUMENT",
+        "target": "WIND INSTRUMENT",
+        "value": "136"
+      },
+      {
+        "source": "CLOAK",
+        "target": "CLOTHING",
+        "value": "790"
+      },
+      {
+        "source": "CLOAK",
+        "target": "CONTAINER",
+        "value": "637"
+      },
+      {
+        "source": "CLOAK",
+        "target": "GAMING SET",
+        "value": "335"
+      },
+      {
+        "source": "CLOAK",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "410"
+      },
+      {
+        "source": "CLOAK",
+        "target": "GOGGLES",
+        "value": "375"
+      },
+      {
+        "source": "CLOAK",
+        "target": "HEAVY ARMOUR",
+        "value": "668"
+      },
+      {
+        "source": "CLOAK",
+        "target": "HELMET",
+        "value": "1014"
+      },
+      {
+        "source": "CLOAK",
+        "target": "IOUN STONE",
+        "value": "820"
+      },
+      {
+        "source": "CLOAK",
+        "target": "LIGHT ARMOUR",
+        "value": "639"
+      },
+      {
+        "source": "CLOAK",
+        "target": "LIVESTOCK",
+        "value": "250"
+      },
+      {
+        "source": "CLOAK",
+        "target": "MAGIC UTILITY",
+        "value": "3952"
+      },
+      {
+        "source": "CLOAK",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "2586"
+      },
+      {
+        "source": "CLOAK",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "599"
+      },
+      {
+        "source": "CLOAK",
+        "target": "MEDIUM ARMOUR",
+        "value": "520"
+      },
+      {
+        "source": "CLOAK",
+        "target": "MOUNT",
+        "value": "1659"
+      },
+      {
+        "source": "CLOAK",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "100"
+      },
+      {
+        "source": "CLOAK",
+        "target": "POTIONS & ALCHEMY",
+        "value": "2017"
+      },
+      {
+        "source": "CLOAK",
+        "target": "RING",
+        "value": "1133"
+      },
+      {
+        "source": "CLOAK",
+        "target": "ROD",
+        "value": "457"
+      },
+      {
+        "source": "CLOAK",
+        "target": "SCROLL",
+        "value": "2141"
+      },
+      {
+        "source": "CLOAK",
+        "target": "SHIELD",
+        "value": "541"
+      },
+      {
+        "source": "CLOAK",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "1844"
+      },
+      {
+        "source": "CLOAK",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "513"
+      },
+      {
+        "source": "CLOAK",
+        "target": "SPELL FOCUS",
+        "value": "1977"
+      },
+      {
+        "source": "CLOAK",
+        "target": "STAFF",
+        "value": "870"
+      },
+      {
+        "source": "CLOAK",
+        "target": "STRING INSTRUMENT",
+        "value": "597"
+      },
+      {
+        "source": "CLOAK",
+        "target": "SUMMONING DEVICE",
+        "value": "1150"
+      },
+      {
+        "source": "CLOAK",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "1106"
+      },
+      {
+        "source": "CLOAK",
+        "target": "TOOL KITS",
+        "value": "1330"
+      },
+      {
+        "source": "CLOAK",
+        "target": "TOOLS",
+        "value": "2475"
+      },
+      {
+        "source": "CLOAK",
+        "target": "VEHICLE",
+        "value": "91"
+      },
+      {
+        "source": "CLOAK",
+        "target": "WAND",
+        "value": "835"
+      },
+      {
+        "source": "CLOAK",
+        "target": "WEAPON OTHER",
+        "value": "221"
+      },
+      {
+        "source": "CLOAK",
+        "target": "WIND INSTRUMENT",
+        "value": "386"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "CONTAINER",
+        "value": "666"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "GAMING SET",
+        "value": "343"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "300"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "GOGGLES",
+        "value": "349"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "HEAVY ARMOUR",
+        "value": "674"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "HELMET",
+        "value": "979"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "IOUN STONE",
+        "value": "873"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "LIGHT ARMOUR",
+        "value": "577"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "LIVESTOCK",
+        "value": "276"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "MAGIC UTILITY",
+        "value": "4031"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "2480"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "484"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "MEDIUM ARMOUR",
+        "value": "526"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "MOUNT",
+        "value": "1604"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "111"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "POTIONS & ALCHEMY",
+        "value": "1988"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "RING",
+        "value": "1180"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "ROD",
+        "value": "429"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "SCROLL",
+        "value": "2139"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "SHIELD",
+        "value": "573"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "1774"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "542"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "SPELL FOCUS",
+        "value": "1960"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "STAFF",
+        "value": "803"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "STRING INSTRUMENT",
+        "value": "598"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "SUMMONING DEVICE",
+        "value": "1158"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "1139"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "TOOL KITS",
+        "value": "1371"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "TOOLS",
+        "value": "2414"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "VEHICLE",
+        "value": "79"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "WAND",
+        "value": "852"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "WEAPON OTHER",
+        "value": "193"
+      },
+      {
+        "source": "CLOTHING",
+        "target": "WIND INSTRUMENT",
+        "value": "400"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "GAMING SET",
+        "value": "302"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "249"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "GOGGLES",
+        "value": "322"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "HEAVY ARMOUR",
+        "value": "571"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "HELMET",
+        "value": "792"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "IOUN STONE",
+        "value": "756"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "LIGHT ARMOUR",
+        "value": "476"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "LIVESTOCK",
+        "value": "215"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "MAGIC UTILITY",
+        "value": "3269"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "2040"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "423"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "MEDIUM ARMOUR",
+        "value": "426"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "MOUNT",
+        "value": "1349"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "75"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "POTIONS & ALCHEMY",
+        "value": "1651"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "RING",
+        "value": "939"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "ROD",
+        "value": "355"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "SCROLL",
+        "value": "1799"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "SHIELD",
+        "value": "415"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "1450"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "475"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "SPELL FOCUS",
+        "value": "1563"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "STAFF",
+        "value": "659"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "STRING INSTRUMENT",
+        "value": "526"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "SUMMONING DEVICE",
+        "value": "971"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "879"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "TOOL KITS",
+        "value": "1131"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "TOOLS",
+        "value": "2022"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "VEHICLE",
+        "value": "65"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "WAND",
+        "value": "695"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "WEAPON OTHER",
+        "value": "201"
+      },
+      {
+        "source": "CONTAINER",
+        "target": "WIND INSTRUMENT",
+        "value": "317"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "GAUNTLETS / GLOVES",
+        "value": "124"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "GOGGLES",
+        "value": "167"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "HEAVY ARMOUR",
+        "value": "279"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "HELMET",
+        "value": "374"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "IOUN STONE",
+        "value": "350"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "LIGHT ARMOUR",
+        "value": "223"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "LIVESTOCK",
+        "value": "123"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "MAGIC UTILITY",
+        "value": "1666"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "1050"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "210"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "MEDIUM ARMOUR",
+        "value": "217"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "MOUNT",
+        "value": "707"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "49"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "POTIONS & ALCHEMY",
+        "value": "823"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "RING",
+        "value": "510"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "ROD",
+        "value": "177"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "SCROLL",
+        "value": "894"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "SHIELD",
+        "value": "214"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "781"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "261"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "SPELL FOCUS",
+        "value": "824"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "STAFF",
+        "value": "326"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "STRING INSTRUMENT",
+        "value": "259"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "SUMMONING DEVICE",
+        "value": "460"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "498"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "TOOL KITS",
+        "value": "564"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "TOOLS",
+        "value": "1069"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "VEHICLE",
+        "value": "30"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "WAND",
+        "value": "365"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "WEAPON OTHER",
+        "value": "105"
+      },
+      {
+        "source": "GAMING SET",
+        "target": "WIND INSTRUMENT",
+        "value": "184"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "GOGGLES",
+        "value": "150"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "HEAVY ARMOUR",
+        "value": "385"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "HELMET",
+        "value": "496"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "IOUN STONE",
+        "value": "305"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "LIGHT ARMOUR",
+        "value": "489"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "LIVESTOCK",
+        "value": "117"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "MAGIC UTILITY",
+        "value": "1488"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "1402"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "288"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "MEDIUM ARMOUR",
+        "value": "212"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "MOUNT",
+        "value": "617"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "39"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "POTIONS & ALCHEMY",
+        "value": "765"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "RING",
+        "value": "440"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "ROD",
+        "value": "171"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "SCROLL",
+        "value": "871"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "SHIELD",
+        "value": "209"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "943"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "355"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "SPELL FOCUS",
+        "value": "739"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "STAFF",
+        "value": "450"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "STRING INSTRUMENT",
+        "value": "220"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "SUMMONING DEVICE",
+        "value": "418"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "418"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "TOOL KITS",
+        "value": "520"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "TOOLS",
+        "value": "967"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "VEHICLE",
+        "value": "25"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "WAND",
+        "value": "317"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "WEAPON OTHER",
+        "value": "205"
+      },
+      {
+        "source": "GAUNTLETS / GLOVES",
+        "target": "WIND INSTRUMENT",
+        "value": "163"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "HEAVY ARMOUR",
+        "value": "298"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "HELMET",
+        "value": "390"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "IOUN STONE",
+        "value": "399"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "LIGHT ARMOUR",
+        "value": "273"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "LIVESTOCK",
+        "value": "141"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "MAGIC UTILITY",
+        "value": "1881"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "1140"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "268"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "MEDIUM ARMOUR",
+        "value": "265"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "MOUNT",
+        "value": "784"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "59"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "POTIONS & ALCHEMY",
+        "value": "952"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "RING",
+        "value": "561"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "ROD",
+        "value": "207"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "SCROLL",
+        "value": "1009"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "SHIELD",
+        "value": "241"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "806"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "257"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "SPELL FOCUS",
+        "value": "886"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "STAFF",
+        "value": "381"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "STRING INSTRUMENT",
+        "value": "290"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "SUMMONING DEVICE",
+        "value": "493"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "498"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "TOOL KITS",
+        "value": "635"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "TOOLS",
+        "value": "1135"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "VEHICLE",
+        "value": "30"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "WAND",
+        "value": "392"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "WEAPON OTHER",
+        "value": "101"
+      },
+      {
+        "source": "GOGGLES",
+        "target": "WIND INSTRUMENT",
+        "value": "194"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "HELMET",
+        "value": "1614"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "IOUN STONE",
+        "value": "721"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "LIGHT ARMOUR",
+        "value": "1687"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "LIVESTOCK",
+        "value": "244"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "MAGIC UTILITY",
+        "value": "3350"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "5383"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "1397"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "MEDIUM ARMOUR",
+        "value": "807"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "MOUNT",
+        "value": "1391"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "111"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "POTIONS & ALCHEMY",
+        "value": "1674"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "RING",
+        "value": "1015"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "ROD",
+        "value": "407"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "SCROLL",
+        "value": "1879"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "SHIELD",
+        "value": "1530"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "4085"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1724"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "SPELL FOCUS",
+        "value": "1692"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "STAFF",
+        "value": "2331"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "STRING INSTRUMENT",
+        "value": "493"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "SUMMONING DEVICE",
+        "value": "964"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "936"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "TOOL KITS",
+        "value": "1185"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "TOOLS",
+        "value": "2005"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "VEHICLE",
+        "value": "67"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "WAND",
+        "value": "1281"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "WEAPON OTHER",
+        "value": "485"
+      },
+      {
+        "source": "HEAVY ARMOUR",
+        "target": "WIND INSTRUMENT",
+        "value": "335"
+      },
+      {
+        "source": "HELMET",
+        "target": "IOUN STONE",
+        "value": "974"
+      },
+      {
+        "source": "HELMET",
+        "target": "LIGHT ARMOUR",
+        "value": "1860"
+      },
+      {
+        "source": "HELMET",
+        "target": "LIVESTOCK",
+        "value": "349"
+      },
+      {
+        "source": "HELMET",
+        "target": "MAGIC UTILITY",
+        "value": "4677"
+      },
+      {
+        "source": "HELMET",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "5196"
+      },
+      {
+        "source": "HELMET",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "1524"
+      },
+      {
+        "source": "HELMET",
+        "target": "MEDIUM ARMOUR",
+        "value": "1052"
+      },
+      {
+        "source": "HELMET",
+        "target": "MOUNT",
+        "value": "2046"
+      },
+      {
+        "source": "HELMET",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "130"
+      },
+      {
+        "source": "HELMET",
+        "target": "POTIONS & ALCHEMY",
+        "value": "2328"
+      },
+      {
+        "source": "HELMET",
+        "target": "RING",
+        "value": "1315"
+      },
+      {
+        "source": "HELMET",
+        "target": "ROD",
+        "value": "535"
+      },
+      {
+        "source": "HELMET",
+        "target": "SCROLL",
+        "value": "2544"
+      },
+      {
+        "source": "HELMET",
+        "target": "SHIELD",
+        "value": "1044"
+      },
+      {
+        "source": "HELMET",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "3946"
+      },
+      {
+        "source": "HELMET",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1121"
+      },
+      {
+        "source": "HELMET",
+        "target": "SPELL FOCUS",
+        "value": "2236"
+      },
+      {
+        "source": "HELMET",
+        "target": "STAFF",
+        "value": "1970"
+      },
+      {
+        "source": "HELMET",
+        "target": "STRING INSTRUMENT",
+        "value": "684"
+      },
+      {
+        "source": "HELMET",
+        "target": "SUMMONING DEVICE",
+        "value": "1449"
+      },
+      {
+        "source": "HELMET",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "1333"
+      },
+      {
+        "source": "HELMET",
+        "target": "TOOL KITS",
+        "value": "1560"
+      },
+      {
+        "source": "HELMET",
+        "target": "TOOLS",
+        "value": "2941"
+      },
+      {
+        "source": "HELMET",
+        "target": "VEHICLE",
+        "value": "88"
+      },
+      {
+        "source": "HELMET",
+        "target": "WAND",
+        "value": "1045"
+      },
+      {
+        "source": "HELMET",
+        "target": "WEAPON OTHER",
+        "value": "293"
+      },
+      {
+        "source": "HELMET",
+        "target": "WIND INSTRUMENT",
+        "value": "444"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "LIGHT ARMOUR",
+        "value": "587"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "LIVESTOCK",
+        "value": "310"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "MAGIC UTILITY",
+        "value": "4145"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "2525"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "518"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "MEDIUM ARMOUR",
+        "value": "521"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "MOUNT",
+        "value": "1778"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "112"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "POTIONS & ALCHEMY",
+        "value": "2182"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "RING",
+        "value": "1122"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "ROD",
+        "value": "446"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "SCROLL",
+        "value": "2262"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "SHIELD",
+        "value": "537"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "1839"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "525"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "SPELL FOCUS",
+        "value": "2019"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "STAFF",
+        "value": "789"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "STRING INSTRUMENT",
+        "value": "630"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "SUMMONING DEVICE",
+        "value": "1192"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "1140"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "TOOL KITS",
+        "value": "1437"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "TOOLS",
+        "value": "2478"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "VEHICLE",
+        "value": "65"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "WAND",
+        "value": "859"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "WEAPON OTHER",
+        "value": "210"
+      },
+      {
+        "source": "IOUN STONE",
+        "target": "WIND INSTRUMENT",
+        "value": "420"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "LIVESTOCK",
+        "value": "222"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "MAGIC UTILITY",
+        "value": "2803"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "4641"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "1540"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "MEDIUM ARMOUR",
+        "value": "1277"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "MOUNT",
+        "value": "1196"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "86"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "POTIONS & ALCHEMY",
+        "value": "1432"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "RING",
+        "value": "837"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "ROD",
+        "value": "552"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "SCROLL",
+        "value": "1533"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "SHIELD",
+        "value": "1063"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "3237"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1371"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "SPELL FOCUS",
+        "value": "1437"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "STAFF",
+        "value": "2409"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "STRING INSTRUMENT",
+        "value": "422"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "SUMMONING DEVICE",
+        "value": "854"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "778"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "TOOL KITS",
+        "value": "949"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "TOOLS",
+        "value": "1739"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "VEHICLE",
+        "value": "58"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "WAND",
+        "value": "845"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "WEAPON OTHER",
+        "value": "408"
+      },
+      {
+        "source": "LIGHT ARMOUR",
+        "target": "WIND INSTRUMENT",
+        "value": "281"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "MAGIC UTILITY",
+        "value": "1396"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "880"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "181"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "MEDIUM ARMOUR",
+        "value": "190"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "MOUNT",
+        "value": "635"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "31"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "POTIONS & ALCHEMY",
+        "value": "676"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "RING",
+        "value": "439"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "ROD",
+        "value": "155"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "SCROLL",
+        "value": "791"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "SHIELD",
+        "value": "185"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "635"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "228"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "SPELL FOCUS",
+        "value": "678"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "STAFF",
+        "value": "282"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "STRING INSTRUMENT",
+        "value": "208"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "SUMMONING DEVICE",
+        "value": "386"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "396"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "TOOL KITS",
+        "value": "476"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "TOOLS",
+        "value": "859"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "VEHICLE",
+        "value": "23"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "WAND",
+        "value": "309"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "WEAPON OTHER",
+        "value": "73"
+      },
+      {
+        "source": "LIVESTOCK",
+        "target": "WIND INSTRUMENT",
+        "value": "118"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "MARTIAL MELEE WEAPON",
+        "value": "12199"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "2435"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "MEDIUM ARMOUR",
+        "value": "2711"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "MOUNT",
+        "value": "8340"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "594"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "POTIONS & ALCHEMY",
+        "value": "9976"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "RING",
+        "value": "5589"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "ROD",
+        "value": "2218"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "SCROLL",
+        "value": "10917"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "SHIELD",
+        "value": "2710"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "8530"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "2745"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "SPELL FOCUS",
+        "value": "9504"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "STAFF",
+        "value": "3893"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "STRING INSTRUMENT",
+        "value": "2906"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "SUMMONING DEVICE",
+        "value": "5816"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "5522"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "TOOL KITS",
+        "value": "6670"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "TOOLS",
+        "value": "12107"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "VEHICLE",
+        "value": "369"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "WAND",
+        "value": "4144"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "WEAPON OTHER",
+        "value": "1067"
+      },
+      {
+        "source": "MAGIC UTILITY",
+        "target": "WIND INSTRUMENT",
+        "value": "1800"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "MARTIAL RANGED WEAPON",
+        "value": "3929"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "MEDIUM ARMOUR",
+        "value": "3298"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "MOUNT",
+        "value": "5076"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "346"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "POTIONS & ALCHEMY",
+        "value": "6144"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "RING",
+        "value": "3549"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "ROD",
+        "value": "2135"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "SCROLL",
+        "value": "6760"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "SHIELD",
+        "value": "3486"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "11150"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "5987"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "SPELL FOCUS",
+        "value": "5997"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "STAFF",
+        "value": "6844"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "STRING INSTRUMENT",
+        "value": "1832"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "SUMMONING DEVICE",
+        "value": "3503"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "3432"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "TOOL KITS",
+        "value": "4263"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "TOOLS",
+        "value": "7444"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "VEHICLE",
+        "value": "231"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "WAND",
+        "value": "3974"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "WEAPON OTHER",
+        "value": "2071"
+      },
+      {
+        "source": "MARTIAL MELEE WEAPON",
+        "target": "WIND INSTRUMENT",
+        "value": "1148"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "MEDIUM ARMOUR",
+        "value": "662"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "MOUNT",
+        "value": "1060"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "83"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "POTIONS & ALCHEMY",
+        "value": "1285"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "RING",
+        "value": "718"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "ROD",
+        "value": "288"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "SCROLL",
+        "value": "1406"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "SHIELD",
+        "value": "1348"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "2877"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1447"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "SPELL FOCUS",
+        "value": "1222"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "STAFF",
+        "value": "1999"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "STRING INSTRUMENT",
+        "value": "392"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "SUMMONING DEVICE",
+        "value": "707"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "691"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "TOOL KITS",
+        "value": "899"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "TOOLS",
+        "value": "1586"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "VEHICLE",
+        "value": "40"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "WAND",
+        "value": "727"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "WEAPON OTHER",
+        "value": "253"
+      },
+      {
+        "source": "MARTIAL RANGED WEAPON",
+        "target": "WIND INSTRUMENT",
+        "value": "235"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "MOUNT",
+        "value": "1178"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "88"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "POTIONS & ALCHEMY",
+        "value": "1357"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "RING",
+        "value": "745"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "ROD",
+        "value": "336"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "SCROLL",
+        "value": "1444"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "SHIELD",
+        "value": "1086"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "3068"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "870"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "SPELL FOCUS",
+        "value": "1276"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "STAFF",
+        "value": "1426"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "STRING INSTRUMENT",
+        "value": "383"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "SUMMONING DEVICE",
+        "value": "784"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "788"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "TOOL KITS",
+        "value": "855"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "TOOLS",
+        "value": "1598"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "VEHICLE",
+        "value": "60"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "WAND",
+        "value": "680"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "WEAPON OTHER",
+        "value": "156"
+      },
+      {
+        "source": "MEDIUM ARMOUR",
+        "target": "WIND INSTRUMENT",
+        "value": "218"
+      },
+      {
+        "source": "MOUNT",
+        "target": "PERCUSSION INSTRUMENT",
+        "value": "228"
+      },
+      {
+        "source": "MOUNT",
+        "target": "POTIONS & ALCHEMY",
+        "value": "4192"
+      },
+      {
+        "source": "MOUNT",
+        "target": "RING",
+        "value": "2276"
+      },
+      {
+        "source": "MOUNT",
+        "target": "ROD",
+        "value": "983"
+      },
+      {
+        "source": "MOUNT",
+        "target": "SCROLL",
+        "value": "4502"
+      },
+      {
+        "source": "MOUNT",
+        "target": "SHIELD",
+        "value": "1171"
+      },
+      {
+        "source": "MOUNT",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "3590"
+      },
+      {
+        "source": "MOUNT",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1151"
+      },
+      {
+        "source": "MOUNT",
+        "target": "SPELL FOCUS",
+        "value": "4133"
+      },
+      {
+        "source": "MOUNT",
+        "target": "STAFF",
+        "value": "1697"
+      },
+      {
+        "source": "MOUNT",
+        "target": "STRING INSTRUMENT",
+        "value": "1190"
+      },
+      {
+        "source": "MOUNT",
+        "target": "SUMMONING DEVICE",
+        "value": "2366"
+      },
+      {
+        "source": "MOUNT",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "2369"
+      },
+      {
+        "source": "MOUNT",
+        "target": "TOOL KITS",
+        "value": "2851"
+      },
+      {
+        "source": "MOUNT",
+        "target": "TOOLS",
+        "value": "5078"
+      },
+      {
+        "source": "MOUNT",
+        "target": "VEHICLE",
+        "value": "147"
+      },
+      {
+        "source": "MOUNT",
+        "target": "WAND",
+        "value": "1779"
+      },
+      {
+        "source": "MOUNT",
+        "target": "WEAPON OTHER",
+        "value": "448"
+      },
+      {
+        "source": "MOUNT",
+        "target": "WIND INSTRUMENT",
+        "value": "802"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "POTIONS & ALCHEMY",
+        "value": "296"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "RING",
+        "value": "156"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "ROD",
+        "value": "60"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "SCROLL",
+        "value": "327"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "SHIELD",
+        "value": "77"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "260"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "83"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "SPELL FOCUS",
+        "value": "269"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "STAFF",
+        "value": "105"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "STRING INSTRUMENT",
+        "value": "80"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "SUMMONING DEVICE",
+        "value": "166"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "166"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "TOOL KITS",
+        "value": "193"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "TOOLS",
+        "value": "313"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "VEHICLE",
+        "value": "14"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "WAND",
+        "value": "118"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "WEAPON OTHER",
+        "value": "31"
+      },
+      {
+        "source": "PERCUSSION INSTRUMENT",
+        "target": "WIND INSTRUMENT",
+        "value": "61"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "RING",
+        "value": "2814"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "ROD",
+        "value": "1104"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "SCROLL",
+        "value": "5448"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "SHIELD",
+        "value": "1399"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "4286"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1324"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "SPELL FOCUS",
+        "value": "4882"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "STAFF",
+        "value": "1994"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "STRING INSTRUMENT",
+        "value": "1478"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "SUMMONING DEVICE",
+        "value": "2851"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "2816"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "TOOL KITS",
+        "value": "3364"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "TOOLS",
+        "value": "5941"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "VEHICLE",
+        "value": "180"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "WAND",
+        "value": "2127"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "WEAPON OTHER",
+        "value": "511"
+      },
+      {
+        "source": "POTIONS & ALCHEMY",
+        "target": "WIND INSTRUMENT",
+        "value": "915"
+      },
+      {
+        "source": "RING",
+        "target": "ROD",
+        "value": "674"
+      },
+      {
+        "source": "RING",
+        "target": "SCROLL",
+        "value": "3048"
+      },
+      {
+        "source": "RING",
+        "target": "SHIELD",
+        "value": "812"
+      },
+      {
+        "source": "RING",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "2496"
+      },
+      {
+        "source": "RING",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "763"
+      },
+      {
+        "source": "RING",
+        "target": "SPELL FOCUS",
+        "value": "2823"
+      },
+      {
+        "source": "RING",
+        "target": "STAFF",
+        "value": "1084"
+      },
+      {
+        "source": "RING",
+        "target": "STRING INSTRUMENT",
+        "value": "872"
+      },
+      {
+        "source": "RING",
+        "target": "SUMMONING DEVICE",
+        "value": "1679"
+      },
+      {
+        "source": "RING",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "1605"
+      },
+      {
+        "source": "RING",
+        "target": "TOOL KITS",
+        "value": "1960"
+      },
+      {
+        "source": "RING",
+        "target": "TOOLS",
+        "value": "3389"
+      },
+      {
+        "source": "RING",
+        "target": "VEHICLE",
+        "value": "105"
+      },
+      {
+        "source": "RING",
+        "target": "WAND",
+        "value": "1182"
+      },
+      {
+        "source": "RING",
+        "target": "WEAPON OTHER",
+        "value": "297"
+      },
+      {
+        "source": "RING",
+        "target": "WIND INSTRUMENT",
+        "value": "530"
+      },
+      {
+        "source": "ROD",
+        "target": "SCROLL",
+        "value": "1231"
+      },
+      {
+        "source": "ROD",
+        "target": "SHIELD",
+        "value": "311"
+      },
+      {
+        "source": "ROD",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "1305"
+      },
+      {
+        "source": "ROD",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "748"
+      },
+      {
+        "source": "ROD",
+        "target": "SPELL FOCUS",
+        "value": "1084"
+      },
+      {
+        "source": "ROD",
+        "target": "STAFF",
+        "value": "467"
+      },
+      {
+        "source": "ROD",
+        "target": "STRING INSTRUMENT",
+        "value": "324"
+      },
+      {
+        "source": "ROD",
+        "target": "SUMMONING DEVICE",
+        "value": "648"
+      },
+      {
+        "source": "ROD",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "670"
+      },
+      {
+        "source": "ROD",
+        "target": "TOOL KITS",
+        "value": "738"
+      },
+      {
+        "source": "ROD",
+        "target": "TOOLS",
+        "value": "1349"
+      },
+      {
+        "source": "ROD",
+        "target": "VEHICLE",
+        "value": "45"
+      },
+      {
+        "source": "ROD",
+        "target": "WAND",
+        "value": "529"
+      },
+      {
+        "source": "ROD",
+        "target": "WEAPON OTHER",
+        "value": "131"
+      },
+      {
+        "source": "ROD",
+        "target": "WIND INSTRUMENT",
+        "value": "221"
+      },
+      {
+        "source": "SCROLL",
+        "target": "SHIELD",
+        "value": "1534"
+      },
+      {
+        "source": "SCROLL",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "4777"
+      },
+      {
+        "source": "SCROLL",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1495"
+      },
+      {
+        "source": "SCROLL",
+        "target": "SPELL FOCUS",
+        "value": "5357"
+      },
+      {
+        "source": "SCROLL",
+        "target": "STAFF",
+        "value": "2164"
+      },
+      {
+        "source": "SCROLL",
+        "target": "STRING INSTRUMENT",
+        "value": "1622"
+      },
+      {
+        "source": "SCROLL",
+        "target": "SUMMONING DEVICE",
+        "value": "3163"
+      },
+      {
+        "source": "SCROLL",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "3063"
+      },
+      {
+        "source": "SCROLL",
+        "target": "TOOL KITS",
+        "value": "3773"
+      },
+      {
+        "source": "SCROLL",
+        "target": "TOOLS",
+        "value": "6615"
+      },
+      {
+        "source": "SCROLL",
+        "target": "VEHICLE",
+        "value": "204"
+      },
+      {
+        "source": "SCROLL",
+        "target": "WAND",
+        "value": "2276"
+      },
+      {
+        "source": "SCROLL",
+        "target": "WEAPON OTHER",
+        "value": "592"
+      },
+      {
+        "source": "SCROLL",
+        "target": "WIND INSTRUMENT",
+        "value": "1041"
+      },
+      {
+        "source": "SHIELD",
+        "target": "SIMPLE MELEE WEAPON",
+        "value": "3811"
+      },
+      {
+        "source": "SHIELD",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "1333"
+      },
+      {
+        "source": "SHIELD",
+        "target": "SPELL FOCUS",
+        "value": "1336"
+      },
+      {
+        "source": "SHIELD",
+        "target": "STAFF",
+        "value": "1641"
+      },
+      {
+        "source": "SHIELD",
+        "target": "STRING INSTRUMENT",
+        "value": "437"
+      },
+      {
+        "source": "SHIELD",
+        "target": "SUMMONING DEVICE",
+        "value": "857"
+      },
+      {
+        "source": "SHIELD",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "769"
+      },
+      {
+        "source": "SHIELD",
+        "target": "TOOL KITS",
+        "value": "965"
+      },
+      {
+        "source": "SHIELD",
+        "target": "TOOLS",
+        "value": "1677"
+      },
+      {
+        "source": "SHIELD",
+        "target": "VEHICLE",
+        "value": "49"
+      },
+      {
+        "source": "SHIELD",
+        "target": "WAND",
+        "value": "774"
+      },
+      {
+        "source": "SHIELD",
+        "target": "WEAPON OTHER",
+        "value": "261"
+      },
+      {
+        "source": "SHIELD",
+        "target": "WIND INSTRUMENT",
+        "value": "265"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "SIMPLE RANGED WEAPON",
+        "value": "3059"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "SPELL FOCUS",
+        "value": "4284"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "STAFF",
+        "value": "4102"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "STRING INSTRUMENT",
+        "value": "1314"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "SUMMONING DEVICE",
+        "value": "2439"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "2315"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "TOOL KITS",
+        "value": "2865"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "TOOLS",
+        "value": "5212"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "VEHICLE",
+        "value": "151"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "WAND",
+        "value": "2207"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "WEAPON OTHER",
+        "value": "989"
+      },
+      {
+        "source": "SIMPLE MELEE WEAPON",
+        "target": "WIND INSTRUMENT",
+        "value": "786"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "SPELL FOCUS",
+        "value": "1263"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "STAFF",
+        "value": "2150"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "STRING INSTRUMENT",
+        "value": "395"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "SUMMONING DEVICE",
+        "value": "794"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "746"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "TOOL KITS",
+        "value": "922"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "TOOLS",
+        "value": "1578"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "VEHICLE",
+        "value": "56"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "WAND",
+        "value": "1173"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "WEAPON OTHER",
+        "value": "834"
+      },
+      {
+        "source": "SIMPLE RANGED WEAPON",
+        "target": "WIND INSTRUMENT",
+        "value": "262"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "STAFF",
+        "value": "2010"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "STRING INSTRUMENT",
+        "value": "1438"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "SUMMONING DEVICE",
+        "value": "2901"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "2692"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "TOOL KITS",
+        "value": "3336"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "TOOLS",
+        "value": "5797"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "VEHICLE",
+        "value": "190"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "WAND",
+        "value": "2051"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "WEAPON OTHER",
+        "value": "505"
+      },
+      {
+        "source": "SPELL FOCUS",
+        "target": "WIND INSTRUMENT",
+        "value": "916"
+      },
+      {
+        "source": "STAFF",
+        "target": "STRING INSTRUMENT",
+        "value": "573"
+      },
+      {
+        "source": "STAFF",
+        "target": "SUMMONING DEVICE",
+        "value": "1194"
+      },
+      {
+        "source": "STAFF",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "1114"
+      },
+      {
+        "source": "STAFF",
+        "target": "TOOL KITS",
+        "value": "1337"
+      },
+      {
+        "source": "STAFF",
+        "target": "TOOLS",
+        "value": "2377"
+      },
+      {
+        "source": "STAFF",
+        "target": "VEHICLE",
+        "value": "82"
+      },
+      {
+        "source": "STAFF",
+        "target": "WAND",
+        "value": "1679"
+      },
+      {
+        "source": "STAFF",
+        "target": "WEAPON OTHER",
+        "value": "725"
+      },
+      {
+        "source": "STAFF",
+        "target": "WIND INSTRUMENT",
+        "value": "369"
+      },
+      {
+        "source": "STRING INSTRUMENT",
+        "target": "SUMMONING DEVICE",
+        "value": "848"
+      },
+      {
+        "source": "STRING INSTRUMENT",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "818"
+      },
+      {
+        "source": "STRING INSTRUMENT",
+        "target": "TOOL KITS",
+        "value": "1012"
+      },
+      {
+        "source": "STRING INSTRUMENT",
+        "target": "TOOLS",
+        "value": "1851"
+      },
+      {
+        "source": "STRING INSTRUMENT",
+        "target": "VEHICLE",
+        "value": "57"
+      },
+      {
+        "source": "STRING INSTRUMENT",
+        "target": "WAND",
+        "value": "621"
+      },
+      {
+        "source": "STRING INSTRUMENT",
+        "target": "WEAPON OTHER",
+        "value": "145"
+      },
+      {
+        "source": "STRING INSTRUMENT",
+        "target": "WIND INSTRUMENT",
+        "value": "277"
+      },
+      {
+        "source": "SUMMONING DEVICE",
+        "target": "SURVIVAL & WILDERNESS",
+        "value": "1622"
+      },
+      {
+        "source": "SUMMONING DEVICE",
+        "target": "TOOL KITS",
+        "value": "1981"
+      },
+      {
+        "source": "SUMMONING DEVICE",
+        "target": "TOOLS",
+        "value": "3466"
+      },
+      {
+        "source": "SUMMONING DEVICE",
+        "target": "VEHICLE",
+        "value": "102"
+      },
+      {
+        "source": "SUMMONING DEVICE",
+        "target": "WAND",
+        "value": "1206"
+      },
+      {
+        "source": "SUMMONING DEVICE",
+        "target": "WEAPON OTHER",
+        "value": "336"
+      },
+      {
+        "source": "SUMMONING DEVICE",
+        "target": "WIND INSTRUMENT",
+        "value": "526"
+      },
+      {
+        "source": "SURVIVAL & WILDERNESS",
+        "target": "TOOL KITS",
+        "value": "1888"
+      },
+      {
+        "source": "SURVIVAL & WILDERNESS",
+        "target": "TOOLS",
+        "value": "3320"
+      },
+      {
+        "source": "SURVIVAL & WILDERNESS",
+        "target": "VEHICLE",
+        "value": "111"
+      },
+      {
+        "source": "SURVIVAL & WILDERNESS",
+        "target": "WAND",
+        "value": "1175"
+      },
+      {
+        "source": "SURVIVAL & WILDERNESS",
+        "target": "WEAPON OTHER",
+        "value": "274"
+      },
+      {
+        "source": "SURVIVAL & WILDERNESS",
+        "target": "WIND INSTRUMENT",
+        "value": "527"
+      },
+      {
+        "source": "TOOL KITS",
+        "target": "TOOLS",
+        "value": "4124"
+      },
+      {
+        "source": "TOOL KITS",
+        "target": "VEHICLE",
+        "value": "138"
+      },
+      {
+        "source": "TOOL KITS",
+        "target": "WAND",
+        "value": "1389"
+      },
+      {
+        "source": "TOOL KITS",
+        "target": "WEAPON OTHER",
+        "value": "358"
+      },
+      {
+        "source": "TOOL KITS",
+        "target": "WIND INSTRUMENT",
+        "value": "639"
+      },
+      {
+        "source": "TOOLS",
+        "target": "VEHICLE",
+        "value": "219"
+      },
+      {
+        "source": "TOOLS",
+        "target": "WAND",
+        "value": "2465"
+      },
+      {
+        "source": "TOOLS",
+        "target": "WEAPON OTHER",
+        "value": "636"
+      },
+      {
+        "source": "TOOLS",
+        "target": "WIND INSTRUMENT",
+        "value": "1096"
+      },
+      {
+        "source": "VEHICLE",
+        "target": "WAND",
+        "value": "82"
+      },
+      {
+        "source": "VEHICLE",
+        "target": "WEAPON OTHER",
+        "value": "23"
+      },
+      {
+        "source": "VEHICLE",
+        "target": "WIND INSTRUMENT",
+        "value": "24"
+      },
+      {
+        "source": "WAND",
+        "target": "WEAPON OTHER",
+        "value": "273"
+      },
+      {
+        "source": "WAND",
+        "target": "WIND INSTRUMENT",
+        "value": "370"
+      },
+      {
+        "source": "WEAPON OTHER",
+        "target": "WIND INSTRUMENT",
+        "value": "94"
+      }
+    ]
+  }
