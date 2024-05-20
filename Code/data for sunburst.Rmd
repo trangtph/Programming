@@ -15,18 +15,19 @@ library(ggplot2)
 library(GGally)
 library(stringr)
 library(visdat)
-library(lubridate)
 library(pacman)
+library(rio)
+library(jsonlite)
+library(here)
 ```
 
 ```{r, include=FALSE}
 # Set the working directory to the folder containing your CSV files (relative path)
-setwd("C:/Users/joell/Documents/Master Data Science and Statistics/data vis/DEAD/")
-customers <- read.csv("customers.csv")
-products <- read.csv("products.csv")
-regions <- read.csv("regions.csv")
-orders <- read.csv("orders.csv")
-coordinate <- read.csv("nation_region_coordinate.csv")
+customers <- import(here("Data", "customers.csv"))
+orders <- import(here("Data","orders.csv"))
+products <- import(here("Data", "products.csv"))
+regions <- import(here("Data", "regions.csv"))
+coordinate <- import(here("Processed_data", "nation_region_coordinate.csv" ))
 ```
 
 
@@ -101,9 +102,7 @@ custom_glimpse <- function(df) {
 custom_glimpse(data)
 ```
 
-```{r}
-library(jsonlite)
-```
+
 
 ```{r}
 interesting_variables <- data %>%
@@ -155,4 +154,6 @@ top_Subtype_json <- toJSON(with(top_Subtype, list(
 # Save the JSON data to a file
 writeLines(top_Subtype_json, "top_subtypes.json")
 ```
+
+
 

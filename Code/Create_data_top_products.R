@@ -117,14 +117,50 @@ hot_product <- order_custom_region_product %>% group_by(nation_id, Nation, produ
 hot_product_nation <- merge(hot_product, products, by.x = "productsIDs", 
                             by.y = "product_code", all.x = TRUE)
 
-## Write JSON file
+
 hot_product_nation_nest <- hot_product_nation %>%
   mutate(product_brand = 
-           paste0(Product.Name," (", Brand.Name, ")"),
-         hierarchy = paste(Type,Subtype,product_brand, 
-                           sep="-")) %>%
-  select(Nation, Type, Subtype, product_brand,revenue_thousand_CP)
+           paste0(Product.Name," (", Brand.Name, ")")) %>% 
+  group_by(Nation) %>%
+  mutate(Percentage = revenue_thousand_CP / sum(revenue_thousand_CP) * 100) %>%
+  select(Nation, Type, Subtype, product_brand,revenue_thousand_CP, Percentage) %>%
+  arrange(Nation, desc(revenue_thousand_CP))
 
+
+## Write JSON file
+hot_product_nation_json <- toJSON(with(hot_product_nation_nest, list(
+  name = "Top 10 products",
+  children = lapply(unique(Nation), function(nation) {
+    list(
+      name = nation,
+      children = lapply(unique(Type[Nation == nation]), function(type) {
+        list(
+          name = type,
+          children = lapply(unique(Subtype[Nation == nation & Type ==type]), function(subtype) {
+            list(
+              name = subtype,
+              children = lapply(unique(product_brand[Nation == nation & Type ==type & Subtype == subtype]), function(product) {
+                list(
+                  name = product,
+                  Quantity = revenue_thousand_CP[which(Nation == nation & Type ==type & Subtype == subtype & product_brand == product)],
+                  Percentage = Percentage[which(Nation == nation & Type ==type & Subtype == subtype & product_brand == product)]
+                )
+              })
+            )
+          })
+        )
+      })
+    )
+  })
+)), auto_unbox = TRUE, pretty = TRUE)
+
+
+hot_product_nation_json %>% listviewer::jsonedit()
+
+# Save the JSON data to a file
+writeLines(hot_product_nation_json, here("Processed_data","top_product_nation_final.json"))
+
+writeLines(top_Subtype_json, "top_subtypes.json")
 
 
 jsonOut2<-toJSON(list(name="hot_product_nation_nest",children=makeList(hot_product_nation_nest[-1])))

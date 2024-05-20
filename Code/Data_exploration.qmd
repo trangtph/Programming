@@ -211,21 +211,29 @@ treemap(subtype_count, index=c("Type", "Subtype"),
 ```{r}
 ## Extract year from order date
 
-order_custom_region <- order_custom_region %>% mutate(year_order = as.numeric(format(order_custom_region$OrderDate, "%Y")), 
-                                                      month_order = floor_date(OrderDate, "month")) %>%
+order_custom_region2 <- order_custom_region %>% 
+  mutate(year_order = as.numeric(format(order_custom_region$OrderDate, "%Y")), 
+        month_order = floor_date(OrderDate, "month")) %>%
   relocate(c(year_order, month_order), .after = OrderID)
 ```
 
 ## 3.1. Number of orders per month
 
 ```{r}
-number_order_year <- order_custom_region %>% group_by(year_order) %>% summarise(number_order= n())
+number_order_year <- order_custom_region2 %>% group_by(year_order) %>% 
+  summarise(number_order= n())
 number_order_year
 
-number_order_month <- order_custom_region %>% group_by(month_order) %>% summarise(number_order= n())
+number_order_month <- order_custom_region2 %>% group_by(month_order) %>% 
+  summarise(number_order= n()) %>%
+  mutate(month = rep(1:12, times = 5), year = rep(2019:2023, each = 12))
+number_order_month$year <- as.factor(number_order_month$year)
+#number_order_month$month <- as.factor(number_order_month$month)
 number_order_month
 
-number_order_month_region <- order_custom_region %>% group_by(month_order, Region) %>% summarise(number_order= n())
+number_order_month_region <- order_custom_region2 %>% 
+  group_by(month_order, Region) %>% 
+  summarise(number_order= n())
 number_order_month_region
 
 ```
@@ -241,6 +249,28 @@ ggplot(data = number_order_month, aes(x = month_order, y = number_order)) +
   theme_bw() +
     theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5 ))
 ```
+
+```{r}
+# Number of order per month
+Renoir2 = c("#2f357c","#e69b00","#355828","#6c5d9e","#bf3729","#f6b3b0","#ada43b")
+
+ggplot(data = number_order_month, aes(x = month, y = number_order, group = year, color = year)) + 
+  geom_point() + geom_polygon(fill = NA) + 
+ xlim(0,12) +
+  labs(x = "Month", y = "Number of orders placed") + 
+  theme_bw() +
+  scale_color_manual(values = Renoir2) + 
+  coord_polar()
+ggsave(here("Output", "Order_per_month_circular.png"))
+```
+
+
+```{r}
+library(plotrix)
+
+radial.plot()
+```
+
 
 ### 3.1.1 Number of orders per month by regions
 
